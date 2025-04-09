@@ -1,0 +1,145 @@
+{
+  "wrapper": "div.shopify-section-wrapper.section",
+  "sections": {
+    "sidebar": {
+      "type": "product-sidebar",
+      "disabled": true,
+      "settings": {
+        "toggle": false
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "sku_cc9jmX": {
+          "type": "sku",
+          "settings": {}
+        },
+        "vendor_hMNT9c": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "inventory_hYjXYN": {
+          "type": "inventory",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "tabs_94K4kK": {
+          "type": "tabs",
+          "disabled": true,
+          "settings": {
+            "show_product_description": false,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "",
+            "tab_text_1": "<p><strong>Manufacturer:<\/strong> <a href=\"https:\/\/koopmanlumber.myshopify.com\/collections\/ego-power-plus\">EGO POWER PLUS<\/a><\/p><p><strong>Manufacturer's Part Number:<\/strong> ZT4204L<\/p>",
+            "tab_heading_2": "",
+            "tab_text_2": "<p>Show me more<a href=\"https:\/\/koopmanlumber.myshopify.com\/collections\/zero-turn-mowers\">Zero Turn Mowers<\/a><\/p>",
+            "tab_heading_3": "",
+            "tab_text_3": ""
+          }
+        },
+        "cff74f18-0130-456f-8e79-880ed3963bde": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 1,
+            "products_per_slide": 1
+          }
+        },
+        "collapsible_tab_BPrGt6": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Features\/Specifications",
+            "collapsible_tab_text": "<ul><li>A rethought ZTR design<\/li><li>4 Independent brushless motors<\/li><li>32 LED lights front, side, and rear<\/li><li>IPX4 weather resistant construction<\/li><li>42” cutting deck with zero turn radius<\/li><li>Power of gas with 22 HP equivalent engine<\/li><li>3-7 MPH Speed, up to 8 MPH in travel mode<\/li><li>3 driving modes: Control, Standard, Sport<\/li><li>10 position cutting height adjustments: 1.5-4.5”<\/li><li>Ultimate comfort with adjustable seat suspension<\/li><li>3-in-1 function: mulching, bagging, side-discharge<\/li><li>Holds up to 6 batteries for maximum runtime (4 included)<\/li><li>Customize the ride with user interface for ultimate control<\/li><li>5 year tool, battery, and charger warranty with registration<\/li><li>Stay connected – Bluetooth, USB charging port, and phone holder<\/li><li>Peak Power™+ Technology combines the power of up to 6 EGO 56V ARC Lithium™ batteries<\/li><li>World’s First Platform Compatible Rider – powered by all EGO 56V Arc Lithium™ batteries<\/li><li>Industry’s fastest charger! 2-hour charge time with included Z6 charger and 4 x 10.0 Ah ARC Lithium™ batteries<\/li><li>Cuts up to 2-Acres on a single charge with the included 4 56V 10.0Ah ARC Lithium™ batteries and up to 3-Acres on a single charge with 6 x 10Ah batteries.<\/li><\/ul>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "sku_cc9jmX",
+        "vendor_hMNT9c",
+        "inventory_hYjXYN",
+        "price",
+        "form",
+        "description",
+        "tabs_94K4kK",
+        "cff74f18-0130-456f-8e79-880ed3963bde",
+        "collapsible_tab_BPrGt6",
+        "share"
+      ],
+      "settings": {
+        "product_breadcrumb": true,
+        "media_position": "is-flex-row",
+        "set_product_height": false,
+        "product_height": 440,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": true,
+        "activate_zoom": true,
+        "slideshow_speed": 3,
+        "slideshow_animation": "fade",
+        "thumbnail_position": "left",
+        "enable_thumbnail_slider": true
+      }
+    },
+    "product_description_cDtMby": {
+      "type": "product-description",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "wide_display": false,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "Recommended Products",
+        "products_per_row": 4,
+        "recommended_products_limit": 10
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "rv_title": "Recently viewed products",
+        "rv_max_display": 12,
+        "rv_per": 4,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "sidebar",
+    "main",
+    "product_description_cDtMby",
+    "recommendations",
+    "recently-viewed"
+  ]
+}

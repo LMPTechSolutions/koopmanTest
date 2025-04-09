@@ -1,0 +1,186 @@
+<script>
+  function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+  $(document).ready(function(){
+    var get_qty;
+    $('.address-child-three button').click(function(){
+      var location = $(this).parents('.Addresses').find('.address-child-two h4').text();
+      setCookie("globalLocation", location, 30);
+      $(this).text('CURRENT STORE');
+      $(this).css('background','black');
+      $('.address-child-three button').not(this).text('MAKE MY STORE');
+      $('.address-child-three button').not(this).css('background','#12724c');
+      $('.locationName').text(getCookie("globalLocation"));
+      $('.sort-by').find('strong').text(getCookie("globalLocation"));
+    });
+
+    $('#storeNamePDP').text(getCookie("globalLocation"));
+
+
+
+    var threshold = 5000;
+    var cnt=0;
+
+    var meroxLoop =  setInterval(function(){
+    var huntingElement = document.getElementById("tomit_inventory_list");
+      if( huntingElement!=null || cnt>threshold){
+
+        $("ul#tomit_inventory_list li").each(function(){
+          var appLocation = $(this).find('.location').text();
+
+          console.log("appLocation", appLocation);
+          
+          if(appLocation.includes(getCookie("globalLocation"))){
+
+            var stock = $(this).find('.stockCount').text();
+            $('.stock-count').text(stock);
+
+
+            console.log("stock", stock);
+            
+            if(stock <= 0) {
+            $('.stock-label').find('.inOut').text('Out of Stock');
+            $('.product_availability').show();
+              console.log("disable 8")
+            $('#agree').prop('disabled', true ); 
+            $('#agree').text("Sold Out" );              
+              
+            }  
+          }
+        });
+
+       
+        
+         clearInterval(meroxLoop);
+      }
+      cnt++;
+
+    }, 10);
+
+
+    if((getCookie("locationAfterATC") != '') && (getCookie("locationAfterATC") != getCookie("globalLocation"))){
+      $('.warningMerox').text('You selected another location for other item/s in cart, either select same or place another order for other location');
+      $('.warningMerox').show();
+      console.log("disable 7")
+      $('button.btn.product-form__cart-submit').attr('disabled','disabled');
+      $('.product-form__input--quantity').attr('disabled','disabled');
+    } else {
+      $('.warningMerox').hide();
+      $('button.btn.product-form__cart-submit').removeAttr('disabled');
+    }
+
+    $('button.btn.product-form__cart-submit').click(function(){
+      var loc = getCookie("globalLocation");
+      if((getCookie("locationAfterATC") == '')) {
+        setCookie("locationAfterATC", loc, 30);
+      }
+    });
+
+    $.getJSON('/cart.js', function(cart) {
+      var cartCount = cart.item_count;
+      if(cartCount < 1 ) {
+        setCookie("locationAfterATC",'',-1);
+      }
+    });
+
+    var checkDiv = setInterval(function(){
+      if($('ul#tomit_inventory_list').length > 0) {
+        clearInterval(checkDiv);
+        if((getCookie("globalLocation") != '')) {
+          $('select#check-availability').val(getCookie("globalLocation")).change();
+        }
+      }
+    },100);
+
+    $('select#check-availability').val(getCookie("globalLocation"));
+
+    $('.locationBtn span.m-arrow-right').click(function(){
+      $('.storeInformation').toggle();
+    });
+
+    if(getCookie("globalLocation") != ''){
+      $('.locationName').text(getCookie("globalLocation"));
+      $('.sort-by').find('strong').text(getCookie("globalLocation"));
+      $('.address-child-three button').each(function(){
+        var location = $(this).parents('.Addresses').find('.address-child-two h4').text();
+        if(location == getCookie("globalLocation")){
+          $(this).text('CURRENT STORE');
+          $(this).css('background','black');
+        }
+      });
+    } else {
+      setCookie("globalLocation", "Whitinsville", 30);
+    }
+    $('#meroxLocation').val(getCookie("globalLocation"));
+    $('.store-schema > span').attr('content', getCookie("globalLocation"));
+
+    $('.storeMerox').each(function(){
+      var storee = $(this).attr('data-store');
+
+      console.log("storee", storee);
+      console.log("getCookie('globalLocation')", getCookie("globalLocation"));
+      
+
+      
+      if(getCookie("globalLocation") == storee) {
+        $(this).show();
+        $('.storeMerox').not(this).hide();
+      }
+    });
+    $('.address-child-three button').click(function(){
+      $('.storeMerox').each(function(){
+        var storee = $(this).attr('data-store');
+        if(getCookie("globalLocation") == storee) {
+          $(this).show();
+          $('.storeMerox').not(this).hide();
+        }
+      });
+    });
+    $('div#PageContainer, nav').click(function(){ 
+      $(".storeInformation:visible").hide();
+    });
+  });
+</script>
+
+<style>
+li[data-loc="58892648625"] {
+  display:none;
+}
+
+</style>
+
+<!-- <script>
+var latitude = document.getElementById("latitudeCoordinate");
+var longitude = document.getElementById("longitudeCoordinate");
+
+function getLocation() {
+if (navigator.geolocation) {
+navigator.geolocation.getCurrentPosition(showPosition);
+} 
+}
+function showPosition(position) {
+latitude.innerHTML = position.coords.latitude;
+longitude.innerHTML = position.coords.longitude;
+}
+getLocation()
+</script> -->

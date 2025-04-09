@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_wVf9EX": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": false,
+        "image": "shopify:\/\/shop_images\/content-recently-installed-mulch.webp",
+        "custom_html": "",
+        "pretext": "",
+        "title": "Get Your calculations right",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "head-calc",
+        "custom_css": ".head-calc h1.headline, .home-title p.headline{\n    text-shadow: #000 1px 0 10px;\n}"
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/lawn-grass.webp",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "Grass Seed",
+            "button_link": "shopify:\/\/pages\/grass-seed",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_GPmnB7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-07-30_at_9.01.51_AM.png",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "Mulch And Soil",
+            "button_link": "shopify:\/\/pages\/mulch-and-soil",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_ayATcH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-07-30_at_9.14.34_AM.png",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "Paint",
+            "button_link": "shopify:\/\/pages\/paint",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_GPmnB7",
+        "text_block_ayATcH"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "css_class": "calculations",
+        "custom_css": ".calculations  .one-third {\n    width: calc(33.3333333333% - 20px);\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_wVf9EX",
+    "text_columns_with_images_b9MCYY"
+  ]
+}

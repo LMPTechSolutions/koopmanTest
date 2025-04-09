@@ -1,0 +1,1506 @@
+<style>
+  .locationBtn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 32px;
+    margin-right: 10px;
+  }
+  .locationBtn span.m-arrow-right {
+    position: relative;
+    width: 40px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .locationBtn span.m-arrow-right:before {
+    content: "";
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-style: solid;
+    border-color: inherit;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 0;
+    border-left-width: 0;    
+    -webkit-transform: translate(-50%,-50%) rotate(133deg);
+    transform: translate(-50%,-50%) rotate(133deg);
+  }
+  .locationName {
+    font-weight: bold;
+    margin: unset;
+  }
+  .storeInformation {
+    box-shadow: 0 0 3px rgb(0 0 0 / 25%), 0 5px 15px rgb(0 0 0 / 15%);
+    border: none;
+    max-width: 400px;
+    min-width: 300px;    
+    overflow: visible;
+    padding: 0;
+    transform: translateX(-24%);
+    pointer-events: initial;
+    z-index: 2000;
+    height: auto;
+    position: absolute;
+    top: 55px;
+    right: 4%;    
+    background: #fff;
+    transition: all .3s;
+    text-align: left;
+    display: none;
+  }
+  .storeInformation:before {
+    border-width: 10px;
+    border-color: #fff transparent transparent #fff;
+    border-style: solid;
+    box-shadow: 0 0 3px rgb(0 0 0 / 25%), 0 5px 10px rgb(0 0 0 / 25%);
+    content: "";
+    display: block;
+    height: 0;
+    right: 46%;
+    margin-left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 0;
+  }
+  .currentStore {
+    background: #fff;
+    position: relative;
+  }
+  .storeInfo {
+    z-index: 1;
+    display: flex;
+    gap: 20px;
+  }
+  h2.storeName {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;    
+    margin: 0 0 5px;
+  }
+  .changeLocationBtn {
+    text-align: center;
+  }  
+  .storeInfo p {
+    font-size:12px;
+    margin: 0;
+  }
+  .storeImg {
+    width: 50%;
+  }
+  .storeImg img {
+    width: 100%;
+  }  
+  .storeDetails {
+    width: 50%;
+  }
+  .currentStoreWrapper {
+    padding: 0 25px 25px;
+  }
+  .close {
+    padding: 3px 10px 0;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .currentStoreWrapper hr {
+    margin: 25px 0;
+    border: 0;
+    border-bottom: 1px solid #8d8d8d;    
+  }
+  
+  .customLogo {
+    display: none;
+  }
+  .logoDiv {
+    left: 0;
+  }
+  @media (max-width:749px) {
+     .storeInformation {
+      left: 26%;      
+      color: #000;
+      
+     }       
+    .customLogo {
+      display: block;
+      margin: 10px auto;
+      width: 250px;
+    }
+    .grid__item.medium-up--one-third.medium-up--push-one-third.text-right.site-header__icons.site-header__icons--plus {
+      margin: 0 auto;
+    }
+    .site-header__icons {
+      padding-right: unset;
+    }
+  }
+  @media (min-width: 750px) and (max-width:900px){
+    .site-header__icons-wrapper .site-header__search-toggle .icon__fallback-text {
+      position: absolute !important;
+    }
+    .site-header__search-toggle {
+      background-color: unset !important;
+      border: unset !important;
+      padding: unset !important;
+    }
+    .storeInformation {
+      left: 35%;      
+      color: #000
+    }           
+  }
+  a.btn.button {
+    appearance: none;
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 8px 15px;
+    background-color: #000;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    white-space: normal;
+    font-size: 13px;
+    margin-bottom: 1px;    
+  }
+   .feature_image .search-form--header .search-form__submit-button {
+    color: #FFFFFF;
+  }
+  
+
+</style>
+<script
+  type="application/json"
+  data-section-type="header"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% comment %} Structured data {% endcomment %}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "{{ shop.name }}",
+    {% if section.settings.logo %}
+      {% assign image_size = section.settings.logo.width | append:'x' %}
+      "logo": "https:{{ section.settings.logo | img_url: image_size }}",
+    {% endif %}
+    "sameAs": [
+      "{{ settings.behance_link }}",
+      "{{ settings.clubhouse_link }}",
+      "{{ settings.discord_link }}",
+      "{{ settings.dribbble_link }}",
+      "{{ settings.facebook_link }}",
+      "{{ settings.flickr_link }}",
+      "{{ settings.houzz_link }}",
+      "{{ settings.instagram_link }}",
+      "{{ settings.kickstarter_link }}",
+      "{{ settings.linkedin_link }}",
+      "{{ settings.medium_link }}",
+      "{{ settings.messenger_link }}",
+      "{{ settings.opensea_link }}",
+      "{{ settings.pinterest_link }}",
+      "{{ settings.reddit_link }}",
+      "{{ settings.rss_link }}",
+      "{{ settings.snapchat_link }}",
+      "{{ settings.spotify_link }}",
+      "{{ settings.tiktok_link }}",
+      "{{ settings.tumblr_link }}",
+      "{{ settings.twitch_link }}",
+      "{{ settings.twitter_link }}",
+      "{{ settings.vimeo_link }}",
+      "{{ settings.whatsapp_link }}",
+      "{{ settings.youtube_link }}"
+    ],
+    "url": "{{ shop.url }}{{ page.url }}"
+  }
+</script>
+
+{% if template.name == 'index' %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "{{ shop.name }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ routes.search_url }}?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "url": "{{ shop.url }}{{ page.url }}"
+    }
+  </script>
+{% endif %}
+
+{%- assign locale_selector = false -%}
+{%- assign currency_selector = false -%}
+
+{%- if section.settings.show_currency_selector and shop.enabled_currencies.size > 1 -%}
+  {%- assign currency_selector = true -%}
+{%- endif -%}
+
+{%- if section.settings.show_locale_selector and shop.published_locales.size > 1 -%}
+  {%- assign locale_selector = true -%}
+{%- endif -%}
+
+{% comment %}Mobile navigation{% endcomment %}
+
+<header id="header" class="mobile_nav-fixed--{{ section.settings.fixed_header }}">
+  {% if section.settings.promo_text != blank %}
+    <div class="promo-banner">
+      <div class="promo-banner__content">
+        {{ section.settings.promo_text }}
+      </div>
+      <div class="promo-banner__close"></div>
+    </div>
+  {% endif %}
+
+  <div class="top-bar">
+    
+    
+       <a href="{{ routes.root_url }}" title="{{ shop.name | escape }}" class="mobile_logo logo">
+      {% if section.settings.logo_mobile != blank %}
+        <img
+          src="{{ section.settings.logo_mobile | img_url: '410x' }}"
+          alt="{{ shop.name | escape }}"
+          class="lazyload"
+          style="object-fit: cover; object-position: {{ section.settings.logo_mobile.presentation.focal_point }};"
+        >
+      {% elsif section.settings.logo != blank %}
+        <img
+          src="{{ section.settings.logo | img_url: '410x' }}"
+          alt="{{ shop.name | escape }}"
+          style="object-fit: cover; object-position: {{ section.settings.logo.presentation.focal_point }};"
+        >
+      {% else %}
+        {{ shop.name }}
+      {% endif %}
+    </a>          
+      
+      <details data-mobile-menu>
+        <summary class="mobile_nav dropdown_link" data-mobile-menu-trigger>
+        <div data-mobile-menu-icon>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <span class="mobile-menu-title">{{ 'layout.general.menu' | t }}</span>
+      </summary>
+      <div class="mobile-menu-container dropdown" data-nav>
+        <ul class="menu" id="mobile_menu">
+          {%
+            render 'mobile-menu',
+            menu: section.settings.main_linklist,
+          %}
+          {%
+            render 'mobile-menu',
+            menu: section.settings.main_linklist2,
+          %}
+          {%
+            render 'mobile-menu',
+            menu: section.settings.top_bar_menu,
+            context: 'top_bar_menu',
+          %}
+
+          {% if section.settings.phone_number != blank %}
+            <li>
+              <a href="tel:{{ section.settings.phone_number | replace: ' ', '' | replace: '+', '' | replace: '-', '' }}">{{ section.settings.phone_number }}</a>
+            </li>
+          {% endif %}
+
+          {% if shop.customer_accounts_enabled %}
+            {% if customer %}
+              <li>
+                <a href="{{ routes.account_url }}" data-no-instant>{{ customer.name }}</a>
+              </li>
+
+
+            {% else %}
+              <li data-no-instant>
+                <a href="{{ routes.account_login_url }}" id="customer_login_link">{{ 'layout.customer.log_in' | t }}</a>
+              </li>
+            {% endif %}
+          {% endif %}
+
+          {% if locale_selector or currency_selector or settings.show_multiple_currencies == true %}
+            {%
+              render 'localization-switcher-mobile',
+              additional_classes: 'mobile-menu__disclosure',
+              currency_selector: currency_selector,
+              locale_selector: locale_selector,
+              show_currency: section.settings.show_currency_selector,
+            %}
+          {% endif %}
+        </ul>
+      </div>
+    </details>
+    
+    {% if settings.enable_global_location %}   
+    <div class="btn--link site-header__icon">
+            <div class="locationBtn">
+              <div class="selectedGlobalLocation">
+                <span>Your store:</span>
+                <p class="locationName">Whitinsville</p>  
+              </div>
+              <span class="m-arrow-right"></span>
+            </div>
+    </div>
+    {% endif %}
+    
+    <div class="top-bar--right">
+      {% if section.settings.search_enabled %}
+        <a href="{{ routes.search_url }}" class="icon-search dropdown_link" title="{{ 'general.search.title' | t | escape }}" data-dropdown-rel="search"></a>
+      {% endif %}
+
+      {% if section.settings.show_cart %}
+        <div class="cart-container">
+          <a href="{{ routes.cart_url }}" class="{% if section.settings.cart_icon == "cart" %}icon-cart{% else %}icon-bag{% endif %} mini_cart dropdown_link" title="{{ 'layout.general.cart' | t | escape }}" data-no-instant> <span class="cart_count">{{ cart.item_count }}</span></a>
+        </div>
+      {% endif %}
+    </div>          
+  </div>
+</header>
+
+ <div id="storeinfo" class="storeInformation">
+      <div class="currentStore">
+        <div class="close" onclick="document.getElementById('storeinfo').style.display = 'none';" style="cursor:pointer;">&#10005;</div>
+        <div class="currentStoreWrapper">
+              
+              <div class="storeMerox storeWhitinsville" data-store="Whitinsville">
+                <div class="storeInfo">
+                  <div class="storeImg">
+                    <img src="{{ settings.storeWhitinsvilleImg | img_url : '600x' }}" alt="location image">
+                  </div>
+                  <div class="storeDetails">
+                    <h2 class="storeName">{{ settings.storeWhitinsville }}</h2>
+                    <p style="margin-bottom: 10px;">
+                      <span class="storeAddress">{{ settings.storeWhitinsvilleA1 }}</span>
+                      <br>
+                      <span class="storeFullName">{{ settings.storeWhitinsvilleA2 }}</span>
+                      <br>
+                      <a class="storePhone" href="tel:{{ settings.storeWhitinsville }}">{{ settings.storeWhitinsvillePhone }}</a>
+                    </p>
+                    <p><a href="{{ settings.storeWhitinsvilleURL }}" class="storeLink"  target="_blank" style="text-decoration: underline;">Store Details</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="storeMerox storeUxbridge" data-store="Uxbridge">
+                <div class="storeInfo">
+                  <div class="storeImg">
+                    <img src="{{ settings.storeUxbridgeImg | img_url : '600x' }}" alt="location image">
+                  </div>
+                  <div class="storeDetails">
+                    <h2 class="storeName">{{ settings.storeUxbridge }}</h2>
+                    <p style="margin-bottom: 10px;">
+                      <span class="storeAddress">{{ settings.storeUxbridgeA1 }}</span>
+                      <br>
+                      <span class="storeFullName">{{ settings.storeUxbridgeA2 }}</span>
+                      <br>
+                      <a class="storePhone" href="tel:{{ settings.storeUxbridgePhone }}">{{ settings.storeUxbridgePhone }}</a>
+                    </p>
+                    <p><a href="{{ settings.storeUxbridgeURL }}" class="storeLink" target="_blank" style="text-decoration: underline;">Store Details</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="storeMerox storeNorthGrafton" data-store="North Grafton">
+                <div class="storeInfo">
+                  <div class="storeImg">
+                    <img src="{{ settings.storeNorthGraftonImg | img_url : '600x' }}" alt="location image">
+                  </div>
+                  <div class="storeDetails">
+                    <h2 class="storeName">{{ settings.storeNorthGrafton }}</h2>
+                    <p style="margin-bottom: 10px;">
+                      <span class="storeAddress">{{ settings.storeNorthGraftonA1 }}</span>
+                      <br>
+                      <span class="storeFullName">{{ settings.storeNorthGraftonA2 }}</span>
+                      <br>
+                      <a class="storePhone" href="tel:{{ settings.storeNorthGraftonPhone }}">{{ settings.storeNorthGraftonPhone }}</a>
+                    </p>
+                    <p><a href="{{ settings.storeNorthGraftonURL }}" class="storeLink"  target="_blank" style="text-decoration: underline;">Store Details</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="storeMerox storeSharon" data-store="Sharon">
+                <div class="storeInfo">
+                  <div class="storeImg">
+                    <img src="{{ settings.storeSharonImg | img_url : '600x' }}" alt="location image">
+                  </div>
+                  <div class="storeDetails">
+                    <h2 class="storeName">{{ settings.storeSharon }}</h2>
+                    <p style="margin-bottom: 10px;">
+                      <span class="storeAddress">{{ settings.storeSharonA1 }}</span>
+                      <br>
+                      <span class="storeFullName">{{ settings.storeSharonA2 }}</span>
+                      <br>
+                      <a class="storePhone" href="tel:{{ settings.storeSharonPhone }}">{{ settings.storeSharonPhone }}</a>
+                    </p>
+                    <p><a href="{{ settings.storeSharonURL }}" class="storeLink"  target="_blank" style="text-decoration: underline;">Store Details</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="storeMerox storeLocation5" data-store="Indian Orchard">
+                <div class="storeInfo">
+                  <div class="storeImg">
+                    <img src="{{ settings.storeLocation5Img | img_url : '600x' }}" alt="location image">
+                  </div>
+                  <div class="storeDetails">
+                    <h2 class="storeName">{{ settings.storeLocation5 }}</h2>
+                    <p style="margin-bottom: 10px;">
+                      <span class="storeAddress">{{ settings.storeLocation5A1 }}</span>
+                      <br>
+                      <span class="storeFullName">{{ settings.storeLocation5A2 }}</span>
+                      <br>
+                      <a class="storePhone" href="tel:{{ settings.storeLocation5Phone }}">{{ settings.storeLocation5Phone }}</a>
+                    </p>
+                    <p><a href="{{ settings.storeLocation5URL }}" class="storeLink"  target="_blank" style="text-decoration: underline;">Store Details</a></p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="storeMerox storeLocation6" data-store="Dennis">
+                <div class="storeInfo">
+                  <div class="storeImg">
+                    <img src="{{ settings.storeLocation6Img | img_url : '600x' }}" alt="location image">
+                  </div>
+                  <div class="storeDetails">
+                    <h2 class="storeName">{{ settings.storeLocation6 }}</h2>
+                    <p style="margin-bottom: 10px;">
+                      <span class="storeAddress">{{ settings.storeLocation6A1 }}</span>
+                      <br>
+                      <span class="storeFullName">{{ settings.storeLocation6A2 }}</span>
+                      <br>
+                      <a class="storePhone" href="tel:{{ settings.storeLocation6Phone }}">{{ settings.storeLocation6Phone }}</a>
+                    </p>
+                    <p><a href="{{ settings.storeLocation6URL }}" class="storeLink"  target="_blank" style="text-decoration: underline;">Store Details</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+              <div class="changeLocationbtn">
+                <a href="/pages/select-your-store" class="btn button" style="width: 100%;">CHANGE STORE</a>
+              </div>
+              <div class="get-closest-location">
+                <a href="#" class="btn button" style="width: 100%;">SET CLOSEST STORE</a>
+              </div>
+        </div>
+      </div>
+    </div>
+
+
+{% if template contains "index" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "collection" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "blog" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "article" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "contact" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "product" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "gallery" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "banner" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "faq" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "search" %}
+  {%- assign feature_image = true -%}
+{% elsif template contains "cart" %}
+  {%- assign feature_image = true -%}
+{% else %}
+  {%- assign feature_image = false -%}
+{% endif %}
+
+{% comment %}Main navigation{% endcomment %}
+
+<header
+  class="
+    {% if section.settings.logo_home != blank %}secondary_logo--true{% endif %}
+    search-enabled--{{ section.settings.search_enabled }}
+  "
+  data-desktop-header
+  data-header-feature-image="{{ feature_image }}"
+>
+  <div
+    class="
+      header
+      header-fixed--{{ section.settings.fixed_header }}
+      {% if settings.header_background %}header-background--solid{% endif %}
+    "
+      data-header-is-absolute="{% if feature_image and settings.header_background == false %}true{% endif %}"
+  >
+    {% if section.settings.promo_text != blank %}
+      <div class="promo-banner">
+        <div class="promo-banner__content">
+          {{ section.settings.promo_text }}
+        </div>
+        <div class="promo-banner__close"></div>
+      </div>
+    {% endif %}
+
+    <div class="top-bar">
+      {% if section.settings.social_icons_header %}
+        {% render 'social-icons' %}
+      {% endif %}
+
+      <ul class="top-bar__menu menu">
+        {% if section.settings.phone_number != blank %}
+          <li>
+            <a href="tel:{{ section.settings.phone_number | replace: ' ', '' | replace: '+', '' | replace: '-', '' }}">{{ section.settings.phone_number }}</a>
+          </li>
+        {% endif %}
+
+        {% if section.settings.top_bar_menu != blank %}
+          {% for link in linklists[section.settings.top_bar_menu].links %}
+            <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+
+      <div class="top-bar--right-menu">
+        <ul class="top-bar__menu">
+          
+          {% if settings.enable_global_location %}          
+           <li>
+           <div class="btn--link site-header__icon">
+            <div class="locationBtn">
+              <div class="selectedGlobalLocation">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">  
+                <g clip-path="url(#clip0_975_32)">
+                 <path d="M17.5 8.3335C17.5 14.1668 10 19.1668 10 19.1668C10 19.1668 2.5 14.1668 2.5 8.3335C2.5 6.34437 3.29018 4.43672 4.6967 3.0302C6.10322 1.62367 8.01088 0.833496 10 0.833496C11.9891 0.833496 13.8968 1.62367 15.3033 3.0302C16.7098 4.43672 17.5 6.34437 17.5 8.3335Z" stroke="#090909" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M10 10.8335C11.3807 10.8335 12.5 9.71421 12.5 8.3335C12.5 6.95278 11.3807 5.8335 10 5.8335C8.61929 5.8335 7.5 6.95278 7.5 8.3335C7.5 9.71421 8.61929 10.8335 10 10.8335Z" stroke="#090909" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_975_32">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+               </defs>     
+               </svg>                
+                <p class="locationName">Whitinsville</p>
+              </div>
+              <span class="m-arrow-right"></span>              
+            </div>
+           </div>
+          </li>
+          {% endif %}
+          
+          {% if locale_selector or currency_selector or settings.show_multiple_currencies == true %}
+            <li class="localization-wrap">
+              {%
+                render 'localization-switcher',
+                additional_classes: 'header-menu__disclosure',
+                id: 'header__selector-form',
+                currency_selector: currency_selector,
+                locale_selector: locale_selector,
+                show_currency: section.settings.show_currency_selector
+              %}
+            </li>
+          {% endif %}
+
+          {% if shop.customer_accounts_enabled %}
+             {% if customer %}
+               {% else %}
+            <li>
+              <a
+                href="{{ routes.account_url }}"
+                class="
+                  top-bar__login-link
+                  user
+                "
+                title="{{ 'layout.customer.my_account' | t }} {% if customer %}({{ customer.email }}){% endif %}"
+              >
+               
+                  <span> {{ 'layout.customer.my_account' | t }}{{ 'layout.customer.log_in' | t }} </span> 
+                <svg width="69" height="48" viewBox="0 0 69 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M16.6667 31.5V29.8333C16.6667 28.9493 16.3155 28.1014 15.6904 27.4763C15.0653 26.8512 14.2174 26.5 13.3334 26.5H6.66671C5.78265 26.5 4.93481 26.8512 4.30968 27.4763C3.68456 28.1014 3.33337 28.9493 3.33337 29.8333V31.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M9.99996 23.1667C11.8409 23.1667 13.3333 21.6743 13.3333 19.8333C13.3333 17.9924 11.8409 16.5 9.99996 16.5C8.15901 16.5 6.66663 17.9924 6.66663 19.8333C6.66663 21.6743 8.15901 23.1667 9.99996 23.1667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M22.7598 25.8906L22.0273 28H20.2988L23.3105 19.7441H25.3496L28.3496 28H26.6387L25.9062 25.8906H22.7598ZM24.3301 21.0156C24.291 21.1719 24.2363 21.3594 24.166 21.5781C24.0957 21.7969 24.0449 21.9512 24.0137 22.041L23.1465 24.5898H25.5195L24.6289 21.9883C24.5742 21.8281 24.5234 21.666 24.4766 21.502C24.4297 21.3379 24.3809 21.1758 24.3301 21.0156ZM32.1523 28.1172C31.1914 28.1172 30.4492 27.832 29.9258 27.2617C29.4023 26.6875 29.1406 25.8887 29.1406 24.8652C29.1406 23.8184 29.4043 23.0039 29.9316 22.4219C30.459 21.8359 31.207 21.543 32.1758 21.543C32.9219 21.543 33.5391 21.7305 34.0273 22.1055C34.5156 22.4805 34.8223 22.998 34.9473 23.6582L33.2891 23.7402C33.2422 23.416 33.125 23.1582 32.9375 22.9668C32.75 22.7715 32.4844 22.6738 32.1406 22.6738C31.7148 22.6738 31.3965 22.8516 31.1855 23.207C30.9746 23.5586 30.8691 24.0898 30.8691 24.8008C30.8691 25.5312 30.9766 26.0801 31.1914 26.4473C31.4102 26.8105 31.7344 26.9922 32.1641 26.9922C32.4766 26.9922 32.7383 26.8945 32.9492 26.6992C33.1602 26.5 33.291 26.2051 33.3418 25.8145L34.9941 25.8906C34.9355 26.3359 34.7773 26.7266 34.5195 27.0625C34.2656 27.3945 33.9355 27.6543 33.5293 27.8418C33.123 28.0254 32.6641 28.1172 32.1523 28.1172ZM38.832 28.1172C37.8711 28.1172 37.1289 27.832 36.6055 27.2617C36.082 26.6875 35.8203 25.8887 35.8203 24.8652C35.8203 23.8184 36.084 23.0039 36.6113 22.4219C37.1387 21.8359 37.8867 21.543 38.8555 21.543C39.6016 21.543 40.2188 21.7305 40.707 22.1055C41.1953 22.4805 41.502 22.998 41.627 23.6582L39.9688 23.7402C39.9219 23.416 39.8047 23.1582 39.6172 22.9668C39.4297 22.7715 39.1641 22.6738 38.8203 22.6738C38.3945 22.6738 38.0762 22.8516 37.8652 23.207C37.6543 23.5586 37.5488 24.0898 37.5488 24.8008C37.5488 25.5312 37.6562 26.0801 37.8711 26.4473C38.0898 26.8105 38.4141 26.9922 38.8438 26.9922C39.1562 26.9922 39.418 26.8945 39.6289 26.6992C39.8398 26.5 39.9707 26.2051 40.0215 25.8145L41.6738 25.8906C41.6152 26.3359 41.457 26.7266 41.1992 27.0625C40.9453 27.3945 40.6152 27.6543 40.209 27.8418C39.8027 28.0254 39.3438 28.1172 38.832 28.1172ZM48.8926 24.8242C48.8926 25.8516 48.6074 26.6582 48.0371 27.2441C47.4668 27.8262 46.6777 28.1172 45.6699 28.1172C44.6816 28.1172 43.9062 27.8242 43.3438 27.2383C42.7812 26.6523 42.5 25.8477 42.5 24.8242C42.5 23.8047 42.7812 23.0039 43.3438 22.4219C43.9062 21.8359 44.6934 21.543 45.7051 21.543C46.7402 21.543 47.5293 21.8262 48.0723 22.3926C48.6191 22.9551 48.8926 23.7656 48.8926 24.8242ZM47.1699 24.8242C47.1699 24.0703 47.0469 23.5234 46.8008 23.1836C46.5547 22.8438 46.1973 22.6738 45.7285 22.6738C45.2285 22.6738 44.8535 22.8535 44.6035 23.2129C44.3535 23.5684 44.2285 24.1055 44.2285 24.8242C44.2285 25.5312 44.3496 26.0703 44.5918 26.4414C44.8379 26.8086 45.1914 26.9922 45.6523 26.9922C46.1602 26.9922 46.5391 26.8125 46.7891 26.4531C47.043 26.0898 47.1699 25.5469 47.1699 24.8242ZM54.2363 26.7402C54.0176 27.2207 53.7383 27.5703 53.3984 27.7891C53.0625 28.0078 52.6621 28.1172 52.1973 28.1172C51.5254 28.1172 51.0098 27.9121 50.6504 27.502C50.291 27.0879 50.1113 26.4824 50.1113 25.6855V21.6602H51.7578V25.2168C51.7578 25.7715 51.8516 26.1895 52.0391 26.4707C52.2266 26.748 52.5078 26.8867 52.8828 26.8867C53.2812 26.8867 53.6016 26.7168 53.8438 26.377C54.0898 26.0332 54.2129 25.5938 54.2129 25.0586V21.6602H55.8594V26.582C55.8594 26.8516 55.8633 27.1055 55.8711 27.3438C55.8789 27.5781 55.8906 27.7969 55.9062 28H54.3359C54.3125 27.7188 54.2949 27.4727 54.2832 27.2617C54.2715 27.0508 54.2656 26.877 54.2656 26.7402H54.2363ZM59.1875 24.6016V28H57.541V23.0781C57.541 22.7383 57.5352 22.4609 57.5234 22.2461C57.5156 22.0273 57.5059 21.832 57.4941 21.6602H59.0645C59.0723 21.707 59.082 21.8184 59.0938 21.9941C59.1055 22.166 59.1152 22.3438 59.123 22.5273C59.1348 22.707 59.1406 22.8379 59.1406 22.9199H59.1641C59.3867 22.4355 59.666 22.084 60.002 21.8652C60.3379 21.6465 60.7383 21.5371 61.2031 21.5371C61.875 21.5371 62.3906 21.7441 62.75 22.1582C63.1094 22.5723 63.2891 23.1777 63.2891 23.9746V28H61.6484V24.4434C61.6484 23.8848 61.5547 23.4668 61.3672 23.1895C61.1797 22.9121 60.8965 22.7734 60.5176 22.7734C60.1191 22.7734 59.7969 22.9453 59.5508 23.2891C59.3086 23.6289 59.1875 24.0664 59.1875 24.6016ZM67.8887 27.9062C67.4902 28.0391 67.0273 28.1055 66.5 28.1055C66.0156 28.1055 65.6426 27.9746 65.3809 27.7129C65.1191 27.4473 64.9883 27.0469 64.9883 26.5117V22.7734H64.1855V21.6602H65.0703L65.5859 20.1719H66.6172V21.6602H67.8184V22.7734H66.6172V26.0664C66.6172 26.375 66.6758 26.6035 66.793 26.752C66.9102 26.8965 67.0918 26.9688 67.3379 26.9688C67.4551 26.9688 67.6387 26.9414 67.8887 26.8867V27.9062Z" fill="#090909"/>
+                </svg>  
+                
+              </a>
+            </li>
+               {% endif %}
+          {% endif %}
+        </ul>
+
+        {% if section.settings.show_cart %}
+          <div class="cart-container">
+            <a href="{{ routes.cart_url }}" class="{% if section.settings.cart_icon == "cart" %}icon-cart{% else %}icon-bag{% endif %} cart dropdown_link" data-no-instant>
+              <svg width="49" height="20" viewBox="0 0 49 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <g clip-path="url(#clip0_975_42)">
+                <path d="M7.49996 18.3332C7.9602 18.3332 8.33329 17.9601 8.33329 17.4998C8.33329 17.0396 7.9602 16.6665 7.49996 16.6665C7.03972 16.6665 6.66663 17.0396 6.66663 17.4998C6.66663 17.9601 7.03972 18.3332 7.49996 18.3332Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.6667 18.3332C17.1269 18.3332 17.5 17.9601 17.5 17.4998C17.5 17.0396 17.1269 16.6665 16.6667 16.6665C16.2065 16.6665 15.8334 17.0396 15.8334 17.4998C15.8334 17.9601 16.2065 18.3332 16.6667 18.3332Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M0.833374 0.833496H4.16671L6.40004 11.9918C6.47624 12.3755 6.68496 12.7201 6.98966 12.9654C7.29436 13.2107 7.67562 13.341 8.06671 13.3335H16.1667C16.5578 13.341 16.9391 13.2107 17.2438 12.9654C17.5485 12.7201 17.7572 12.3755 17.8334 11.9918L19.1667 5.00016H5.00004" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+               </g>
+               <path d="M28.6582 12.7578C29.7051 12.7578 30.4297 12.2344 30.832 11.1875L32.3379 11.7559C32.0137 12.5527 31.5371 13.1465 30.9082 13.5371C30.2832 13.9238 29.5332 14.1172 28.6582 14.1172C27.7754 14.1172 27.0234 13.9492 26.4023 13.6133C25.7812 13.2734 25.3066 12.7832 24.9785 12.1426C24.6543 11.502 24.4922 10.7324 24.4922 9.83398C24.4922 8.92773 24.6484 8.16211 24.9609 7.53711C25.2734 6.91211 25.7344 6.4375 26.3438 6.11328C26.9531 5.78516 27.6992 5.62109 28.582 5.62109C29.5508 5.62109 30.3398 5.81641 30.9492 6.20703C31.5586 6.59375 31.9863 7.16406 32.2324 7.91797L30.709 8.33398C30.5801 7.91992 30.3262 7.5918 29.9473 7.34961C29.5723 7.10352 29.1289 6.98047 28.6172 6.98047C27.8359 6.98047 27.2422 7.22266 26.8359 7.70703C26.4336 8.19141 26.2324 8.90039 26.2324 9.83398C26.2324 10.4668 26.3242 11 26.5078 11.4336C26.6953 11.8672 26.9688 12.1973 27.3281 12.4238C27.6914 12.6465 28.1348 12.7578 28.6582 12.7578ZM34.9746 14.1172C34.3613 14.1172 33.8828 13.9512 33.5391 13.6191C33.1953 13.2832 33.0234 12.8125 33.0234 12.207C33.0234 11.5508 33.2363 11.0527 33.6621 10.7129C34.0918 10.373 34.7129 10.1953 35.5254 10.1797L36.8906 10.1562V9.83398C36.8906 9.41992 36.8184 9.11328 36.6738 8.91406C36.5293 8.71094 36.293 8.60938 35.9648 8.60938C35.6602 8.60938 35.4355 8.67969 35.291 8.82031C35.1504 8.95703 35.0625 9.18555 35.0273 9.50586L33.3105 9.42383C33.5254 8.16992 34.4336 7.54297 36.0352 7.54297C36.8359 7.54297 37.4531 7.74023 37.8867 8.13477C38.3203 8.5293 38.5371 9.08984 38.5371 9.81641V12.125C38.5371 12.4805 38.5762 12.7266 38.6543 12.8633C38.7363 12.9961 38.8711 13.0625 39.0586 13.0625C39.1836 13.0625 39.3047 13.0508 39.4219 13.0273V13.918C39.2188 13.9688 39.0449 14.0059 38.9004 14.0293C38.7559 14.0566 38.5781 14.0703 38.3672 14.0703C37.9531 14.0703 37.6465 13.9688 37.4473 13.7656C37.252 13.5625 37.1348 13.2637 37.0957 12.8691H37.0605C36.8301 13.2832 36.541 13.5957 36.1934 13.8066C35.8457 14.0137 35.4395 14.1172 34.9746 14.1172ZM36.8906 11.0645L36.0469 11.0762C35.6602 11.0957 35.3887 11.1367 35.2324 11.1992C35.0723 11.2695 34.9492 11.375 34.8633 11.5156C34.7812 11.6562 34.7402 11.8438 34.7402 12.0781C34.7402 12.3789 34.8086 12.6035 34.9453 12.752C35.0859 12.8965 35.2715 12.9688 35.502 12.9688C35.7598 12.9688 35.9961 12.8984 36.2109 12.7578C36.4219 12.6172 36.5879 12.4238 36.709 12.1777C36.8301 11.9277 36.8906 11.6641 36.8906 11.3867V11.0645ZM41.8359 10.8887V14H40.1895V9.14844C40.1895 8.80078 40.1836 8.51172 40.1719 8.28125C40.1641 8.04688 40.1543 7.83984 40.1426 7.66016H41.7129C41.7207 7.69531 41.7285 7.77344 41.7363 7.89453C41.7441 8.01562 41.752 8.15234 41.7598 8.30469C41.7676 8.45312 41.7734 8.59375 41.7773 8.72656C41.7852 8.85938 41.7891 8.95508 41.7891 9.01367H41.8125C41.9688 8.57617 42.1113 8.26172 42.2402 8.07031C42.3652 7.88672 42.5137 7.75195 42.6855 7.66602C42.8574 7.58008 43.0723 7.53711 43.3301 7.53711C43.541 7.53711 43.7109 7.56641 43.8398 7.625V9.00195C43.5781 8.94336 43.3438 8.91406 43.1367 8.91406C42.7266 8.91406 42.4062 9.08008 42.1758 9.41211C41.9492 9.74414 41.8359 10.2363 41.8359 10.8887ZM47.877 13.9062C47.4785 14.0391 47.0156 14.1055 46.4883 14.1055C46.0039 14.1055 45.6309 13.9746 45.3691 13.7129C45.1074 13.4473 44.9766 13.0469 44.9766 12.5117V8.77344H44.1738V7.66016H45.0586L45.5742 6.17188H46.6055V7.66016H47.8066V8.77344H46.6055V12.0664C46.6055 12.375 46.6641 12.6035 46.7812 12.752C46.8984 12.8965 47.0801 12.9688 47.3262 12.9688C47.4434 12.9688 47.627 12.9414 47.877 12.8867V13.9062Z" fill="#090909"/>
+               <defs>
+                <clipPath id="clip0_975_42">
+                 <rect width="20" height="20" fill="white"/>
+                </clipPath>
+               </defs>
+              </svg>
+              <span class="cart_count">{{ cart.item_count }}</span>
+            </a>
+
+            {% unless settings.cart_action == 'ajax' and template contains 'cart' %}
+              <div class="tos_warning cart_content animated fadeIn">
+                <div class="js-empty-cart__message {% if cart.item_count > 0 %}hidden{% endif %}">
+                  <p class="empty_cart">{{ 'layout.general.empty_cart' | t }}</p>
+                </div>
+
+                <form action="{{ routes.cart_url }}"
+                      method="post"
+                      class="{% if cart.item_count == 0 %}hidden{% endif %}"
+                      data-total-discount="{{ cart.total_discount }}"
+                      data-money-format="{{ shop.money_format | strip_html }}"
+                      data-shop-currency="{{ shop.currency }}"
+                      data-shop-name="{{ shop.name | escape }}"
+                      data-cart-form="mini-cart">
+                  <a class="cart_content__continue-shopping secondary_button">
+                    {{ 'cart.general.continue_shopping' | t }}
+                  </a>
+
+                  <ul class="cart_items js-cart_items">
+                    {%- assign total_saving = 0 -%}
+
+                    {% for item in cart.items %}
+                      {% if item.variant.compare_at_price > item.variant.price %}
+                        {%- assign saving = item.variant.compare_at_price | minus: item.variant.price | times: item.quantity -%}
+                        {%- assign total_saving = saving | plus: total_saving -%}
+                      {% endif %}
+
+                      <li class="mini-cart__item" data-cart-item data-line-id="{{ forloop.index }}" data-variant-id="{{ item.id }}">
+                        <a href="{{ item.url }}">
+                          {% if item.image %}
+                            <div class="cart_image mini-cart__item-image">
+                              <img src="{{ item.image | img_url: '320x' }}" alt="{{ item.title | escape }}" class="lazyload" />
+                            </div>
+                          {% endif %}
+                        </a>
+
+                        <div class="mini-cart__item-content">
+                          <div class="mini-cart__item-title">
+                            <a href="{{ item.url }}">
+                              {{- item.product.title | escape -}}
+
+                              {% unless item.product.has_only_default_variant or item.variant.title contains "Title" %}
+                                -
+                                {% for option in item.product.options %}
+                                  {{ item.variant.options[forloop.index0] }} {% unless forloop.last %}/{% endunless %}
+                                {% endfor %}
+                              {% endunless %}
+                            </a>
+
+                            {% if item.selling_plan_allocation.selling_plan %}
+                              <p class="meta">{{ item.selling_plan_allocation.selling_plan.name }}</p>
+                            {% endif %}
+
+                            {% if item.properties %}
+                              <div class="mini-cart__item-properties">
+                                {% for p in item.properties %}
+                                  {% assign property_first_char = p.first | slice: 0 %}
+                                  {% if p.last != blank and property_first_char != '_' %}
+                                    <div class="mini-cart__item-property">
+                                      {{ p.first }}: {{ p.last }}
+                                    </div>
+                                  {% endif %}
+                                {% endfor %}
+                              </div>
+                            {% endif %}
+                          </div>
+
+                          <div class="mini-cart__item-price">
+                            {% if item.price > 0 %}
+                              <span class="money {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}sale{% endif %}">
+                                {%
+                                  render 'price-element',
+                                  price: item.final_price
+                                %}
+                              </span>
+
+                              {% if item.price < item.variant.compare_at_price or item.line_level_discount_allocations.size > 0 %}
+                                <span class="money was_price">
+                                  {%
+                                    render 'price-element',
+                                    price: item.variant.compare_at_price
+                                  %}
+                                </span>
+                              {% endif %}
+                            {% else %}
+                              {{ settings.free_price_text }}
+                            {% endif %}
+                          </div>
+
+                          {%
+                            render 'unit-price',
+                            item: item,
+                            variant: item.variant,
+                            product: item.product,
+                            class: 'mini-cart__unit-price'
+                          %}
+
+                          {% if item.line_level_discount_allocations.size > 0 %}
+                            {% for discount_allocation in item.line_level_discount_allocations %}
+                              <p class="notification-discount meta">
+                                {{ discount_allocation.discount_application.title }}
+                              </p>
+                            {% endfor %}
+                          {% endif %}
+
+                          <div class="product-quantity-box">
+                            <span class="ss-icon product-minus js-change-quantity" data-func="minus">
+                              <span class="icon-minus"></span>
+                            </span>
+
+                            <input type="number" min="0" size="2" class="quantity" name="updates[]" id="updates_{{ item.id }}" value="{{ item.quantity }}" data-cart-quantity-input="mini-cart" {% if settings.limit_quantity and item.variant.inventory_management != blank and item.variant.inventory_quantity > 0 and item.variant.inventory_policy == "deny" %}max="{{ item.variant.inventory_quantity }}"{% endif %}/>
+
+                            <span class="ss-icon product-plus js-change-quantity" data-func="plus">
+                              <span class="icon-plus"></span>
+                            </span>
+                          </div>
+                        </div>
+
+                        <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="cart__remove-btn" data-line-id="{{ forloop.index }}" data-remove-item="mini-cart"><span class="remove-icon"></span></a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+
+                  <ul>
+                    <li class="cart_discounts js-cart_discounts sale">
+                      {% if cart.cart_level_discount_applications != blank %}
+                        {% for discount_application in cart.cart_level_discount_applications %}
+                          <span class="cart_discounts--title">{{ discount_application.title }}</span>
+
+                          <span class="cart_discounts--price">
+                            -<span class="money">
+                              {%
+                                render 'price-element',
+                                price: discount_application.total_allocated_amount
+                              %}
+                            </span>
+                          </span>
+                        {% endfor %}
+                      {% endif %}
+                    </li>
+
+                    <li class="cart_subtotal js-cart_subtotal">
+                      <span class="right">
+                        <span class="money">
+                          {%
+                            render 'price-element',
+                            price: cart.total_price
+                          %}
+                        </span>
+                      </span>
+
+                      <span>{{ 'layout.general.subtotal' | t }}</span>
+                    </li>
+
+                    <li class="cart_savings sale js-cart_savings">
+                      {% if settings.display_savings and total_saving > 0 or settings.display_savings and cart.total_discount > 0 %}
+                        <span class="right">
+                          <span class="money">
+                            {% assign total_savings = total_saving | plus: cart.total_discount %}
+                            {%
+                              render 'price-element',
+                              price: total_savings
+                            %}
+                          </span>
+                        </span>
+
+                        <span>{{ 'layout.general.savings' | t }}</span>
+                      {% endif %}
+                    </li>
+
+                    <li>
+                      {%- capture taxes_shipping_checkout -%}
+                        {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+                          {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                        {%- elsif cart.taxes_included -%}
+                          {{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}
+                        {%- elsif shop.shipping_policy.body != blank -%}
+                          {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+                        {%- else -%}
+                          {{ 'cart.general.tax_and_shipping' | t }}
+                        {%- endif -%}
+                      {%- endcapture -%}
+
+                      <p class="cart-message meta">{{ taxes_shipping_checkout }}</p>
+                    </li>
+
+                    <li>
+                      {% if settings.display_special_instructions and settings.go_to_checkout %}
+                        <textarea id="note" name="note" rows="2" placeholder="{{ 'layout.general.cart_note' | t }}" data-cart-note>
+                          {{- cart.note -}}
+                        </textarea>
+                      {% endif %}
+
+                      {% if settings.display_tos_checkbox and settings.go_to_checkout %}
+                        <p class="tos">
+                          <input type="checkbox" class="tos_agree" id="sliding_agree" required />
+
+                          <label class="tos_label">
+                            {{ 'cart.general.agree_to_terms_html' | t }}
+                          </label>
+
+                          {% if settings.tos_page != blank %}
+                            <a href="{{ settings.tos_page }}" target="_blank" class="tos_icon">{{ 'cart.general.view_terms' | t }}</a>
+                          {% endif %}
+                        </p>
+                      {% endif %}
+
+                      {% if settings.cart_message != blank %}
+                        <div class="cart_text">
+                          {{ settings.cart_message }}
+                        </div>
+                      {% endif %}
+
+                      {% if settings.go_to_checkout %}
+                        <button type="submit" name="checkout" class="global-button global-button--primary add_to_cart" data-minicart-checkout-button>{% if settings.show_lock_icon %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.checkout' | t }}</button>
+                      {% else %}
+                        <button type="submit" class="global-button global-button--primary add_to_cart" data-minicart-checkout-button>{% if settings.show_lock_icon and settings.go_to_checkout %}<span class="icon-lock"></span>{% endif %}{{ 'layout.general.go_to_cart' | t }} </button>
+                      {% endif %}
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            {% endunless %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+                   
+   
+                   
+                   
+
+    <div class="main-nav__wrapper">
+      <div class="main-nav menu-position--{{ section.settings.menu_position }} logo-alignment--{{ section.settings.logo_alignment }} logo-position--{{ section.settings.logo_position }} search-enabled--{{ section.settings.search_enabled }}" {% if section.settings.dropdown_click == true %}data-show-dropdown-on-click{% endif %}>
+        {% capture logo %}
+          <div class="header__logo {% if section.settings.logo_home == blank and section.settings.logo == blank %}logo--text{% else %}logo--image{% endif %}">
+            <a href="{{ routes.root_url }}" title="{{ shop.name }}">
+              {% if section.settings.logo_home != blank %}
+                <img
+                  src="{{ section.settings.logo_home | img_url: '410x' }}"
+                  class="secondary_logo"
+                  alt="{{ shop.name | escape }}"
+                  style="object-fit: cover; object-position: {{ section.settings.logo_home.presentation.focal_point }};"
+                >
+              {% endif %}
+
+              {% if section.settings.logo != blank %}
+                <img
+                  src="{{ section.settings.logo | img_url: '410x' }}"
+                  class="primary_logo lazyload"
+                  alt="{{ shop.name | escape }}"
+                  style="object-fit: cover; object-position: {{ section.settings.logo.presentation.focal_point }};"
+                >
+              {% else %}
+                <span class="header__logo-text">{{ shop.name }}</span>
+              {% endif %}
+            </a>
+          </div>
+        {% endcapture %}
+
+        {% assign menu_style = 'wide' %}
+        {% if section.settings.vertical_menu %}
+          {% assign menu_style = 'vertical' %}
+        {% endif %}
+
+        {% capture menu_left %}
+          {%
+            render 'navigation-desktop',
+            menu: section.settings.main_linklist,
+            style: menu_style,
+          %}
+        {% endcapture %}
+
+        {% capture menu_right %}
+          {%
+            render 'navigation-desktop',
+            menu: section.settings.main_linklist2,
+            style: menu_style,
+          %}
+        {% endcapture %}
+
+        {% capture search %}
+          {% if section.settings.search_enabled %}
+            <div class="search-container">
+              {%
+                render 'search-form',
+                context: 'header',
+              %}
+
+              <div class="search-link">
+                <a
+                  class="
+                    icon-search
+                    dropdown_link
+                  "
+                  href="{{ routes.search_url }}"
+                  title="{{ 'general.search.title' | t | escape }}"
+                  data-dropdown-rel="search"
+                >
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        {% endcapture %}
+
+        {% if section.settings.menu_position == 'inline' %}
+          {% if section.settings.logo_position == 'left' %}
+            {{ logo }}
+
+            <div class="nav nav--combined {{ section.settings.menu_alignment }}">
+              {{ menu_left }}
+              {{ menu_right }}
+            </div>
+
+            {{ search }}
+          {% else %}
+            <div class="nav nav--left {{ section.settings.menu_alignment }}">
+              {{ menu_left }}
+            </div>
+
+            {{ logo }}
+
+            <div
+              class="
+                nav nav--right
+                {% if section.settings.menu_alignment == 'align_left' %}
+                  align_right
+                {% elsif section.settings.menu_alignment == 'align_right' %}
+                  align_left
+                {% else %}
+                  {{ section.settings.menu_alignment }}
+                {% endif %}
+              "
+            >
+              {{ menu_right }}
+            </div>
+
+            {{ search }}
+          {% endif %}
+        {% else %}
+          {{ logo }}
+
+          <div
+            class="
+              nav
+              nav--combined
+              nav--{{ section.settings.menu_alignment }}
+              {{ section.settings.menu_alignment }}
+            "
+          >
+            <div class="combined-menu-container">
+              {{ menu_left }}
+              {{ menu_right }}
+            </div>
+
+            {{ search }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</header>
+                   
+
+                   
+
+{% comment %}
+  If JS is disabled we always want the non-feature_image style,
+  but we add these dynamically here to avoid waiting for the main
+  bundle to load. This prevents styling jumps for the majority,
+  who do use JS.
+
+  After the bundle loads, separate code toggles these classes during
+  editor events, etc.
+{% endcomment %}
+<script>
+  (() => {
+    const header = document.querySelector('[data-header-feature-image="true"]');
+    if (header) {
+      header.classList.add('feature_image');
+    }
+
+    const headerContent = document.querySelector('[data-header-is-absolute="true"]');
+    if (header) {
+      header.classList.add('is-absolute');
+    }
+  })();
+</script>
+
+<style>
+  div.header__logo,
+  div.header__logo img,
+  div.header__logo span,
+  .sticky_nav .menu-position--block .header__logo {
+    max-width: {{ section.settings.logo_display_width | append: 'px' }};
+  }
+  .main-nav.menu-position--inline.logo-alignment--center.logo-position--center.search-enabled--true {
+    background-color: #E10F0F;
+  }
+  summary.nav-desktop__tier-1-link.nav-desktop__tier-1-link--parent {
+    color: #FFFFFF;
+    text-transform: capitalize;    
+  } 
+  summary.nav-desktop__tier-1-link.nav-desktop__tier-1-link--parent:hover {
+    color: #FFFFFF;
+  }  
+  form.search-form.search-form--header button {
+    color: #FFFFFF;
+  }
+  a.icon-search.dropdown_link {
+    color: #FFFFFF !important;
+  }
+  .top-bar span.cart_count {
+    color: #E10F0F;
+  }  
+  a span.cart_count {
+    color: #FFF; 
+  }
+  #header a span.cart_count {
+    background-color: #E10F0F;    
+    color: #FFF;
+  }  
+  .top-bar__menu.menu a {
+    text-transform: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+  }
+  p.cart-message.meta {
+    display: none;
+  } 
+  .selectedGlobalLocation p.locationName {
+    position: relative;
+    bottom: 10px;    
+    margin-left: 25px;     
+    line-height: 1px;
+    text-decoration: underline;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;    
+  }
+  a.top-bar__login-link.user {
+    height: 35px;
+  }
+  a.icon-cart.cart.dropdown_link {    
+    color: #FFFFFF;
+    font-size: 19px;
+  }
+  .main-nav .cart-container svg {
+    display: none;
+  }
+  .top-bar--right-menu a.icon-cart.cart.dropdown_link {
+    background-color: #FFFFFF;     
+    margin: 3px 35px 3px 0;
+  }
+  .cart-container {
+    min-width: 50px;
+  }  
+  .cart-container svg {
+    margin: 5px;
+  }
+ 
+  span.mobile-menu-title {
+    display: none;
+  }
+  .mobile_nav {
+    justify-content: end;
+  }
+  .mobile_nav.dropdown_link {
+    width: 80px!important; 
+  }  
+   @media only screen and (max-width: 798px) { 
+     a.icon-cart.mini_cart.dropdown_link, .top-bar {
+       background-color: #D54D4D;
+       color: #FFF; 
+    }
+
+    .mobile-menu-container.dropdown {
+       background-color: #FFFFFF;
+    }
+    .top-bar a.mobile_logo {
+       right: 190%!important;
+       width: 40px!important;
+    }
+    
+    #header .mobile_nav div span {
+       background: #FFF;
+       height: 2px !important;      
+    }
+    #header .mobile_nav div {
+       width: 25px;
+       height: 42px;      
+    }
+    .site-header__icon {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 0 0 20px;
+        margin: 0 auto;
+    }
+    .selectedGlobalLocation span { 
+       position: relative;
+       bottom: 10px;       
+       font-size: 10px;  
+    }
+    .selectedGlobalLocation p.locationName {
+       position: relative;
+       bottom: 10px;      
+       margin: 0;       
+       text-decoration: none;
+    }
+    .locationBtn {
+      height: 40px;
+      align-items: normal;
+    }    
+    #header .top-bar--right {
+      margin-left: 0;
+    }
+  }
+.dropdown_title {
+   padding-bottom: 0 !important;
+}    
+.dropdown_title a {
+   font-weight: 600;
+}
+.dropdown_column__menu a {
+    padding-top: 10px;
+    line-height: 1.2;
+} 
+ @media only screen and (max-width: 500px) {
+   .brands-selection {
+    background-color: #FFF !important;
+   } 
+   .brands-selection div#myBtnContainer {
+        position: absolute;
+        width: 50px;
+        right: 0;
+        z-index: 1;
+   }
+   .brands-selection .blnk {
+     display: none;
+   }   
+   .brands-selection .blnk-mob {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+   }
+   .brands-selection .btn {
+      background-color: #fff !important;
+      color: #000;
+   }
+   .brands-selection .btn.active {
+     color: #D54D4D;
+   }
+  
+ } 
+  @media only screen and (min-width: 501px) {
+    .brands-selection .blnk-mob {
+      display: none;
+   }    
+  }
+  a.widemenu__submenu-heading.widemenu__link {
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.2em;    
+    font-weight: 600;
+  }
+  ul.widemenu__submenu-items a {
+    font-size: 12px;
+  }
+  ul.nav-desktop__tier-1 {
+    flex-wrap: nowrap;
+    column-gap: 4%;
+  }
+  span.no-icon {
+    color: #FFF !important;
+}  
+ li.widemenu__submenu-item {
+    padding: 0 0 0.4em;
+    line-height: 0.8em;
+ }
+ .nav--right .widemenu__link:visited {
+    color: #D54D4D !important;
+ }
+  .nav--right .widemenu { 
+    padding: 1rem 0 1rem 10%;   
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .widemenu {  
+    grid-row-gap: 0;
+    grid-column-gap: 3%;
+   grid-template-columns: repeat(5, 1fr);
+ }
+ 
+  .search-form--header input.search-form__input {
+    color: #FFF !important;
+    border-color: #D54D4D !important;
+    border-bottom-color: #fff !important;
+  }
+  a.top-bar__login-link.user span {
+    display: none;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Header",
+  "class": "shopify-section--header",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Announcement bar"
+    },
+    {
+      "type": "richtext",
+      "id": "promo_text",
+      "label": "Text",
+      "info": "Maximum character limit is 170"
+    },
+    {
+      "type": "header",
+      "content": "Top bar"
+    },
+    {
+      "type": "checkbox",
+      "id": "social_icons_header",
+      "label": "Show social media header icons",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "phone_number",
+      "label": "Phone number",
+      "info": "1-800-555-5555"
+    },
+    {
+      "type": "link_list",
+      "id": "top_bar_menu",
+      "label": "Menu",
+      "info": "This menu won't show drop-down items"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart",
+      "label": "Show cart",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "cart_icon",
+      "label": "Cart icon",
+      "default": "cart",
+      "options": [
+        {
+          "value": "cart",
+          "label": "Cart"
+        },
+        {
+          "value": "bag",
+          "label": "Bag"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Language selector",
+      "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "Show language selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Country selector",
+      "info": "To add a country, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_currency_selector",
+      "label": "Show country selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Logos"
+    },
+    {
+      "type": "range",
+      "id": "logo_display_width",
+      "label": "Logo display width",
+      "step": 5,
+      "min": 105,
+      "max": 205,
+      "default": 205,
+      "unit": "px"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo",
+      "info": "400 x 200px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_home",
+      "label": "Secondary logo over content (optional)",
+      "info": "400 x 200px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_mobile",
+      "label": "Mobile logo",
+      "info": "100 x 50px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Menus"
+    },
+    {
+      "type": "link_list",
+      "id": "main_linklist",
+      "label": "Main menu",
+      "default": "main-menu"
+    },
+    {
+      "type": "link_list",
+      "id": "main_linklist2",
+      "label": "Secondary menu",
+      "default": "footer"
+    },
+    {
+      "type": "checkbox",
+      "id": "vertical_menu",
+      "label": "Enable vertical menus",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "dropdown_click",
+      "label": "Open dropdowns on click instead of hover",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Search"
+    },
+    {
+      "type": "checkbox",
+      "id": "search_enabled",
+      "label": "Show search",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "fixed_header",
+      "label": "Fixed ('sticky') header",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "logo_position",
+      "label": "Logo position",
+      "info": "Applies when menu position has been set to 'Inline with logo'",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "logo_alignment",
+      "label": "Logo alignment",
+      "info": "Applies when menu position has been set to 'Under logo'",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "menu_position",
+      "label": "Menu position",
+      "default": "inline",
+      "options": [
+        {
+          "value": "inline",
+          "label": "Inline with logo"
+        },
+        {
+          "value": "block",
+          "label": "Under logo"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "menu_alignment",
+      "label": "Menu alignment",
+      "default": "align_left",
+      "options": [
+        {
+          "value": "align_left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "align_right",
+          "label": "Right"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}

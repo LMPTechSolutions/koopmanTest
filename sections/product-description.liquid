@@ -1,0 +1,71 @@
+<div class="product-block product-block--description">
+  <div class="description">
+
+    {% if product.description != blank %}
+        <div class="rte">
+          <!-- {{ product.description | split: '<!-- split -->' | first }} -->
+   
+            {% assign description_parts = product.description | split: '<h3>' %}
+            <dl class="faqAccordion">
+             
+
+              
+              {% for part in description_parts %}
+                {% unless part == blank %}
+                  {% assign part_parts = part | split: '</h3>' %}
+                  {% assign heading_handle = part_parts.first | handle %}
+                    {% if forloop.index0 > 0  %}
+                        <dt>
+                          <button
+                            type="button"
+                            aria-controls="{{ heading_handle }}"
+                            aria-expanded="true"
+                          >
+                           {{ part_parts.first }}
+                          </button>
+                        </dt>
+                        <dd id="{{ heading_handle }}" aria-hidden="false">
+                          {{ part_parts.last }}
+                        </dd>
+                    {% else %}
+                       {{ part_parts.first }}
+                    {% endif %}
+                     
+                  
+                 
+                  
+                  
+                  
+                  {% endunless %}
+                {% endfor %}
+               </dl>
+        </div>
+                        
+                
+                
+        {% endif %}
+  </div>
+</div>
+
+<div class="meta">
+                {%
+                  render 'social-buttons',
+                  context: 'product'
+                %}
+</div>
+
+
+
+
+{% schema %}
+  {
+    "name": "Product Description",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Product Description",
+        "category": "Product Description",
+      }
+    ],
+  }
+{% endschema %}

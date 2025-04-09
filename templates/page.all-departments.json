@@ -1,0 +1,262 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_G3nRxD": {
+      "type": "slideshow",
+      "blocks": {
+        "image_a7PpFR": {
+          "type": "image",
+          "settings": {
+            "pretext": "",
+            "title": "All departments under our roof",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_8Xr38n": {
+          "type": "image",
+          "settings": {
+            "pretext": "",
+            "title": "All departments under our roof",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "image_a7PpFR",
+        "image_8Xr38n"
+      ],
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeIn",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "image_with_text_overlay_wVf9EX": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "custom_html": "",
+        "pretext": "",
+        "title": "All departments under our roof",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "custom_html": "",
+            "title": "Add a title or tagline",
+            "heading_size": "regular_text",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_GPmnB7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "custom_html": "",
+            "title": "Add a title or tagline",
+            "heading_size": "regular_text",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_GPmnB7"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Text columns with images",
+        "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+        "align_text": "left",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "collection_list_rrfeA4": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_zRCRtB": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_tKqAhi": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_7iTeVa": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_pJV6fd": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_bL7mcn": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_EVT3Ee": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_zRCRtB",
+        "collection_tKqAhi",
+        "collection_7iTeVa",
+        "collection_pJV6fd",
+        "collection_bL7mcn",
+        "collection_EVT3Ee"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+        "align_text": "left",
+        "align_height": false,
+        "collection_height": 200,
+        "frontpage_collections_per_row": 3,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_rem4UA": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "<h4><strong>All DEPARTMENTS<\/strong><\/h4>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "page-title",
+        "custom_css": ".page-title  h4 {\npadding: 0;\nmargin: 0;\n}\n.page-title  .featured_text {\nmargin: 0;\n}"
+      }
+    },
+    "custom_liquid_aU9yTW": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"myBtnContainer\" class=\"but-cont\">\n {% for link in linklists.all-departments.links %}\n  <button class=\"btn {% if link.title == \"Tools\" %}active{% endif %}\n \" onclick=\"filterSelection('{{ link.title | downcase }}')\"> {{ link.title }}<\/button>\n{% endfor %}\n<\/div>\n<div class=\"shop\">\n<h4>Shop {{ linklists.trade-specific-tools.title }} <\/h4>\n                {% for link in linklists.trade-specific-tools.links %}<button class=\"btn-link\">\n<a  href=\"{{ link.url }}\">{{ link.title }}<\/a><\/button>{% endfor %} \n<\/div>",
+        "css_class": "departments desktop",
+        "custom_css": ".departments.desktop .but-cont {\n      background-color: #E10F0F;\n      padding:  25px 5px; \n      margin-bottom: 10px;\n}\n.departments.desktop .btn{ \n      background-color: #E10F0F;\n      border: 1px solid #FFF;\n      padding: 8px;\n      margin: 3px 6px;\n      color: #FFFFFF;\n      font-size: 14px;\n      letter-spacing: 0;\n      text-transform: capitalize;\n }\n.departments.desktop .btn.active { \n       background-color: #FFFFFF;\n        color: #E10F0F;\n }\n\n.shop h4 {\ntext-align: left;\npadding-top: 20px;\nfont-weight: bold;\ntext-transform: capitalize;\nmargin: 0;\n}\n.shop .btn-link  { \n      background-color: #FFFFFF;\n      border: 1px solid #000000;\n      padding: 8px;\n      margin:  0 9px 9px 0;\n      font-size: 14px;\n      letter-spacing: 0;\n      text-transform: capitalize;\n }\n.shop  .btn-link a { \ncolor: #000000;\n}\n.shop {\n    margin-bottom: 20px;\n}\n.shop a:hover, .shop a:active, .shop a:focus {\n    color: #E10F0F;\n}"
+      }
+    },
+    "custom_liquid_3FLifD": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"dropdown\">\n<button id=\"myBtn\" class=\"dropbtn\">\n{% for link in linklists.all-departments.links %}\n  <p class=\"filterDiv {{ link.title | downcase }}\"> {{ link.title }}<\/p>{% endfor %}\n<\/button>\n<div id=\"myDropdown\" class=\"dropdown-content\">\n\n {% for link in linklists.all-departments.links %}\n  <button class=\"btn {% if link.title == \"Tools\" %}active{% endif %}\n \" onclick=\"filterSelection('{{ link.title | downcase }}')\">{{ link.title }}<\/button>\n{% endfor %}\n<\/div>\n<\/div>\n\n<div class=\"shop\">\n<h4>Shop {{ linklists.trade-specific-tools.title }} <\/h4>\n                {% for link in linklists.trade-specific-tools.links %}<button class=\"btn-link\">\n<a  href=\"{{ link.url }}\">{{ link.title }}<\/a><\/button>{% endfor %} \n<\/div>",
+        "css_class": "departments mobile",
+        "custom_css": ".departments.mobile  { \n      max-width: 300px;\n}\n.departments.mobile \n .but-cont { \n     border: 2px solid #000000;\n     padding:  5px;\n}\n.departments.mobile \n .btn { \n      width: 100%; \n      text-align: left; \n      background-color: #FFFFFF;      \n      padding:  0  10px;\n      margin: 0;\n      color: #000000;\n      font-weight: bold;\n      font-size: 16px;\n      letter-spacing: 0;\n      text-transform: capitalize;\n      \n }\n.departments.mobile  .btn.active {\n        display: block;\n       background-color: #FFFFFF;\n        color: #000000;\n }\n.dropbtn {\n  width: 100%;\n  text-align: left; \n  border: 2px solid #000000;\n  background-color: #FFFFFF;  \n  padding: 4px 10px;\n  font-size: 16px;\n font-weight: bold;\n  cursor: pointer;\n  display: block;\n}\n.departments.mobile .dropdown {\n  position: relative;\n  display: inline-block;\n   z-index: 10;\n}\n.dropdown-content {\n  display: none;\n  position: absolute;\n  background-color: #f9f9f9;\n  min-width: 160px;\n  overflow: auto;\n  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);\n}\n\n.dropdown-content a {\n  color: black;\n  padding: 12px 16px;\n  text-decoration: none;\n  display: block;\n}\n.show {\n        display: block;\n}\n.filterDiv {\n  margin: 0;\n  display: none;\n}\n\n.shop h4 {\ntext-align: center;\npadding-top: 20px;\nfont-weight: bold;\ntext-transform: capitalize;\nmargin: 0;\n}\n.shop .btn-link  { \n      width: 260px;\n      background-color: #FFFFFF;\n      border: 1px solid #000000;\n      padding: 8px;\n      margin:  0 20px 9px ;\n      font-size: 14px;\n      letter-spacing: 0;\n      text-transform: capitalize;\n }\n.shop  .btn-link a { \ncolor: #000000;\n}\n.shop {\n    margin-bottom: 20px;\n}"
+      }
+    },
+    "custom_liquid_twzBzg": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% for link in linklists.all-departments.links %}\n  <h3 class=\"filterDiv {{ link.title | downcase }}\"> {{ link.title }}<\/h3>\n{% endfor %}",
+        "css_class": "dep-title",
+        "custom_css": ".dep-title   {\nwidth: 100%;\nmargin-bottom: 0;\ntext-align: left;\n}\n.dep-title  h3 {\nwidth: 100%;\nborder-bottom: 2px solid #000000;\npadding: 5px 0; \nmargin: 0 2% ;\nfont-size: 22px;\nfont-weight: bold;\ntext-transform: capitalize;\n}\n.filterDiv {\n  float: left; \n  width: 228px;\n  line-height: 20px;\n  text-align: left;\n  margin: 4px;\n  display: none;\n}\n.show {\n  display: block;\n}"
+      }
+    },
+    "custom_liquid_q4mDBE": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% for link in linklists.all-departments.links %}               \n{% assign filter_name =  link.title | downcase %}\n{% for sublink in link.links %}               \n{% assign menu_name =  sublink.title %}\n<ul class=\"filterDiv {{ filter_name }}\">                    {% for link in linklists[ menu_name ].links %}\n\n<p class=\"m-link\">                           \n<a href=\"{{ link.url }}\">{{ link.title }}<\/a><\/p>                    \n{% for sublink in link.links %}\n<a class=\"m-m-link\"                         href=\"{{ sublink.url }}\">{{ sublink.title }}<\/a><br>\n\n{% for subsublink in sublink.links %}\n<a class=\"s-m-link\"                         href=\"{{ subsublink.url }}\">{{ subsublink.title }}<\/a><br>                \n               {% endfor %}                \n               {% endfor %}\n                    \n               {% endfor %}\n<\/ul>\n{% endfor %}\n{% endfor %}",
+        "css_class": "sub-filter",
+        "custom_css": ".sub-filter  {\ndisplay: flow;\nwidth: 100%;\nmargin-bottom: 0;\ntext-align: left;\n}\n\n.sub-filter  ul {\ncolumns: 4; \nwidth: 100%;\npadding: 1% 2%;\nmargin: 0;\n}\np.m-link  {\nwidth: 100%;\nborder-bottom: 1px solid #000000;\nmargin: 20px 0 5px;\n}\n.m-link  a{\ncolor: #000;\nfont-weight: 800;\n}\na.m-m-link  {\n    color: #000;\n    font-size: 14px;\n    font-weight: 600;\n}\na.s-m-link  {\n    color: #000;\n    font-size: 12px;\n    font-weight: normal;\n    margin-left: 10px;\n}\n.filterDiv {\n  font-weight: bold;\n  float: left; \n  width:295px;\n  text-align: left;\n  margin: 0 20px 20px 10px;\n  display: none;\n}\n.show {\n  display: block;\n}\n.sub-filter a:hover, .sub-filter a:active, .sub-filter a:focus {\n    color: #E10F0F;\n}"
+      }
+    },
+    "custom_html_9zh3GD": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<script>\nfilterSelection(\"tools\")\nfunction filterSelection(c) {\n  var x, i;\n  x = document.getElementsByClassName(\"filterDiv\");\n  if (c == \"all\") c = \"\";\n  for (i = 0; i < x.length; i++) {\n    w3RemoveClass(x[i], \"show\");\n    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], \"show\");\n  }\n}\n\nfunction w3AddClass(element, name) {\n  var i, arr1, arr2;\n  arr1 = element.className.split(\" \");\n  arr2 = name.split(\" \");\n  for (i = 0; i < arr2.length; i++) {\n    if (arr1.indexOf(arr2[i]) == -1) {element.className += \" \" + arr2[i];}\n  }\n}\n\nfunction w3RemoveClass(element, name) {\n  var i, arr1, arr2;\n  arr1 = element.className.split(\" \");\n  arr2 = name.split(\" \");\n  for (i = 0; i < arr2.length; i++) {\n    while (arr1.indexOf(arr2[i]) > -1) {\n      arr1.splice(arr1.indexOf(arr2[i]), 1);     \n    }\n  }\n  element.className = arr1.join(\" \");\n}\n\n\/\/ Add active class to the current button (highlight it)\nvar btnContainer = document.getElementById(\"myBtnContainer\");\nvar btns = btnContainer.getElementsByClassName(\"btn\");\nfor (var i = 0; i < btns.length; i++) {\n  btns[i].addEventListener(\"click\", function(){\n    var current = document.getElementsByClassName(\"active\");\n    current[0].className = current[0].className.replace(\" active\", \"\");\n    this.className += \" active\";\n  });\n}\n<\/script>\n<script>\n\/\/ Get the button, and when the user clicks on it, execute myFunction\ndocument.getElementById(\"myBtn\").onclick = function() {myFunction()};\n\n\/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content *\/\nfunction myFunction() {\n  document.getElementById(\"myDropdown\").classList.toggle(\"show\");\n}\n<\/script>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_G3nRxD",
+    "image_with_text_overlay_wVf9EX",
+    "text_columns_with_images_b9MCYY",
+    "collection_list_rrfeA4",
+    "featured_text_rem4UA",
+    "custom_liquid_aU9yTW",
+    "custom_liquid_3FLifD",
+    "custom_liquid_twzBzg",
+    "custom_liquid_q4mDBE",
+    "custom_html_9zh3GD"
+  ]
+}

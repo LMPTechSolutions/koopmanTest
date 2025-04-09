@@ -1,0 +1,551 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_rHXVfn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NCCbtj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maintenance-of-landscape-island-in-big-backyard-ga-2023-11-27-04-50-21-utc.png",
+            "pretext": "",
+            "title": "Get your best lawn ever",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_6Tb7aE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/green-garden-outside-of-modern-vacation-house-cre-2023-11-27-04-55-33-utc.jpg",
+            "pretext": "",
+            "title": "Get your best lawn ever",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_3qxfEV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/country-house-in-mayenne-2023-11-27-05-18-20-utc.jpg",
+            "pretext": "",
+            "title": "Get your best lawn ever",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_tWR6Dr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beautiful-garden-with-green-grass-visible-terrace-2024-08-02-01-06-38-utc.jpg",
+            "pretext": "",
+            "title": "Get your best lawn ever",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_qAm3N8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bright-young-green-spring-grass-in-the-sun-close-u-2024-05-30-22-51-21-utc.jpg",
+            "pretext": "",
+            "title": "Get your best lawn ever",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "image_NCCbtj",
+        "image_6Tb7aE",
+        "image_3qxfEV",
+        "image_tWR6Dr",
+        "image_qAm3N8"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeIn",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": true,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "home-title",
+        "custom_css": ".home-title h1.headline, .home-title p.headline{\n    text-shadow: #000 1px 0 10px;\n}"
+      }
+    },
+    "collection_list_QAarqW": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_pf4QHh": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "grass-seed"
+          }
+        },
+        "collection_T9QpzD": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "raised-bed-soil"
+          }
+        },
+        "collection_4TMHpH": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "fall-fertilizer"
+          }
+        },
+        "collection_m63EEM": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "herbs-spices-seasonings"
+          }
+        },
+        "collection_tqnVcM": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "outdoor-chaise-lounges"
+          }
+        },
+        "collection_pPtagb": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "watering-irrigation"
+          }
+        },
+        "collection_6tem9c": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "lawn-garden-accents"
+          }
+        },
+        "collection_h94z7A": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "hydroponic-systems-planters"
+          }
+        }
+      },
+      "block_order": [
+        "collection_pf4QHh",
+        "collection_T9QpzD",
+        "collection_4TMHpH",
+        "collection_m63EEM",
+        "collection_tqnVcM",
+        "collection_pPtagb",
+        "collection_6tem9c",
+        "collection_h94z7A"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Build Your Landscape<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/decorative-landscaping\" title=\"https:\/\/shopkoopman.com\/collections\/decorative-landscaping\">View All<\/a><\/p>",
+        "align_text": "center",
+        "align_height": false,
+        "collection_height": 200,
+        "frontpage_collections_per_row": 4,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.top-shop .product-wrap {\n    padding: 20px 0;\n}\n.top-shop .product-wrap:hover  {\n    border: 1px solid #E10F0F;\n}"
+      }
+    },
+    "image_text_nAJhmX": {
+      "type": "image-text",
+      "blocks": {
+        "image_Nz9dXB": {
+          "type": "image",
+          "settings": {
+            "title": "Outdoor Power Equipment",
+            "text": "<p>Promotion description appears here.<\/p>",
+            "button_label": "View all",
+            "link": "https:\/\/shopkoopman.com\/collections\/outdoor-power-equipment",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Nz9dXB"
+      ],
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "image_with_text_overlay_zWRkcF": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "custom_html": "",
+        "pretext": "",
+        "title": "Look to Rent!",
+        "subtitle": "<p>All the tools you will need to get the job done<\/p>",
+        "button1": "View All Rentals",
+        "button1_link": "https:\/\/koopmanlumber.com\/rentals\/power-rentals\/",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_diiBbn": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_ArJy3d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/a-young-man-is-mowing-a-lawn-with-a-lawn-mower-in-2023-11-27-05-26-28-utc.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Lawn Mower & Accessories<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/lawn-mower-accessories",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        },
+        "text_block_RjNKGM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/sawing-a-thick-tree-with-a-chainsaw-splinters-are-2024-05-03-23-44-58-utc.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Chainsaws & Accessories<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/chainsaws-accessories",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_ArJy3d",
+        "text_block_RjNKGM"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Outdoor Power Equipment<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/outdoor-power-equipment\" title=\"https:\/\/shopkoopman.com\/collections\/outdoor-power-equipment\">View all<\/a><\/p>",
+        "align_text": "center",
+        "css_class": "double-win",
+        "custom_css": ".double-win a {\n    border-bottom: 1px solid;\n}\n.double-win h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.double-win .border-style--box.text-align--center {\n    border: 1px solid #ccc;\n    border-radius: 5%;\n    font-size: 22px;\n    padding: 3%;\n}\n.double-win .border-style--box.text-align--center:hover {\n    color: #E10F0F;\n}\n\n.double-win img {\n    margin: 10px 0;\n}\n.double-win .border-style--box.text-align--center .rte-setting {\n    min-height: 6rem;\n    margin: 1% 0 0;\n    align-content: center; \n}"
+      }
+    },
+    "custom_html_PACXhj": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<div class=\"banner-text\">\n<p><span>Look to Rent!<\/span>\n               <br> All the tools you will need to get the job done<br><a href=\"https:\/\/koopmanlumber.com\/rentals\/power-rentals\/\">View All Rentals<\/a><\/p>\n              <\/div>",
+        "css_class": "rent-ban",
+        "custom_css": ".rent-ban {\n    min-height: 150px;\n    width: 100%;\n    margin-top: 2%;\n    margin-bottom: 2%;\n}\n.rent-ban  .one-whole.column.custom-html-container {\n     margin: 0;\n    width: 100%; \n     background-color: lightblue;\n}\n.banner-text p {\n    margin: 30px 10%;\n    font-size: 18px;\n    line-height: 1.6;\n    font-weight: 400;\n}\n.banner-text a {\n    color: #d54d4d;\n    border: 1px solid #d54d4d;\n    font-size: 16px;\n     padding: 5px 30px;\n      line-height: 2.5;\n}\n.banner-text span { \n    font-size: 28px;\n     line-height: 0;   \n    font-weight: 600;\n    text-transform: uppercase;\n}"
+      }
+    },
+    "image_with_text_overlay_djUxBi": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/electric-lawn-mower-on-a-lawn-at-the-garden-garde-2023-11-27-05-28-06-utc_99857c25-05a6-45d2-b36e-1e5fb21d8ff1.png",
+        "custom_html": "",
+        "pretext": "",
+        "title": "Look to Rent!",
+        "subtitle": "<p>All the tools you will need to get the job done<\/p>",
+        "button1": "",
+        "button1_link": "https:\/\/koopmanlumber.com\/rentals\/power-rentals\/",
+        "button1_style": "global-button--banner",
+        "button2": "View All Rentals",
+        "button2_link": "https:\/\/koopmanlumber.com\/rentals\/power-rentals\/",
+        "button2_style": "global-button--banner",
+        "text_position": "left",
+        "text_align": "left",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "rent",
+        "custom_css": ".rent  {\n    width: 100%;\n    margin-bottom: 4%;\n}\n\n.rent .container {\n   max-height: 300px !important;\n    flex-wrap: nowrap;\n}\n.rent .banner {\n    width: 100%;\n    margin: 0;\n}\n.rent h1.headline {\n    font-size: 2.2rem;\n    text-shadow: #000 1px 0 10px;\n    line-height: 1.2;\n    margin: 0;\n}\n.rent .caption .subtitle p {\n    text-transform: none;\n    text-shadow: #000 1px 0 10px;\n    font-size: 1.1rem;\n    line-height: 1.2;\n    margin: 0;\n}\n.rent .second_button {\n   color: #FFF;\n    border-color: #E10F0F;\n    background-color: #E10F0F;  \n    text-transform: capitalize;\n    font-size: 20px;\n    font-weight: 600;\n    padding: 0 30px;\n    line-height: 1.6;\n}\n.rent .second_button:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color:  #FFF;\n}\n.rent .caption-content.align-left {\n    padding: 0;\n}\n.rent  img {\n    height: 300px !important;\n    margin-right: 0;\n}"
+      }
+    },
+    "collection_list_C9Q7jT": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_QAna8n": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "axes-sledges-mauls"
+          }
+        },
+        "collection_PaBqmY": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "gardening-tools"
+          }
+        },
+        "collection_bqiNGN": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "hand-truck-wheels-parts"
+          }
+        },
+        "collection_hVDkqU": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "pruning-trimming"
+          }
+        },
+        "collection_w7V4zz": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "shovels-digging-tools"
+          }
+        },
+        "collection_maMLDz": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "snow-ice-removal"
+          }
+        },
+        "collection_aE9mBV": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "spreaders"
+          }
+        },
+        "collection_LMz9rc": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "foxfarm-soil-fertilizer-company"
+          }
+        }
+      },
+      "block_order": [
+        "collection_QAna8n",
+        "collection_PaBqmY",
+        "collection_bqiNGN",
+        "collection_hVDkqU",
+        "collection_w7V4zz",
+        "collection_maMLDz",
+        "collection_aE9mBV",
+        "collection_LMz9rc"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Plant Your Garden<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/lawn-garden-hand-tools\" title=\"https:\/\/shopkoopman.com\/collections\/lawn-garden-hand-tools\">View All Garden Tools<\/a><\/p>",
+        "align_text": "center",
+        "align_height": true,
+        "collection_height": 400,
+        "frontpage_collections_per_row": 4,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.top-shop .image-element__wrap {\n    padding: 15%;\n    border: 1px solid #CCC;\n    border-radius: 50%;\n}\n.product-wrap span:hover {\n    color: #E10F0F;\n}"
+      }
+    },
+    "collection_list_YR6pQW": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_6nbL8F": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "decorative-landscaping"
+          }
+        },
+        "collection_yzjU8D": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "fencing"
+          }
+        },
+        "collection_NCULnP": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "lawn-garden-hand-tools"
+          }
+        },
+        "collection_eEicBy": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "lawn-plant-care"
+          }
+        },
+        "collection_rpMUGY": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "watering-irrigation"
+          }
+        }
+      },
+      "block_order": [
+        "collection_6nbL8F",
+        "collection_yzjU8D",
+        "collection_NCULnP",
+        "collection_eEicBy",
+        "collection_rpMUGY"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Featured Categories<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/lawn-garden\" title=\"https:\/\/shopkoopman.com\/collections\/lawn-garden\">View All Lawn & Garden<\/a><\/p>",
+        "align_text": "center",
+        "align_height": false,
+        "collection_height": 200,
+        "frontpage_collections_per_row": 3,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}"
+      }
+    },
+    "text_columns_with_images_JJ8Mfk": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_pR9bq4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/101896370.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Decorative Landscaping<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/decorative-landscaping",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_icekRD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/5873047.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Lawn & Garden Hand Tools<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/lawn-garden-hand-tools",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_wx6Ejq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/1963370.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Lawn & Plant Care<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/lawn-plant-care",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_ApLrAp": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/6106868.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Watering & Irrigation<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/watering-irrigation",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_pR9bq4",
+        "text_block_icekRD",
+        "text_block_wx6Ejq",
+        "text_block_ApLrAp"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Featured Categories<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/lawn-garden\" title=\"https:\/\/shopkoopman.com\/collections\/lawn-garden\">View All Lawn & Garden<\/a><\/p>",
+        "align_text": "center",
+        "css_class": "category",
+        "custom_css": ".category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category a {\n    border-bottom: 1px solid;\n}\n.category p {\n     margin: 0;\n}\n.category h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.category .one-whole.column {\n    margin-bottom: 3%;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_rHXVfn",
+    "collection_list_QAarqW",
+    "image_text_nAJhmX",
+    "image_with_text_overlay_zWRkcF",
+    "text_columns_with_images_diiBbn",
+    "custom_html_PACXhj",
+    "image_with_text_overlay_djUxBi",
+    "collection_list_C9Q7jT",
+    "collection_list_YR6pQW",
+    "text_columns_with_images_JJ8Mfk"
+  ]
+}

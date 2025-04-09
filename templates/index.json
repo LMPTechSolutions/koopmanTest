@@ -1,0 +1,806 @@
+{
+  "sections": {
+    "slideshow_RHjFLE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XV6E8M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/koopman-lumber-grafton-storefront_3000x_copy_1_cf5fe0af-c73b-46e7-b277-7d0a4705a326.jpg",
+            "pretext": "",
+            "title": "Top Deals",
+            "subtitle": "",
+            "button1": "View All Deals",
+            "button1_link": "https:\/\/shopkoopman.com\/collections\/weber-summer-sale",
+            "button1_style": "global-button--primary",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_gb6My4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/koopman-lumber-grafton-storefront_3000x_copy_1_cf5fe0af-c73b-46e7-b277-7d0a4705a326.jpg",
+            "pretext": "",
+            "title": "Pickup in 60 minutes.*",
+            "subtitle": "",
+            "button1": "Shop Now",
+            "button1_link": "shopify:\/\/collections",
+            "button1_style": "global-button--primary",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_KXTgLm": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "pretext": "",
+            "title": "Order Online",
+            "subtitle": "",
+            "button1": "Shop Now",
+            "button1_link": "",
+            "button1_style": "global-button--primary",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "image_XV6E8M",
+        "image_gb6My4",
+        "image_KXTgLm"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": true,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "home-title",
+        "custom_css": ".home-title h1.headline, .home-title p.headline{\n    text-shadow: #000 1px 0 10px;\n}\n.home-title a.global-button.global-button--primary.first_button {\n    font-weight: 600;\n    background-color: #E10F0F;\n    border-color: #E10F0F;\n    text-transform: capitalize;\n    padding: 8px 50px;\n}\n.home-title a.global-button.global-button--primary.first_button:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color:  #FFF;\n}"
+      }
+    },
+    "divider_Lz6UKr": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "collection_list_slider_kG6qnH": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "collection_jNe4NE": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "dewalt",
+            "image": "shopify:\/\/shop_images\/Group_295.jpg"
+          }
+        },
+        "collection_7pChDG": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "weber",
+            "image": "shopify:\/\/shop_images\/Group_298.jpg"
+          }
+        },
+        "collection_YXC6tx": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "yeti",
+            "image": "shopify:\/\/shop_images\/Group_297.jpg"
+          }
+        },
+        "collection_HqtUew": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "scott",
+            "image": "shopify:\/\/shop_images\/Group_296.jpg"
+          }
+        },
+        "collection_G6g4Hz": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "jonathan-green",
+            "image": "shopify:\/\/shop_images\/Group_299.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jNe4NE",
+        "collection_7pChDG",
+        "collection_YXC6tx",
+        "collection_HqtUew",
+        "collection_G6g4Hz"
+      ],
+      "settings": {
+        "title": "",
+        "align_height": true,
+        "collection_height": 150,
+        "frontpage_collections_per_row": 5,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "custom_html_XABKCB": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<div class=\"banner-logo\">\n      <p><sub>Ready<\/sub><br><sup>In<\/sup><b>60<\/b>\n<\/p>\n     <\/div>          \n     <div class=\"caption-content align-left\">\n        <div class=\"subtitle\">\n<p>\n<a href=\"\/pages\/contact-us\" title=\"Contact Us\">\n<strong>Order Online<\/strong>\n<\/a>\n<\/p>\n<p><strong>Pickup in 60 minutes.*<\/strong>\n<\/p>\n<\/div>\n<\/div>",
+        "css_class": "pickup",
+        "custom_css": ".pickup  {\n    width: 100%;\n    margin-bottom: 1%;\n}\n\n.pickup .caption {\n    max-width: 1100px;\n}\n.pickup .container {\n    background-color: #CDC;\n    border-radius: 6px;\n    max-height: 150px;\n    width: 98%;\n    flex-wrap: nowrap;\n}\n.pickup .banner {\n    background-color: #FFF;\n    width: 100%;\n    margin: 0;\n}\n.pickup p {\n    text-transform: none;\n    font-size: 26px;\n    line-height: 1.2;\n     margin: 5% 0;\n}\n.pickup .a {\n   color: #E10F0F;\n    border-color: #E10F0F;\n    text-transform: capitalize;\n    font-size: 20px;\n    font-weight: 600;\n    padding: 0 30px;\n    line-height: 1.6;\n}\n.pickup .banner-logo {\n    padding-left: 4%;\n    padding-right: 1%;\n}\n.banner-text p {\n    margin: 40px 0;\n    font-size: 20px;\n    font-weight: bold;\n}\n.banner-text a {\n    color: #E10F0F;\n}\n.pickup .rte {\n    display: flex;\n    gap: 20px;\n}\n.banner-logo p {\n    border: 5px dotted #E10F0F;\n    border-radius: 50px;\n    background-color: #000;\n    color: #FFF;\n    font-weight: 800;\n    line-height: 0.6;\n    width: 88px;\n     margin: 30px 5%;\n}\n.banner-logo sub {\n    font-family: Tahoma, Verdana, \n    sans-serif;\n    font-size: 15px;\n    left: 6px;\n    top: 8px;\n    }\n.banner-logo sup {\n    font-size: 15px;\n    top: -24px;\n    left: 6px;\n    }\n.banner-logo b {\n    color: #E10F0F;\n    font-size: 44px;\n    line-height: 1.4;\n    font-weight: 1000;\n    font-family: Tahoma, Verdana, \n     sans-serif;\n}\n.pickup .caption-content.align-left {\n    padding: 16px 0;\n}\n.pickup .one-whole.column.custom-html-container {\n    margin-left: 2%;\n}"
+      }
+    },
+    "16315439842a06c96b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Top Deals",
+        "collection_description": false,
+        "collection": "winter-weather-neccesities",
+        "collection_style": "slider",
+        "products_per": 4,
+        "products_limit": 40,
+        "css_class": "ftcoll",
+        "custom_css": ".ftcoll div#inventoryLocationInformation {\n    display: none;\n}\n.ftcoll span.sold_out {\n    display: none;\n}"
+      }
+    },
+    "image_with_text_overlay_cqTUci": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/woman-waters-peony-bushes-in-garden-girl-in-blur-2023-11-27-05-34-12-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "Lawn and plant care",
+        "button1_link": "shopify:\/\/pages\/lawn-and-plant-care",
+        "button1_style": "global-button--banner-text",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": true,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "hero-banner",
+        "custom_css": ".hero-banner .container {\n    max-height: 500px;\n    flex-wrap: nowrap;\n}\n.hero-banner   a {\n    color: #FFF;\n    background-color: #E10F0F;  \n    border-color: #E10F0F;\n    font-size: 1.8rem;\n}\n.hero-banner   a:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color: #FFF;\n}\n.hero-banner {\n    margin-bottom: 4%;\n}\n.button-grid-container.button-grid-container--column-mobile {\n    background-color: #1e1e1e99;\n    margin: 0;\n}"
+      }
+    },
+    "text_columns_with_images_AwrTDB": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_LHXAqP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/9341173_5426197b-d064-49ae-9b0f-9fab71c136e4.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Building Materials<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/building-materials",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_bXLdDb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/5927637_d0e69129-df65-4ada-a65a-ae1913478d55.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Cleaning<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/cleaning",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_TPRXVm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7949902_cdd37ff6-ef87-4c50-bc2d-086cd6b2c6a5.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Doors & Windows<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/doors-windows",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_fk4LWm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/1963503.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Lawn & Garden<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/lawn-garden",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LHXAqP",
+        "text_block_bXLdDb",
+        "text_block_TPRXVm",
+        "text_block_fk4LWm"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>SHOP BY CATEGORY<\/strong><\/h3>",
+        "align_text": "center",
+        "css_class": "category",
+        "custom_css": ".category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category p {\n     margin: 0;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}"
+      }
+    },
+    "text_columns_with_images_HjVU6a": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_bTiafX": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/6856231.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Electrical<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/electrical",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_fzyyKF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/100082752.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Plumbing<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/plumbing",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_KFXXHk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/8515066.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Paint<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/paint",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_aRRmmr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/100028564_aa93ac46-1725-4021-8340-6f7713c4eb44.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Tools<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/tools",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_bTiafX",
+        "text_block_fzyyKF",
+        "text_block_KFXXHk",
+        "text_block_aRRmmr"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "category",
+        "custom_css": ".category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category p {\n     margin: 0;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}\n.category .feature-divider {\n    display: none;\n}"
+      }
+    },
+    "image_with_text_overlay_wRej7e": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/guy-grilling-at-backyard-on-a-sunset-2023-11-27-05-35-21-utc.png",
+        "custom_html": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "Grills",
+        "button1_link": "shopify:\/\/pages\/grills",
+        "button1_style": "global-button--banner-text",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--primary",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "hero-banner",
+        "custom_css": ".hero-banner .container {\n    max-height: 500px;\n    flex-wrap: nowrap;\n}\n.hero-banner  a {\n    color: #FFF;\n    background-color: #E10F0F;  \n    border-color: #E10F0F;\n    font-size: 2.5rem;\n}\n.hero-banner  a:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color: #FFF;\n}\n.hero-banner {\n    margin-bottom: 4%;\n}\n.button-grid-container {\n    margin: 0;\n}"
+      }
+    },
+    "featured_collection_f6ztK4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SPRING IS AROUND THE CORNER",
+        "collection_description": true,
+        "collection": "summer-car-care",
+        "collection_style": "slider",
+        "products_per": 4,
+        "products_limit": 8,
+        "css_class": "ftcoll",
+        "custom_css": ".ftcoll .slider-gallery {\n    margin: 0;\n}\n.ftcoll .product_form.init.smart-payment-button--false {\n        margin: 0;\n}"
+      }
+    },
+    "featured_text_4TRBJx": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "",
+        "button_label": "View All",
+        "button_link": "shopify:\/\/collections\/summer-car-care",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "view-all",
+        "custom_css": ".view-all a.global-button {\n    background-color: #E10F0F;\n    border-color: #FFF;\n    text-transform: capitalize;\n    padding: 8px 50px;\n}\n.view-all a.global-button:hover {\n    color: #E10F0F;\n    background-color: #FFF; \n    border-color: #d54d4d ;\n}\n.view-all .rich-text__text {\n    margin: 0 0 10%;\n}"
+      }
+    },
+    "image_with_text_overlay_JhJCUB": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/construction-business-industry-2023-11-27-05-12-12-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "Tool & Truck Rental",
+        "button1_link": "shopify:\/\/pages\/rentals",
+        "button1_style": "global-button--banner-text",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "hero-banner",
+        "custom_css": ".hero-banner .container {\n    max-height: 400px;\n    flex-wrap: nowrap;\n}\n.hero-banner   a {\n    color: #FFF;\n    background-color: #E10F0F;  \n    border-color:  #E10F0F;\n    font-size: 2rem;\n}\n.hero-banner   a:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color:  #FFF;\n}\n.hero-banner {\n    margin-bottom: 4%;\n}\n.button-grid-container {\n    margin: 0;\n}"
+      }
+    },
+    "image_with_text_overlay_T6GG3X": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "image": "shopify:\/\/shop_images\/construction-business-industry-2023-11-27-05-12-12-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "<p><strong>Tool &<\/strong><\/p><p><strong>Truck Rental<\/strong><\/p>",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--primary",
+        "button2": "Rentals",
+        "button2_link": "https:\/\/koopmanlumber.com\/rentals\/",
+        "button2_style": "global-button--banner-text",
+        "text_position": "left",
+        "text_align": "left",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "rent",
+        "custom_css": ".rent  {\n    width: 100%;\n    margin-bottom: 4%;\n}\n.rent .container {\n    max-height: 260px;\n    flex-wrap: nowrap;\n}\n.rent .banner {\n    background-color: #EAA20F;\n    width: 100%;\n    margin: 0;\n}\n.rent p {\n    text-transform: capitalize;\n    font-size: 28px;\n    line-height: 0.6;\n}\n.rent .second_button {\n    background-color: #EAA20F;\n   color: #d54d4d;\n    border-color: #d54d4d;\n    text-transform: capitalize;\n    font-size: 20px;\n    font-weight: 600;\n    padding: 0 30px;\n    line-height: 1.6;\n}\n.rent .button-grid-container {\n    margin-top: 0;\n}\n.rent img {\n    width: 60%;\n   min-height: 140px !important;\n    margin-right: 0;\n}"
+      }
+    },
+    "collection_list_n7tj94": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_gpFPX3": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "dewalt"
+          }
+        },
+        "collection_JaYjPc": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "weber"
+          }
+        },
+        "collection_rGtB7T": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "yeti"
+          }
+        },
+        "collection_AdLHAW": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "jonathan-green"
+          }
+        },
+        "collection_fUtPj6": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "scott"
+          }
+        },
+        "collection_Jg9rBt": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "traeger"
+          }
+        }
+      },
+      "block_order": [
+        "collection_gpFPX3",
+        "collection_JaYjPc",
+        "collection_rGtB7T",
+        "collection_AdLHAW",
+        "collection_fUtPj6",
+        "collection_Jg9rBt"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Top Koopman Brands<\/strong><\/h3>",
+        "align_text": "center",
+        "align_height": true,
+        "collection_height": 400,
+        "frontpage_collections_per_row": 3,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop .hidden {\n    display: block;\n}\n.top-shop .product-wrap {\n    padding: 20px 0;\n}\n.top-shop .product-wrap:hover  {\n    border: 1px solid #D54D4D;\n}"
+      }
+    },
+    "featured_text_KRL7GG": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "",
+        "button_label": "View All Brands",
+        "button_link": "shopify:\/\/pages\/brands",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "css_class": "view-all-brands",
+        "custom_css": ".view-all-brands  a.global-button {\n    background-color: #E10F0F;\n    border: 1px solid #FFF;\n    text-transform: capitalize;\n    padding: 8px 50px;\n}\n.view-all-brands  a.global-button:hover {\n    color: #E10F0F;\n    background-color: #FFF; \n    border-color: #E10F0F ;\n}\n.view-all-brands .rich-text__text {\n    margin: 0 0 10%;\n}"
+      }
+    },
+    "image_with_text_overlay_FVhFy7": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/shopping-accessories-stuff-with-empty-space-for-te-2023-11-27-05-15-47-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "Gifts",
+        "subtitle": "",
+        "button1": "Give A Gift",
+        "button1_link": "shopify:\/\/products\/25-koopman-lumber-gift-card-pick-up-in-store",
+        "button1_style": "global-button--banner-text",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "hero-banner",
+        "custom_css": ".hero-banner .container {\n    max-height: 300px;\n    flex-wrap: nowrap;\n}\n.hero-banner h1.headline {\n    margin-bottom: 0 !important;\n}\n.hero-banner {\n    margin-bottom: 4%;\n}\n.button-grid-container {\n    background-color: #1e1e1e99;    \n    margin: 0;\n}\n.hero-banner   a {\n    color: #FFF;\n    border: 1px solid #E10F0F;\n    background-color: #E10F0F;    \n    font-size: 1.4rem;\n    text-transform: capitalize;\n     padding: 8px 30px 8px 30px;\n     line-height: 1;\n}\n.hero-banner   a:hover { \n    color: #E10F0F;\n    border-color: #FFF;    \n    background-color: #FFF; \n}"
+      }
+    },
+    "image_with_text_overlay_T9LHer": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/shopping-accessories-stuff-with-empty-space-for-te-2023-11-27-05-15-47-utc.jpg",
+        "custom_html": "<div class=\"banner-text\">\n                <a href=\"https:\/\/shopkoopman.com\/products\/shopkoopman-gift-card\">\n<sub><svg width=\"34\" height=\"21\" viewbox=\"0 0 18 21\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1.08691 5.43362H4.74902C4.35906 5.23467 3.99665 4.96855 3.67383 4.64407C3.36658 4.33539 3.1138 3.95931 2.92969 3.537C2.74718 3.12582 2.67179 2.66088 2.71289 2.19992C2.77272 1.68171 2.96704 1.19756 3.26953 0.813075C3.38441 0.651702 3.51633 0.50809 3.66211 0.385692L3.67676 0.371961C4.20703 -0.0451238 4.80322 -0.0811681 5.39209 0.114501C5.98042 0.334155 6.52183 0.698753 6.97998 1.18382C7.33276 1.54232 7.64532 1.9518 7.91016 2.40246C8.17438 2.8667 8.40984 3.35254 8.61475 3.85625C8.76123 4.19953 8.89453 4.55997 9.02344 4.92213C9.15381 4.55997 9.28857 4.20296 9.43359 3.85625C9.63944 3.35244 9.87589 2.86659 10.1411 2.40246C10.4064 1.95119 10.72 1.54163 11.0742 1.18382C11.5324 0.698753 12.0738 0.334155 12.6621 0.114501C13.248 -0.0811681 13.8472 -0.0451238 14.373 0.371961L14.3892 0.385692C14.5396 0.507046 14.676 0.6507 14.7949 0.813075C15.0968 1.19806 15.291 1.68196 15.3516 2.19992C15.3925 2.66087 15.3171 3.12575 15.1348 3.537C14.9471 3.96042 14.6903 4.33656 14.3789 4.64407C14.0566 4.96851 13.6947 5.23463 13.3052 5.43362H16.916C17.2036 5.43468 17.4791 5.56923 17.6821 5.80779C17.885 6.04549 17.9993 6.36761 18 6.70375V8.69134C18.0001 8.85854 17.972 9.02412 17.9172 9.17849C17.8624 9.33287 17.782 9.47298 17.6807 9.59073L17.6367 9.63879C17.4611 9.82056 17.2403 9.93129 17.0068 9.95461V19.2232C17.0057 19.5828 16.8832 19.9274 16.6662 20.1817C16.4491 20.436 16.1551 20.5795 15.8481 20.5808H2.1709C1.8642 20.579 1.57053 20.4353 1.3538 20.1811C1.13707 19.9268 1.01483 19.5825 1.01367 19.2232V9.95461C0.751428 9.93418 0.504551 9.80236 0.319336 9.58386C0.304512 9.5674 0.290799 9.54961 0.27832 9.53066C0.10083 9.30035 0.00177563 9.00164 0 8.69134L0 6.70718C0.000773238 6.36969 0.115535 6.04628 0.319204 5.80764C0.522873 5.56899 0.798884 5.43452 1.08691 5.43362ZM7.38574 5.43362H7.87793C7.7666 5.17787 7.62744 4.86721 7.46631 4.53594C7.30518 4.20468 7.125 3.84938 6.93164 3.5061C6.76207 3.1973 6.57719 2.90043 6.37793 2.61701C6.20671 2.36889 6.0036 2.15348 5.77588 1.97851C5.24854 1.6009 4.81055 1.55799 4.53076 1.72963C4.45965 1.77328 4.39694 1.83359 4.34655 1.90681C4.29615 1.98004 4.25913 2.06461 4.23779 2.1553C4.18304 2.39978 4.19639 2.65837 4.27588 2.89335C4.51611 3.69491 5.34961 4.65609 7.07227 5.30489L7.3916 5.43018L7.38574 5.43362ZM10.1689 5.43362H10.6611L10.9863 5.30832C12.7075 4.65952 13.5425 3.69834 13.7827 2.90536C13.8613 2.67015 13.8746 2.4119 13.8208 2.16731C13.7988 2.07696 13.7616 1.99272 13.7112 1.91959C13.6609 1.84646 13.5985 1.78594 13.5278 1.74165C13.2466 1.57001 12.8086 1.61292 12.2812 1.99052C12.0538 2.16596 11.8508 2.3813 11.6792 2.62902C11.4804 2.91287 11.2955 3.20971 11.1255 3.51812C10.9321 3.8614 10.752 4.21326 10.5923 4.54795C10.4326 4.88265 10.2905 5.1916 10.1807 5.44735L10.1689 5.43362ZM10.8062 9.31096V16.0495L9.04834 14.6953L7.28467 16.0495V9.31611H2.14453V19.2232C2.14433 19.2274 2.14487 19.2316 2.1461 19.2355C2.14734 19.2395 2.14925 19.2431 2.15172 19.2461C2.15419 19.2492 2.15716 19.2516 2.16046 19.2533C2.16376 19.2549 2.1709 19.2558 2.1709 19.2558H15.8481C15.8555 19.2558 15.8626 19.2523 15.8678 19.2462C15.873 19.2401 15.876 19.2318 15.876 19.2232V9.30409H10.8135L10.8062 9.31096ZM9.04834 11.4616L9.375 12.1018L9.97119 12.2735L9.57422 12.845L9.62109 13.5934L9.0542 13.3067L8.48145 13.5985L8.52979 12.8502L8.13135 12.2786L8.72754 12.107L9.04834 11.4668V11.4616ZM14.6396 6.32443L14.9634 6.96979L15.564 7.14143L15.1626 7.72329L15.2109 8.47679L14.6396 8.18843L14.0625 8.47679L14.1167 7.72329L13.7168 7.14658L14.3159 6.97494L14.6396 6.32958V6.32443ZM9.04248 6.57845L9.36328 7.21867L9.95801 7.39031L9.56103 7.96015L9.60791 8.71022L9.04248 8.42358L8.47559 8.71022L8.52246 7.96015L8.12549 7.39031L8.72168 7.21867L9.04248 6.57845ZM3.2959 6.25234L3.59619 6.85308L4.15576 7.02472L3.78223 7.55165L3.82764 8.25366L3.2959 7.9859L2.76416 8.25537L2.80957 7.55165L2.43603 7.01613L2.99561 6.84449L3.2959 6.24376V6.25234Z\" fill=\"#FFF\"><\/path>\n<\/svg><\/sub>\n   \nGive A Gift<\/a>\n              <\/div>",
+        "pretext": "",
+        "title": "Gifts",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--primary",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--primary",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "rent",
+        "custom_css": ".rent  {\n    width: 100%;\n    margin-bottom: 4%;\n}\n.rent .container {\n    max-height: 200px;\n    flex-wrap: nowrap;\n}\n.rent .caption {\n    max-width: 100% !important;\n    width: 100% !important;\n    padding: 0;\n    margin: 0;\n}\n.rent .caption-content {\n    padding: 0;\n}\n.rent .banner {\n    background-color: #333;\n    width: 100%;\n    margin: 0;\n}\n.rent .rte {\n    display: flex;\n    padding-right: 10%;\n    padding-left: 10%;\n    flex-direction: column-reverse;\n    align-items: flex-start;\n}\n\n.rent h1.headline {\n    line-height: 0.8 !important;\n    margin-top: 12%;\n}\n.banner-text a {\n    color: #FFF;\n    border: 1px solid #d54d4d;\n    background-color: #d54d4d;\n    font-size: 20px;\n     padding: 8px 30px 8px 20px;\n      line-height: 4;\n}\n.rent img {\n    width: 100%;\n    min-height: 120px;\n    margin-right: 0;\n}"
+      }
+    },
+    "text_columns_with_images_gF9xLB": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_twCi4i": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/engineer-extends-his-hand-man-in-uniform-is-worki-2023-11-27-04-55-31-utc.png",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<h1><strong>Become A Koopman Pro<\/strong><\/h1>",
+            "button_label": "Koopman Pro",
+            "button_link": "shopify:\/\/pages\/koopman-pro",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_bHxX76": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/joyful-building-contractor-posing-for-camera-on-co-2023-12-18-21-18-14-utc_98f8c9f0-c37f-4fb2-b1da-478a1fa8dce1.png",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<h1><strong>Koopman Advantage<\/strong><\/h1>",
+            "button_label": "Koopman Advantage",
+            "button_link": "shopify:\/\/pages\/advantage",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_twCi4i",
+        "text_block_bHxX76"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "css_class": "koop",
+        "custom_css": ".koop .one-half {\n    width: calc(50% - 20px);\n}\n.koop  .border-style--none.text-align--center {\n    max-height: 84vw;\n}\n.koop .global-button  {\n    color: #FFF;\n    background-color: #E10F0F;  \n    border-color:  #E10F0F;\n    text-transform: capitalize;\n    margin: 5% 15%;\n    padding: 1.5% 3%;\n}\n.koop .global-button:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color:  #FFF;\n}\n.koop a {\n    top: -10.6rem;\n    font-size: 15px;\n    font-weight: 600;\n}\n.koop h1 {\n   color: #FFF;\n   line-height: 30px;\n   text-transform: capitalize;    \n   position: relative;\n    top: -9.6rem;\n}\n.koop .one-whole.column {\n    display: none;\n}"
+      }
+    },
+    "image_with_text_overlay_NRtWVE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": false,
+        "image": "shopify:\/\/shop_images\/patio-area-with-a-firepit-and-lawn-areas-near-the-2024-03-26-22-13-21-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "Home Goods & Outdoor",
+        "button1_link": "shopify:\/\/pages\/home-goods-outdoor",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "rent",
+        "custom_css": ".rent {\n    width: 100%;\n    margin-top: 2%;\n    margin-bottom: 2%;\n}\n.rent .container {\n    max-height: 400px;\n    flex-wrap: nowrap;\n}\n.rent .banner {\n    background-color: #CDC;\n    width: 100%;\n    margin: 0;\n}\n.rent .caption {\n    max-width: 100% !important;\n    width: 100% !important;\n    padding: 0;\n    margin: 0;\n}\n.caption-content {\n    padding: 0;\n}\n.rent .rte {\n    display: flex;\n     justify-content: space-evenly;\n     padding-left: 50%;\n}\n.rent a.global-button.global-button--banner.first_button {\n    color: #FFF;\n    background-color: #E10F0F;  \n    border-color:  #E10F0F;\n    font-size: 20px;\n    padding: 8px 16px 8px 16px;\n     line-height: 1.4;\n}\n.rent a.global-button.global-button--banner.first_button:hover {\n    color: #E10F0F;;\n    background-color: #FFF;  \n    border-color: #FFF;\n}\n.rent img {\n    width: 50%;\n    min-height: 200px;\n    margin-right: 50%;\n}"
+      }
+    },
+    "image_with_text_overlay_7RzDFG": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": false,
+        "image": "shopify:\/\/shop_images\/lawn-mover-on-green-grass-machine-for-cutting-law-2023-11-27-05-04-27-utc.png",
+        "custom_html": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "OUTDOOR POWER EQUIPMENT",
+        "button1_link": "shopify:\/\/pages\/outdoor-power-equipment",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "rent",
+        "custom_css": ".rent {\n    width: 100%;\n    margin-top: 2%;\n    margin-bottom: 2%;\n}\n.rent .container {\n    max-height: 400px;\n    flex-wrap: nowrap;\n}\n.rent .banner {\n    background-color: #CDC;\n    width: 100%;\n    margin: 0;\n}\n.rent .caption {\n    max-width: 100% !important;\n    width: 100% !important;\n    padding: 0;\n    margin: 0;\n}\n.caption-content {\n    padding: 0;\n}\n.rent .rte {\n    display: flex;\n     justify-content: space-evenly;\n     padding-right: 50%;\n}\n\n\n.rent a.global-button.global-button--banner.first_button {\n   color: #FFF;\n    background-color: #E10F0F;  \n    border-color: #E10F0F;\n    font-size: 20px;\n     padding: 8px 16px 8px 16px;\n      line-height: 1.4;\n}\n.rent a.global-button.global-button--banner.first_button:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color: #FFF;\n}\n.rent img {\n    width: 50%;\n    min-height: 200px;\n    margin-right: 0;\n}"
+      }
+    },
+    "featured_text_g6EgK7": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "title": "Get Inspired",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_LeKBkC": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2024-09-13_at_12.32.51_PM.png",
+        "title": "",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1728309366882ef383": {
+      "type": "apps",
+      "blocks": {
+        "instagram_feed_instafeed_rptr_raptor_instagram_RxqLwL": {
+          "type": "shopify:\/\/apps\/instagram-feed-instafeed-rptr\/blocks\/raptor-instagram\/557ff51a-dc31-4dee-a7df-4610643fa410",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "instagram_feed_instafeed_rptr_raptor_instagram_RxqLwL"
+      ],
+      "settings": {}
+    },
+    "text_columns_with_images_fafLjj": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_bgL4B3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<br>\n\n<svg width=\"90\" height=\"90\" viewbox=\"0 0 90 90\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n<rect width=\"90\" height=\"90\" fill=\"url(#pattern0_881_336)\"><\/rect>\n<defs>\n<pattern id=\"pattern0_881_336\" patterncontentunits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_881_336\" transform=\"scale(0.00195312)\"><\/use>\n<\/pattern>\n<image id=\"image0_881_336\" width=\"512\" height=\"512\" xlink:href=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAACAASURBVHic7d13tGVFmbDx53YgdNM03UTJScmSg4ogGUmKCII46uiYBnPWMQ8zxm8M6Dg6iopxMAtKFBCUHEQUkJxzTg2d7vdH3Zbm9g3nnnPeqh2e31q1mnG6q96qs0Pt2rWrBlCbTQK2BnYFNgc2AdYEpgOzCsYlqb8eBB4HbgOuAv4KnAX8GVhYLiyVNFA6AGU3ALwAeDVwCDC7bDiSCrof+DlwHHAuMFg2HOVkB6A9JgH7Ax8Dtisci6TquQL4AvBDYEHhWJSBHYB22Bb4OrB96UAkVd7lwFuA80oHoliTSgegUMsAxwAX4c1fUme2BP4IfBlYunAsCuQIQHOtD\/yMNMlPkrpxCXAocGPpQNR\/dgCaaXPgFGD10oFIqr27gP2Ay0oHov6yA9A8OwKnAsuXDkRSYzwM7A1cWDoQ9Y8dgGZ5Nund3SqlA5HUOPcDOwNXlw5E\/WEHoDlmkd7XrVc6EEmNdT3pq6KHSwei3vkVQDMMAN\/Cm7+kWBsA38eHx0aYXDoA9cVrgA+VDkJSK2xEGgn4S+lA1Bt7cfU3i\/ROzvf+knK5m7R3yIOlA1H3HAGov6OBvUoHIalVliM9QJ5eOhB1zxGAepsN3Ew6GSUpp8eBdYH7CsehLjkJsN7+FW\/+ksqYDryxdBDqniMA9XY1aUKOJJVwLeka5DbCNeQIQH3thDd\/SWU9Gzcaqy07APW1b+kAJAmvRbVlB6C+di8dgCQBu5UOQN1xDkA9TQIeBaaVDkRS6z0OzMB5ALXjCEA9rYU3f0nVMB1Ys3QQmjg7APW0YekAJGkxzy4dgCZuSukA1JVZwfkPAmfhAh9SE6wM7ErsK9\/oa5KkIa8l3aSj0kez1URSDh8j9prx2mw1Ud\/4CqCelgnO\/9Lg\/CXldXFw\/ssG568AdgAkSWohOwCSJLWQHQBJklrIDoAkSS1kB0CSpBayAyBJUgvZAZAkqYXsAEiS1EJ2ACRJaiE7AJIktZCbAT3TmsAmQ2k10h7XM6je1rsblA5AkhbzL8BupYMY5nHg0aF0F3DVULq9ZFBV0uYOwACwFbAPsDewDTCzaESSVE\/bDKU6eIi038mpwCnA5aQNjdQCWwJfJfUII3fHqnPav+vWlVRF+1H+ulLVdCdwDPDcrltXlbYU8M\/A+ZQ\/2OqQ7ABIzWIHoLN0Hmlr46ldtbIqZRJwKHAt5Q+sOiU7AFKz2AGYWLoZeCMwuZvGrosmfwWwF+ndzvHAhoVjkSTVx9rAN4DLgD0KxxKmiR2AacCXSZM7Ni8ciySpvrYATiN1BmYUjqXvmtYB2AX4K\/B20ix\/SZJ6MUB6HfBn4IWFY+mrJnUA\/gU4HVivdCCSpMZZHzgDOKp0IP3ShA7AZOAzwP\/izE1JUpwppM\/Iv0wDJgjWfSGgpUiT\/F5SOhBJUmu8nTRR8DBgXuFYulbnEYDJwPfw5i9Jyu+lwE+o8YN0XTsAA8DXgcNLByJJaq2XAd+ipvfSWgYNfBp4Q+kgJEmt9xrgP0oH0Y06dgAOAN5fOghJkoZ8ADi4dBATVbcOwDqk9\/5+4y9JqooB4FjSp4K1UacOwBTg58Ds0oFIkjTMCsD\/UaNJgXXqALwD2LZ0EJIkjWI74K2lg+hUXToAqwEfLR2EJEnj+BSweukgOlGXDsAXgZmlg5AkaRwzgM+VDqITdegAbAm8onQQkiR16Ehg69JBjKcOHYAP4qx\/SVK9vKd0AOOpegdgPeDlpYOQJGmCDgc2KB3EWKreAXgnNfqkQpKkIZOp+BcBVe4ATKbMu\/+FwCmk3Z52BFYmdUIGKpTeElZ7SZq4f6X8dXHxNIV07d6R9An5qaRre26H04Btg0vYHRjMmOaSNhhaJ0flevRmYtti\/3xVkZTBfsReM+rwULIO8A3S9r057y275ahcN6o8AnBYxrKuBp5HOohvzliuJCmPm4E3ka71f89YbmW\/YqtyB+Almco5g3RAXJKpPElSORcDOwFnZSov171swqraAViftPpftPOAg4CHMpQlSaqGh0g7y56foazVqOgmQVXtADw\/Qxl3AYcAj2coS5JULY+T7gH3ZChrpwxlTFhVOwDPy1DG24E7M5QjSaqmO0ifm0fLcU+bsKp2AJ4bnP+FwE+Dy5AkVd+PSfMCIkXf07pS1Q7AmsH5fzE4f0lSfXwpOP\/oe1pXqrjK3iRgjcD85wAnBOYvVdnKwM7AVsDsof\/tAeAy4I\/AfYXikkr6NfAksExQ\/muQFigaDMq\/K1XsAKwGTA3M\/0Kc+Kf2eT7wIWBfRj\/v5wMnA58Gzs0Ul1QFj5FeA+wclP\/SwCrA3UH5d6WKrwBmBud\/ZXD+UpXMBH4I\/In02dNYnf4pQ3\/nT8APiD8XpSqJvjesEJz\/hFWxAxC99W+OTz6kKlgbuAh4ZRf\/9kjSaNlafY1Iqq67gvOv3Lb2bewAlNgQQsptJdJKZ8\/uIY\/nDOWxYh\/ikdrODkAHohtppeD8pdIGSMP+6\/Uhr\/VJrwOkpmvdvaGKHYBHgvPfIDh\/qbRXAHv3Mb99ybs5l1RCPzrMY3ksOP8Jq2IH4A5gQWD+WwXmLZU2GfhkQL7\/STW\/GpL6JfLesIAKrjxbxQ7AfGIn6q1O+hxDaqIjSe\/u+20D4IiAfKUqWAV4VmD+d5PubZVSxQ4AwG3B+W8ZnL9UwmTgw4H5fwxHAdRMWwfnf3tw\/l2pagfguuD8fQ2gJjoc2Cgw\/w1xLoCaKboDcG1w\/l2pagfgiuD8HQFQ00wCPpihnI9Q3euG1K3oe0L0Pa0rVT2RoxvLEQA1zWHA5hnK2QQ4NEM5Uk52ACrkL8H5bwQsG1xGpMivJKC6x4VGNkDsu\/\/hPobHSN1E\/17R16RI04iZOLu46HtaV6p6Et8KPBSY\/xRg28D8o0WfbJOD81d\/HQJskbG8TYGDM5an3kVusAYwLzj\/SDsQe817iPiJ7V2pagdgkPghkxcG5x8p+mRzpnd9DJDey+f2Sap7\/dCSojv1lfvEbQKidgBc5HIqtg3wIlU+gS8Kzj\/6R48UPQJgB6A+XkqZSa2bAQcVKFfdiT6n69wBiH4YvDA4\/661uQPwAuo71B19stW1Xdoo57v\/4T5GBTc40YjsAIxsMrBjcBnR97KutbkDMJM8s6YjRJ9sjgDUw0HAdgXL3xo4oGD56pwdgJFtRboXRLID0IUbgPuDy6jrPABHAARl3v0P9wkcBagDOwAji34VfC9wU3AZXatyB2CQ+J5TXTsATgLU\/sD2pYMAtgFeXDoIjSv6Wm8HYGSVffqHancAAM4Nzn8X6vn04isAfah0AIv5WOkANC5HAJY0QPxD4J+C8+9J1TsA5wTnvxr1XBbYdQDabR\/SJNaq2BHYu3QQGpPrACxpW2DV4DKi72E9qXoH4AJgbnAZ+wXnH8FXAO1WhXf\/w32idAAak+sALCn61dVT+AqgJ3OAS4LLqOP7y+gRgDovk9x0e1LNNSyeB+xROgiNalpw\/nXsAEQ\/\/F0IPBlcRk+q3gEAODs4\/52AWcFl9Fv0qMj04PzVvY+WDmAMnywdgEYV3QGo2yuAlYifRFvp4X+oRwfgrOD8p1C\/95ePB+e\/XHD+6s5upImrVfUC4EWlg9CIos\/p6GtSv+1N\/GuRs4Lz71kdOgBnk96lRKrba4Doky36aUHdqfLT\/yJ1iLGNokf1HgvOv9+ih\/+fBP4YXEbP6tABeIL4Tyn2pR5tscijwfk7AlA9zyeNAFTd7lR7lKKt7AA8bTLpS5pIfyTNYau0utz0Tg\/Of1XSBbYuok82RwCqp07v16v4lULb2QF42i6kOQCRTg3Ovy\/q0gE4LUMZr8hQRr\/MI\/a1iCMA1bITafZ\/XexFNb9UaLPIc3oO9foK4LAMZeS4Z7XGJOBu0vLAUelO6rUAzr3EtcX5Geuh8Z1M7LEfkU4KaQl16wLifut7MtajV1OIv5fcRU0ermsRJLAQ+F1wGatRr3eXkRMB\/QywOralfl+pQJpXs0PpIPQPkSMAdRr+3w1YJbiME0j3rMqrSwcAUqNGq9NrgMiJgHYAquOT1HO\/CvCLgCqJPKejJyX3U45rfI57VevMIH1aETl0cw\/1WQb3PBzSa7ptSE8SpYfze0lV2LFQsa8Mozdt65epwH3EHu9PUKMHqDqNADxK\/MIKK5M+Y6qDyGG3WdT3qbNJPk79f4d\/Kx2AGABWCMy\/LiMAewErBpfxe2q0KFKdOgAAv8lQxpEZyuiHyJNuCrB8YP4a31bAgaWD6IODSPMYVM5MYkc26zIH4IgMZTj8H2g10ucm0UM4kb3lfjmO2HZYL19VNIJfUH74vl\/p531uG03MBsT+vt\/NVpPurUB6Mo9sh\/nETzDsq7qNANxF\/KqAy5Knp9irh4Pzjx4q0+g2A15SOog+Ohh4bukgWmx2cP6PBOffD68ifoGzs6jZ\/Km6THhb3E+J\/1zvzcDXg8vo1X3B+UdfNPS0acCzF0uHkKdzvmi3shcGlzMAHEsaCbh2sfREcLlKojvz9wbn3w+vz1DG8RnK6Ks6dgB+BnyJ2EV7nkuagX1pYBm9iu4AOALQX1OBtYD1h9JmwKZD\/70uZUbjPkW6OedYtnRblpwL8CBwA3Al8Leh\/74BuJoaTaSqgbZ3AHYgzamJtAD4VXAZfVfHDsBdpI0Wdg0u5w3AW4LL6EX0SecIwMRNAdbm6Zv84jf6dajWSpPn8fQeG3+kzNK9sxi5YwCpczC8Y7Cos1D5TVYqZlZw\/vcH59+rf8lQxlnUbPgf6tkBAPgR8R2AI4D3Ut0nkegOgCMAo1udp5\/eh9\/slykY10QsvrnQf1C9pXtnAS8YSoubD9zCMzsFizoGV5OexPRM0RvfVPnGtxx5Fv\/5YYYy+q6uHYDjgS8Te7GdSTpwjg0soxfOAYg1iyWH6tcHNqH+uyVewjOH\/U8GLqQeS\/dO4enfYrh5wK08s1OwaAThJmqyPGuANo8AHEH8J81PUNMvXeraAXiI9L3locHlvAv4DukTj6pxBKB3A6Qb+vZDfy6ahLch6WuQpvo4Sx7TnwJOLBBLP01l9M7BHOA6np6AeBVw0dCfVTy\/+6mtIwADwDszlPMr6vElRKMcSJ5vmKu6EctUYpeJPTlfVbJbnrRn\/Q2U\/0Y+d7qYkVcXHBj6\/5WOL3e6HvgwaanxpjqFuPZbSHUfJF9MnmPoxbkqpKdNJX5bx0GqfSN8kLh6\/yVjPXJ6BbHrolc9HTRG2xxUgfhKpbuBl4\/RNnV2BXHtVuXh\/9OIP27upLodoMb7PHkuDlVdxOQa4uocPccgtwHgC5S\/0ZRMlzL23gIDQ3+ndJwl02fHaaM6up+49ro6Yz0mYgvybKT16VwV0pKeQ54f+Vu5KjRB5xJX54XUZ0Z7J\/6L8jeX0ullHbTTyyoQZ+n02Q7aqS6WIbatzqGavkf8cbKQNGdIBZ1J\/A\/9JGkfgqr5NbH1bsp+AIdT\/qZSOl1OZ0+2A0N\/t3S8pVNTXgesT2w7\/SJfVTq2OvAU8cfIabkqFKVuewGM5JsZylgaOCpDORMV\/SXA6sH55zAD+GLpICrgaNJFazyDpHUB2u6rNGNHzGcF51\/FV4VvA5bKUM7\/ZigjVBM6AL8gz0H4Nqr3bfztwfk3oQPwVqo5epPT35jYd8o\/G\/o3bbYqaU+Quos+h+8Izn+iViTPw9q91HDp3+Ga0AF4ijzv6GeS1gWokluD829CByDHMqBVdzQTWwRn4dC\/abs3lQ6gD9YMzv+W4Pwn6r3k+aTzm8DcDOWoA2uQfozodz6PAitnqlMn9iG2vnWfDLUx5d8ll07X0N0eBJN5epGcNqe6T\/L6HLHts1e+qoxrRdKCPNHHxFziO1ZZNGEEANJQeI7hmOXIs7JUpxwBGFsdlraN9im6Wx9\/Ac4FgPofQ9HncPQ1aCLeT56n\/58Bt2UoRxOwM3meCB4hfmnNTi1PbF1\/n68qIT5E+SfIkulKetuB0FEA+EAP7VcFvye2fZbLV5UxrQI8Rp5jYqdMdQrXlBEASFuaXpqhnBnAezKU04lHgIcD8183MO8ccswErrJ30dvueAuAd\/cplrqq+zG0bmDeD5JuulXwPmB6hnIuAM7PUE4WTeoAQFrpLYe3kmYJV0HkENxa1HuZy0dLB1DQV0lrwPfqJOBrfcinruq8ycsUYO3A\/Ksy\/P8s4C2Zysp1j1EXJpN2\/MoxDPSNTHUaz++IrWedFwPan\/JDyCXSL+hvx20K8MsK1KtEqvNGL9GLAFVl98hjyXMsXEdvr9SUwVHkORjmk9abLu0bxNZz93xV6buVSL9T6ZtIzvQVYkZtpgDHVKB+OdM86r0t9p7Ets\/X81VlVFuS7xx\/Q6Y6ZdO0VwAA3wbuylDOZOBLGcoZT\/Qw3Eh7q9fFfcAfSgeRyV9In2S9nXRB7Lf5pMWw9ibtLtcGZ1Lt3e7Gs0Fw\/lV4BfB58jyV3w18P0M5WTWxA\/Ak+d5Z7g7sl6ms0dgBGFsVOmkRFpJ2Yvtf0k15K+D0DOWeRnrq2pu0ANfVTGyRoTqp+xLS0a\/vSn8KdyD51iH4IuneohqYCTxAnmGhq4Cpeao1ot1Hiatf6cf5qhJiADiL8sPJ3abbSE+i3yTNdH4psBlpf4qqWJoU00tJMX6TFPNtlG+\/btPvqf+2wMcT20YvylaTJU0hLVed41i4jzzrC2RX5xneY3mY9OT3yQxlbUx6N\/TfGcoayY3B+dd9BGAQeB1wMTCrcCyjuYe0Yt+1w9J1wOMF4+rUU6SL8Uj7B0wHNiStqLd4eg7p2+0qegB4PenYqbPoEYCbgvMfy5uBTTOV9f9o9xdFtZRzFOA+yi0ONJk0NBVVt+gdB3PZBZhD2afKQdIyop8ibVG8Lc3Yca5by5Pa4HBSm+RYznu8NAd4YWSlM7qf2HYq9Qp5ZdI1N8fxcC8Nffpvg4+T78LxnUx1GsmVY8TVj9SUm9SupJ58iRvL4um3wDLBda2TpajGZ4aPU6217XuxArFt9dd8VVnCcWPE1e\/0wUx1UoCZxPaCF08Lgd3yVGsJv+owxm7TNvmqEu6F5NkwZLx0ErBscF3rYGng15T\/PR6j3p+8Drc9se31y3xVeYY9SNfaHMfEPVRnqWN16X3ku4hcQ5knu893GW+n6ch8VcniBaR5IiVvOIOkyYltvsBMA06l\/O\/wKGUntEV4DbFt9pl8VfmHpUlfneQ6Lt6ep1qKtAxwM\/kOmo\/nqdYzvLGHeDtJTdwbflvyjQ6Nlc6mne8YpxO\/UU0n6UEatLnLYj5DbLu9Pl9V\/uHfe4h3oulGqvWljXrwOvIdOE8Cm+Sp1j+8qA9xj5V+ka0meW1NmuRT4sazePoTzZln0YnlSJ8Jlm73B6j\/dr+j+Q2xbbdLvqoAsBGxk52Hp1flqZZymEy+b0YHgTPI+w3x6kH1WJSuzleV7DYF7qTcTWhRuph6LzvbqRWA8yjf3veQFjRqqmuJbb\/V8lWFSaSRslzHxuU0c5G8VjuAvBeYt+WpFpA6G5Gz2+fR7OGwjYHbKXczWpQupdznpDnMIm2nWrqd76Ia+3hEWYbY9fEjtyAfybv6GHsnaZ881VJuJ5LvIJpDWh0tl8uC6rEobZ6vKkU8h7Sscqmb0qJ0JWl706ZZmfRkVbp97yTfAjKlbEVsG16crypsAjwRVI+RUqmvG5TBBuRdDOYS8i0T\/H\/BdTksUz1KWhe4gXI3p0XpKtJrnaZYlbRZUel2vZm0KmHTvZLYdvxRpnpMAS4MrsviaQ713v58wtr2nuN68m7wsQ3w4UxlXROcf9OfmiAtbfoi0nFS0sakSXJrFo6jH1YjzYkpPeR+M2mdjusKx5FD9CTk6GvNIh8nrWeQy2eJX1pdhU0HbiFfr3IeeQ7iI4PrcXyGOlTFWqSLXM6n05HSjdT7iWRt4iejdZJuII3utMXPiG3PIzLUYUfStTPXMXITLszVGq8g7wXoKuIPri2C6zDSRi9NtippudMSN6zF083E7+seYR3SSErp9rsaWCO4rlVzFbFtGj23aRrw9+A6DE8vC66TKuYM8h5g3wyuzxRiv5OdTxo9aZNVgSsoc+NaPN1CuqHWxbrkHWUbLV1B+g3bZDlgAXFt+iTxu8geGxj\/SOn04PqogjYl\/+5jrwmuU\/SXAM8Ljr+KVia+XTtJV1GPFQNnkv\/pbaR0Gc3+pHI0OxPbrpcExx89gXF4mkv+hdtUEV8i78H2GLHDZ98Ljv+owNirbDZwEflvYsPTt6Mr2gffpXw7XUT6zdro7cS27bGBsW9O2pEx57HyucD6qOJmkn8VuCuJ2wDmPcGxfyso7jqowgp2C6j2zozbk2+nttHSeaTfqq2ih8\/fFRT3DPJu9DNIWvyrDqNqCvRy8l+kfhxUl72C4740KO66mE7+uSPD0w\/Ca9m9n1C2bc6hXXsqjCR6saWoLZO\/Hxz3SOngoLqoZqI\/mxkpvTGgHisHx\/wUzV4SuBOlOwFPUGbL6fFMI+8iW8PTGbRvkupwyxA\/r2nlgLiPCo55pBT1EKYaWo38W8POIWYb0uhXGlUegs5lGnAK+S9ai9Ku8VWcsD0o1x6n4DfcANsR2853BMT8AvLu8jdI2gF0lYC61E7bVgIczV2k9+c5LQP8irRYSj\/9pc\/5DWcHID2FHwj8ulD5GxcqdyylZlKfBLyE1KFuu+2C87+8z\/mtQ9pqPPeo4jtIu0G2nh2Ap30X+G3mMlcl3UT6OSnQDkAec0n7I\/yiQNlV\/LytxFbGvyW9x32yQNlVtFVw\/lf0Ma8ZwAnkfxL\/Nfn2Mqg8OwDP9AbgvsxlbkWaANOv36LfvfThtg3Ov07mAocDP81c7mDm8jqxMHN5PyXd\/J\/KXG6VRZ+b\/bq2TAJ+SP79Ie4lZu6VGuQQyrzH\/HSf4t8sOM6n8H3rcFNIF7Rcx8rr8lRrQl5Pvvr\/kPjV6OpmGvETAPu1IdjnguMcLTnrXx05jjIH6Ov7EPsk4KHgOF\/YhzibZjL5ljCtYvvvQp66e\/Mf2YuIbfeH6M8o5auD4xwtfacPsaslViDtDpX7IH2S\/nxne3pwnB\/oQ4xNNAAcQ\/xxUsVV7mYRX+9v4mvL0XyI2LY\/rQ8x7kkaQcx9Xb2JtOib1LEdKHOwPkLv7\/KODo7xNz3G12TPIbbtb8tXlQm7ndi6PztfVWrnRGLb\/lM9xrc98GhwjCOleaRPDaUJexf5D9hB0mSVXj71OjA4vvtIT7ta0suIbfuT81VlwqLXRvAd7sgGiF\/HZP8e4tuQ9Kl1iWvpB3uIu\/EcThvblyj3mdepwFpd\/vsL+hjLSFYkPelqSZsH5\/\/X4Px7ER1bdNvW1cbEvxa6qMt\/twbp9UGJbZnPBD5foNzasAMwtkHSxLwbC5S9FvA70rvViboHuKG\/4Szh+cH511Xkbo8AfwvOvxfRsUW3bV1Fb9N9Pd0tnDOb9CCzbl+j6czdpK2FFxQouzbsAIzvIdKCLyW+N96ctFjGtC7+bfQogO\/VRhb9lNrmDoAjACOL7ox3cy2ZTlqoqV+fDk7EAtLN\/64CZauh3kaZd1iDwNlMfLXAdwTHdOUE42mDpYj9FnsBcVtJ98N0UoxR9Z9LamM901XEnutvm2A80yi7Ydb7Jxiv1JHjKXdQn8nEdjvbKTiehVRzSdqStiC2za\/vMb4VSN9hHwf8GbhlKP156H979dDf6cX1xLZB7tXjqm4l0rkY2eY7TiCe5YA\/BMczVvolTlBWkOWAqyl3cJ9D50+ASxO\/y9bLO4ylLY4gtr27\/fxyFeC\/6OwzrEeG\/m63a7T\/poMyeklHdBlXUx1GbHs\/Seeb9ZR+8r8Wv\/efEOcATMxjwCuAxwuVvzNpTkAnIwFPkZ7sIu0ZnH\/dRL+jnuhmLMuRFm26lvRJayedxxlDf\/cG4DNMfEQg+ksAJwI+0x7B+V9GZ\/OfliN9orpbbDijepT0mejDhcpXixxM7LvO8dI5pAv1eL4QHMc1nTZYS\/ya2PZ+ZYdxLE3a9OTuPpR5P6kT0elE1COD2+BXHcbRFtcR296f6yCG6aRXlJFxjJUWAod22mBSP3yMcgf8IKkTMN7T2X4Z4lh7Am3WdNEX4+eOU\/5U0o0\/YkW+e0gdgfGGg7cMboNrxym\/TdYl\/vx+8TgxzAL+lCGOsdKHO28yqT8GgB9T9sD\/K7DmGDHOIH6HsNdOqNWaaxqxo0LzGP3mO4n0BHRtYPmL0k2kTsbkUWJZeijWqPIXMLHJsE0WvQPjPGD5Mcp\/Fuk1Y\/QxN1b6KU76UyHTgYspewLcyNir8p0fXP4PJthmTbU9se082jf2ewKXBpc9WjyHMvLF98rgsrcbpS3a5kfEtvN5Y5S9MWU2TFs8XYBbk6uw1Sh\/ItzP6KuBfTq47DuwBw7wz8S28\/HDynsBZT+3WpTOZ8mJaD8NLvO1I\/0ALTMA3ElsO\/\/nKGVvR3olVPK4u4EyywtLS9gEeICyJ8RjwL4jxLZ3hrI36a7ZGiV6wuXHh8rZgrLrUYyWTiONggB8Irgs13ePX3NiENhrhHL3IH0qWvJYewhXhVTF7EaZ7YMXT08BrxoW1\/QMcU10pbAmOpnYNv4I8HPiF33pJS0civEjweVUeUfEXN5JbBs\/xZJzLV5N+Wvck8Cu3TebFOdVlL9ALyQN3S2+xsM5wWWe2FuzNcJtlP3d25Ru7fA3abKTiG3jcxYraxLw2eDyOkkLcCEoVdxRlD9RBkkbcSyawfvvwWU9QXcbFjXFLMr\/3m1L0dvfVtl0YA6x7fupobKWIy2vW\/r3HiQtUCVV3tGUP1kGgb8A6wG7ZyjrwL60XD29kPK\/ddvSzh39Ms10MPHtuxvpE+NLMpTVSfp4X1pOz+BSwDE+AnyldBCkiUIXkXZQezK4rAOC868yJyTl1+Y2jz7XniLdGy4GtgkuqxP\/DXyydBDSREwGfkL5nvMg6YTuZCOYXtJttPdzwK9S\/jduWzqmo1+meSYRfBkNigAAHVJJREFU\/\/nfo5Sf7LcofR8fVFVTVeoE5EhVeFoo4SzKt33b0pmd\/DANtCPl2z5X+jkwpT\/NppHYs4q1APgnut\/GtW7aOg9g09IBtFBbXwHsXzqATH4FHA7MLx2I1KulSJ\/Kle5RR6cL+9VgNbIa5du9ramNK8FdRvl2j04nM\/6mU1KtLAucQvmTKzItJG0Q0iZ7Ur7d25qGL0HcdGtSfp2R6PQ7YJl+NZjG5iuAfOYAL6HZi+YM0L6vAdo6FF0FbWv7A2j2RNtfkz5xjP5iSUPsAOT1JPAy4GelAwn08tIBZLZZ6QBarG1tf2jpAAIdT6rfU6UDkaJNBr5H+eG2iDQPWKV\/TVV551G+zduazu3g92mKlUnnVuk2j0g\/wtn+apnJwDcof\/JFpDf0sZ2qbAB4mPLt3db0CM0eEl\/cWyjf3hHpazgSrRb7AOVPwn6n0\/raQtW1LuXbuu1pnfF+pIY4k\/Jt3e\/0mb62kFRTR5HWDCh9QvYrzacdrwEOoHxbtz214bv41UjnVOm27ldaCLy7ry2krjj0Ug1fI+21Pbd0IH0ymTSbt+nqPAltLmmN9f+m3sddG74EOIR0TjXBXOBI4L9KByJVze7Ag5Tvofcj\/b7PbVNF36d8O080LSDNuN5wsXqsTZqPUsenzOPG+H2a4g+Ub+d+pAdIuwxKGsWmwI2UP1l7TQto\/qJAdVuV7TRgqzHqswmpc1CnxWYuHaM+TdCU4f8bSMeXpHGsRlpWt\/RJ22v61343TIVMBp6gfBt3kv4IvHACddsBOKECcXeS5tCc4fGRvI3ybdxrOo92zAmS+mYaacGg0idvryd+Uz2H8u07Xjqf3pbL3WMoj9L1GC89u4c6Vl3dHwR+QloGXdIEDZA+E6zzFwIb971VqmEvyrftaOlK0qpq\/fpGfk+q\/bpj9z7Vs2o2pXzbdpsWkj7za8s6DVKY\/YGHKH9Sd5M+HdAeVXAo5dt2eLqBtP10xNc9k4byvqEC9RyeXhZQ3yr4HOXbtpv0KPDSgPaQWmsL4HrKn9wTTbfRzHe0VVoD4A7SfIulQmucLDVU1h0Z6zdeenFojcuYQrXauNN0LfX+PFaqrOWp57yAfSMao7DnUr5d7wc+AcyIreqIpgHvAO7uMNbItGlwXUvYn\/LtOtH0G2BWRGNISgZIF965lD\/hO00\/DmmJspYCHqdMez4GHA2sEF7L8a1AiuUxyrTFozRzI5njKX\/edprmkzqiLiwnZbIrcCflT\/5O0hya+WTwc\/K241zSgj1VXF9hJdKkrznkbZP\/y1G5zGaTtg4vfd52ku4hTRKVlNnqwOmUvwh0kt4S1AYl7UuetpsPfId6bHyzDinWXIvX7J2nWlkdRfnztZN0KmnNEkmFTAI+SPVfCVwQ1QCFnUtcmy0kzfmo4wpqm5Bij1xV8JxstcnrIsqfr2OlucD7cchfqoztSTNwS18cxkrbhdW+nE2JGfY+hWa013akuvS7fZ6gmWtMbEP583SsdBPw\/KjKS+re8sB3KX+RGC19O6zmZR1G\/xZrOp9mLmzzfOAs+tNGC0jrMDTRdyh\/no6WvkO6xkiqsBcDt1P+gjE8PQGsGFjvko6kt4lblwMHZo86vwNJde22neYAR2SPOo8VyT+JspN0Fy7sI9XKLKq5Xe17Iitd2HZMfMnca4FX0q73qZNIdZ7oK6tLaMZrkdG8n\/Ln5\/B0POkLD0k19ErSpzqlLySL0nU0+2Y3hdTm5zL6a4EFwJ9IowZTy4RZCVNJywufy+iTBReSJvu9kmauKLnIJKq1zPLdpFdbajA3amiHWaRvtN9ANX7z\/YCTSgeRwSqkrXU3AJYhvSK4jrTD270F46qi1UhP9+uRVhl8lDTh7HzggXJhZXMAaQvmKvgpabnn+0oHIql\/9gVupPzTxYnRFZVq5iTKn5c3AvtEV1RSOdOBL1B23YAFpCc9SbAhZbf8nkvaeXB6dEUlVcNmwJmUu+h8Pr6KUi18kXLn4Rk0czMlSR04ELiF\/BeeR6jGZjZSSbNI8x1yn393AK+mGnOCJBW0PGU2cvlgjspJFfZv5D3n5gD\/SZktpCVV2JrAccSu3754uos0O15qo2XIu6PnCcD6WWomqbZ2Im3ek+Oi9IZMdZKq5s3kOccuJJ3TktSRVcjzSuA6mr3AizSSyeTZvOsp3LJXUhe+R54nlENyVUiqiMPIc259L1eFJDXL1uQbopTa5GLynFvb56qQpOY5mzwXqhdlqo9U2h7kOafOyVUhSc10CHkuVmfnqpBU2JnkOad8tSapJ5PJt0vZbpnqJJWyF3nOpZtIO1NKUk\/eS56L1p9yVUgq5DzynEvvzVUhSc22AvmWK903U52k3A4gzzn0ODA7U50ktcAx5Ll4XYTrk6t5BoBLyHMOHZOpTpJaYi3SoiI5LmAHZaqTlEuuybRzgXUy1UlSi3yHPBexvwCTMtVJijYJuJw8586xmeokqWU2AhaQ50J2aKY6SdGOIM85swDYNFOdJLXQT8lzMbsOWDpTnaQoSwHXkOecOT5TnSS11Jbk2y74nZnqJEXJ9QntILBtpjpJarHfkeeC9gCwUqY6Sf02G7ifPOfKbzPVSVLLPY98TzVfyVQnqd++Rr7zZOdMdZIkziLPhW0usHGeKkl9swkwjzznyFl5qiRJyQvI93RzYqY6Sf2S6zXZILBrpjpJ0j+cRL6L3D6Z6iT1Ktd2v4P47l9SIduS74uAv5B2JpSqbApwBXnOiYXANnmqJUlL+hn5nnb8LFBV927ynQ9+9y+pqI3IN9npMWDdLLWSJm4t8u2aOZ800VCSijqOfE89v8hUJ2mifkW+8+A7meokSWNal3w7BQ4CL8lSK6lzB5Pv+J8LrJ+nWpI0vq+S7wJ4C7BcnmpJ45pBOiZzHf8ujiWpUmYD95HvIvj\/8lRLGtcXyXfcuzy2pEp6F\/kuhPOArfNUSxrVNqQJebmOe7+EkVRJU4G\/k+9i+GfSdqtSCUsBl5PveL8Wj3dJFXYQ+S6Ig8DReaolLeHT5D3WD8hTLUnq3inkuyguwJ3QlN\/zyDv0\/\/s81ZKk3mxKvsWBBoHr8KsA5TONvK+65gNbZKmZJPXB\/5DvAjkIHJOnWhJfI++x\/T95qiVJ\/TEbuId8F8mFwL5ZaqY225N8G2ANAvcDK2epmST10evI+6R0CzArS83URrOAW8l7TL8+S80kqc8GgDPJe8E8YahcqZ8GgF+S91g+B49lSTW2GWnt8pwXzndlqZna5L3kPYbnAVtmqZkkBfoceS+ec4EXZKmZ2mBH8m52NQh8NkvNJCnYdOAm8l5AbyZNRJR6sRJ5N\/oZJJ0r0zPUTZKy2IO8s6cHgd\/iO1R1bwD4NXmP2UH8mkVSAx1L\/ovp+7LUTE30IfIfr8dmqZkkZTaT\/J9RzQf2z1E5Nco+5F3NchC4Az9jldRg+5P\/qeph0tcIUic2Bh4k\/3H60hyVk6SSfkD+i+sNpAld0lhmk7bdzX18\/iBH5SSptBVJw525L7K\/B6ZmqJ\/qaSr5F64aJJ0LK2aonyRVwt7k\/ypgEPh2jsqplr5O\/uNxIbBfjspJUpV8mfwX3EHg7Tkqp1p5J2WOxS\/lqJwkVc3SwOXkv+guAF6RoX6qh5eRvhbJfRz+DVg2Q\/0kqZI2A+aQ\/+I7F3hxhvqp2vYEniT\/8fckrvUvSbyb\/BfgQeAxYKcM9VM1PR94nDLHnhtWSRJpydVfUeZC\/BCwVXwVVTGbA\/dT5pg7EZeolqR\/mEX6Vr\/EBfl2YL34Kqoi1qfMZ6iDpI2F\/ORPkoYpse3qonQ9sE58FVXYupTraD5FOsYlSSMo9TnWIGkL4Q3jq6hC1qPczX8QeEd8FSWpvgaAn1HuIn0baS14NcsmpFc9pY6rn+N7f0ka1\/LAlZS7WN9FmiSmZtgCuJtyx9NfgRnhtZSkhlgPuJdyF+0HgO3Da6loW1P+OPK1kiRN0D6UWaFtUXoQ2C28loqyO2W29V2U5pP2vJAkdeE9lLuADwLzgDeG11L99lrKfVGyKL07upKS1HTHUfZCvhD4JE7iqoMB4FOUPV4Gge9FV1SS2mAp4PeUv6gfDywTXFd1byng+5Q\/Tv5A2uhKktQHs4GrKH9xPwtYKbaq6sJKpBtv6ePjb6RVLSVJfbQucCflL\/K3kjaSUTVsB9xI+ePiHpzxL0lhtgUepfzFfh7wAZwXUNobKT\/ZbxB4AneWlKRw+5NuwKUv+oOkVQuXj62uRrA8ZVeMXDzNJR2TkqQMjgQWUP7iPwhcg1sK57Q1qc1L\/+6DpGPw8NjqSpKG+2fSJ3qlbwKDpBGJz5BmoivGFNJrlyoM+Q+Sjr03hdZYkjSqd1D+RrB4+gtpnoL667nAJZT\/fRdP7w+tsSRpXEdT\/maweJpLWjjI0YDeLUVa2Gcu5X\/XxdO\/R1ZaktS5z1H+pjA8XQ7sElnphtuVNKJS+nccno6OrLQkaeI+Sfmbw0jpBGCDwHo3zVqk5Z+rMr9j8fSZwHpLknrwAcrfJEZKc4EvAzPjql5704FPAHMo\/3t585ekGvo3yt8sRkt3AUfhngKLW4bUJndR\/vcZLX00rPaSpL56N9UcQl6U7gDeC8yIaoAamAG8j2os7zxaWgC8PaoBJEkxjqR6s8eHp4dJQ8srBrVBFa1IGuq\/n\/LtP1Z6CjgipgkkSdH2oRp7B4yXHgX+B9g+phkqYXvgG9Tn99g7phkkSblsT9qprfRNpdN0OWnYeXZEY2Q2m1SXyynfrp2me2h2R0ySWuXZwN8pf3OZSHoS+AnwCur19cAKpJh\/QqpD6XacSPobsF7\/m0SSVNLywImUv8l0k+YDfyR95rhJvxumD9Yjbc17AtVZq3+i6VRS50WS1EBTgGMof7PpNV1DWiznraTh6qn9bKRxLAXsMFT2ccC1PdSjKukY0rEhtcZA6QCkQt4MfIW8N85ITwGXAX8GbhxKNw39eV+Xea5EerJfd+jP9UjbHm8NLN1TtNUxF3gn8PXSgUi52QFQm+1Mek+9RulAgj1Gmtj2EOmd\/BPAI0P\/DWkhnuWBaUP\/vQKwCrBc9kjzugU4DLigdCCSpPxWAk6m\/BC0KW86A1gVSVKrTSItTLOA8jcmU2xaQNo0ahKSJA3ZE7id8jcpU0y6mbTFsCRJS1gB+D7lb1am\/qbjacbCSpKkYIdS\/bXqTeOnh0nrE0iS1LG1gFMofxMzdZd+A6y5xK8qSVKHDgXupvwNzdRZugt49Yi\/pCRJEzQb+BawkPI3ONPIaeHQbzRrlN9QkqSu7UJaba\/0zc70zHQR8PwxfjdJkno2iTTEfCflb3xtT3eQJvlNHvMXkySpj2YA\/0FaWrf0jbBt6XHg00O\/gSRJRawNfIP6boNbp\/QkaROnZ3X0y0iSlMHawJdJN6nSN8qmpbmkrYfX7\/jXkCQps3VJIwK+Gug9PUrqVK07gfaXJKmomcA7gFspfyOtW7qbtEHTihNtdEmSqmIp0lcDt1H+xlqHdD2wdFctLaljbokpxVv0\/vrc0oHUxN2kCZWSAtkBkPJ5tHQANfFQ6QCkNrADIOVjB6AzdgCkDOwASPk8UjqAmrADIGVgB0DK57HSAdTEk6UDkNrADoCUz1KlA6gJvwCQMphSOgCpRaYF5\/820gZFawCrD0tLk7bJnURan2C4QdLQ+1zSOvtPAA8At5A+X7wduHnovyeTdt+Lsmxg3pKG2AGQ8onuAJwPXNzh353C0xvpPAIsmEA5q04kqC4sE5y\/JOwASDlND85\/Il8ZzAce7LKcJ7r8d52yAyBl4BwAKZ\/lgvPPNclwDumVQZRZgXlLGmIHQMpn7eD8c60zMB94ODD\/6HaShB0AKafIrWwXkibv5XJvYN5r4etJKZwdACmP6cROnruTiU3k69U9gXlPJX3JICmQHQApj\/WBgcD8bwnMeyR3Bue\/bnD+UuvZAZDyeE5w\/rk7ADcG579ZcP5S69kBkPLYKTj\/m4PzH+6m4Pyj20tqPTsAUh7PC87\/1uD8h7shOH87AJKk2luap7+dj0q7Z6tNslYfYx8pLQRWzlYbqYUcAZDibUP86naXB+c\/3K10v5JgJwaAHQPzl1rPDoAUL\/rp\/Bbg\/uAyRnJFcP4vDs5fajU7AFK8Q4Lz\/3Nw\/qO5NDj\/lxD76aTUanYApFjrAVsHl3FZcP6jOS84\/zWAHYLLkFrLDoAU6+UZyrgwQxkjOTdDGQdnKEOSpL67gNjZ8nOJ32VwLDePEle\/0rX4GkCSVDNbEntzHATOyVabkR1LfB33zlYbqUV8BSDFeVuGMn6foYyxnJahjH\/NUIYkSX0xi7Q9b\/TT8S65KjSKlUi7EEbWcT5uDiT1nSMAUozXA9OCy3gIOD+4jPHcR5rnEGky8MbgMiRJ6tkypMV5op\/+v5upPuN5D\/F1fQiYnatCkiR1473E3xAHqc5KeeuS1u6Pru9nMtVHkqQJm0kaFo++Gd4PTM1Up05cSHydHweelatCUtM5B0Dqrw8AK2Yo5xfAvAzldOq4DGVMAz6SoRxJkiZkbeAx8gz\/75apTp2aDTxJfL3nAltkqpMkSR05iTw3\/yup5up4x5On\/ueTvgyQJKm415Dn5jcIvDVTnSZqN\/K1wbsy1UmSpFGtBNxDnhvfo6SJhlV1OXna4XFgg0x1kiRpCQPAL8n35Pv1PNXq2pvI1xZnA1PyVEuSpGf6APlueAuATfNUq2vLAneRr02+kKdakiQ9bQ\/SOvW5bnY\/zlOtnuXsFA0Ch+WpliRJ6ZO\/XO\/9Fz39b56lZr1bjjyLIS1Kj1L9kRFJUgOsAPyZvE+5P8pSs\/75MHnb5zpcJVCSFGgaafJZzpvbfGCTHJXro2WBW8nbTlfghkGSpABLA6eS96Y2CHw7R+UCvJn8bXUuMD1H5SRJ7TAV+Dn5b2gPAatmqF+EqcBfyd9mp5JGaiRJ6slywO\/IfyMbBN6RoX6RXkierYKHpwuAlTPUT5LUUKsBl1Dm5v83qrXlb7d+Qpn2uw7YMEP9JEkNsxFwA2VuXoPA7vFVzGJ14EHKtOHtwFbxVZQkNcXBwAOUu\/lXfcnfifpnyrXlHOr\/KkWSFGxp4MuUu1kNkoaul4uuaAG5tkseLf2MtIaDJEnPsDFwGWVvUvOAHaIrWsiawP2Ubd+\/A9tGV1SSVA\/LAp8gDRWXvDkNAh+NrWpxB1O+jRcA36Da2ypLkoIdQNmJfounc2nH9rZfp3xbDwJ3AIcH11WSVDHbACdQ\/ia0KN0HrB9a4+pYBriI8m2+KJ1BWq9AktRgWwHHU2ZxmtHSXJrzyV+n1gLupnzbL57+CBwYWWlJUl6Tgf2Bkyl\/kxkpvSGu6pX2IlLnp3T7D09nAy8HlgqruSQp1EakyX03Uf6mMlr6YlDd66Lk+gDjpQdJkwW3Cau9JKkvJgHbAx8BzqP8DWS8dBJpdKLt\/p3yv8V46bKhOHemHRM11QIDpQOQerQiaSb\/vsBeQ\/93XZwKPFw6iAoYIL17X7p0IB16hDRx8BTgN6SvCSRJmewAnEhaOKf006GpvWkB8AdS51OSFGgacCzVmsVvMg2SPiut0wiUWs5XAKqTVYHTgc1LByKN4lZgT+Ca0oFI47EDoLqYSRpq3bJ0INI4bgVeMPSnVFmTSgcgdeirePNXPawF\/Bivr6o4P0FSHewNfL50ENIErA3cBlxaOhBpNL4CUB2cSVo1TqqTG4DnkL4UkCrHISpV3QZ481c9rQ\/sWjoIaTR2AFR1fl+tOtuzdADSaOwAqOq2Lh2A1INtSwcgjcYOgKpu1dIBSD3w+FVl2QFQ1c0oHYDUg5mlA5BGYwdAkqQWsgMgSVIL2QGQJKmF7ABIktRCdgAkSWohOwCSJLWQHQBJklrIDoAkSS1kB0CSpBayAyBJUgvZAZAkqYWmlA5AKugJYHrpIFTcFcDmpYOQcnMEQJKkFrIDIElSC9kBkCSphewASJLUQnYAJElqITsAkiS1kB0ASZJayA6AJEktZAdAkqQWsgMgSVIL2QGQJKmF7ABIktRCdgAkSWohOwCSJLWQHQBJklrIDoAkSS1kB0CSpBayAyBJUgvZAZAkqYXsAEiS1EJ2ACRJaiE7AJIktZAdAEmSWsgOgCRJLWQHQJKkFrIDIElSC9kBkCSphewASJLUQnYAJElqITsAkiS1kB0ASZJayA6AJEktZAdAkqQWsgMgSVIL2QGQJKmF7ABIktRCdgAkSWohOwCSJLWQHQBJklrIDoAkSS1kB0CSpBaaUjoA1dIawAbAysB0YDlgRlBZ6wTlCzAV+EBg\/qqHlQPznkncMfb4UHoMuA+4EbgZGAwqTw0zUDoAVd6KwK7A7sCOwEbE3ewl9WYOcA1wCXDGULqzaESqLDsAGsls4AjgVcAO+KpIqrMrgB8APwRuLxyLKsQOgBa3PfB+4CBgqcKxSOqvBcDpwBeG\/lTL2QEQwM7AR4B9SgciKYsLgKOBE0sHonLsALTbs4DPkob6PRak9jkLOAq4snAcKmBy6QBUxADwNuAXpHf83vyldloX+BfSK78\/AguLRqOsvPC3z0zg28AhpQORVCkXA68AbigdiPKwA9AuOwI\/BdYqHYikSnoAeDXw29KBKJ6vANpjT9JJHbnoiaR6W5Y0CnAXaS0BNZgdgHb4J+B40sktSWOZBBwAzAPOKRyLAtkBaL4jgONw2WdJnRsA9gCeIk0OVAPZAWi2PUhP\/lNLByKplvYAbgMuKx2I+s9JgM21NXA2aaMeSerWfOBA4OTSgai\/7AA003KkT3o2Kh2IpEZ4ANiGtNugGsJNXprpf\/DmL6l\/ZgM\/wdeJjeIcgOb5J+DjpYOQ1DhrAnNJrxbVAL4CaJaZwFWkNf4lqd\/mAJvjaoGN4CuAZvk03vwlxVkW+O\/SQag\/HAFojk2Av2KnTlK8vYHTSgeh3nizaI4P4e8pKY9\/Kx2AeucIQDOsB1yDq\/1JymcXXCq41nxibIZ34M1fUl7vLR2AeuMIQP1NIS3VuWrpQCS1ynzSp4F3lw5E3fGpsf72o8zN\/07gBOAKUgfksQIxSG22LLAGsDFwEOlVYE5TgMOAYzKXK2nI\/wGDGdNFwF74+kiqmh2B08l7PTgvS80kLWEScB95TvSngDfhayOp6g4GHibPdWE+MCtPtSQtbmvynOQPADtnqpOk3m0K3ESe68NL81RJ0uLeTfzJPY+0J7iketkMeIT4a8RXclVI0tN+SPzJ\/b5stZHUb4cSf434U7baSPqHi4k9sW8AlspWG0kRziD2OnFvvqpIgjQZL3p47zXZaiMpyq7EjwKslK02kliV2BP6KdL2wpLqbRJwB7HXix2z1UZ947fc9RV9cz6b9CmRpHpbCPw2uAwfFmrIDkB9zQjO\/+rg\/CXl8\/fg\/KOvRwpgB6C+ok+4O4Pzl5TP7cH52wGoITsA9bV0cP6PBOcvKZ\/o13nLBuevAHYAJElqITsAkiS1kB0ASZJayA6AJEktZAdAkqQWsgMgSVIL2QGQJKmF7ABIktRCdgAkSWohOwCSJLWQHQBJklrIDoAkSS1kB0CSpBayAyBJUgvZAZAkqYWmlA5AlfU6YJfSQUjqi2eVDkDVYwdAo9l6KEmSGshXAJIktZAdAEmSWsgOgCRJLWQHQJKkFrIDIElSC9kBkCSphewASJLUQnYAJElqITsAkiS1kB0ASZJayA5AfT1ROgBJGuL1qIbsANTXnaUDkKQht5cOQBNnB6C+7gDmlQ5CkoCbSwegibMDUF9PAOeUDkJS610PXFs6CE2cHYB6+2XpACS13q9KB6DuDJQOQD1ZFrgGWLN0IJJaaQ6wEXBr6UA0cY4A1Nsc4FOlg5DUWl\/Em39tTS4dgHp2GfBsYIvSgUhqlT8BrwMWlA5E3fEVQDMsC5wE7Fo6EEmt8DdgN+De0oGoe44ANMN84AfAisAOhWOR1GwnAfsBD5QORL1xDkBzzAfeCuwFXFo4FknNcwvwJuAA4OHCsagPfAXQTJOA5wMHAbuQvhJYFZhSMihJtbEQuJu04NgFpE\/9zsLFxxrl\/wOvJaVekkKjLAAAAABJRU5ErkJggg==\"><\/image>\n<\/defs>\n<\/svg>\n<br><br>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>LBM'S 2023 DEALER<\/p><p>OF THE YEAR!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_VKYnqE": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<svg width=\"88\" height=\"122\" viewbox=\"0 0 88 122\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M47.5563 104.35H63.25C64.5107 102.534 65.8931 100.644 67.297 98.7236C70.241 94.6852 73.3138 90.4703 76.4726 85.1965C80.0826 79.1648 80.4694 77.0782 81.5653 71.1711C81.7731 70.0602 82.0023 68.8145 82.3031 67.2676L84.1798 57.7062L84.2013 57.6024C85.2041 53.346 85.2828 50.5326 84.8674 48.9131C84.7385 48.4147 84.5737 48.0825 84.3803 47.9061C84.2299 47.7607 84.0294 47.7088 83.8216 47.7399C83.3346 47.8126 82.783 48.259 82.2816 49.0584L76.709 68.2954C76.6588 68.4719 76.5872 68.638 76.5084 68.7833C76.1789 69.645 75.7348 70.4859 75.1618 71.2853L65.2771 87.2624C64.7399 88.1345 63.8159 88.2071 63.2214 87.4285C62.6197 86.6499 62.5696 85.3107 63.1068 84.449L72.9986 68.4719C73.0416 68.3992 73.0846 68.3265 73.1347 68.2642C74.159 66.8523 74.4813 65.3263 74.3023 64.2154C74.245 63.8728 74.1447 63.5822 74.0014 63.3849C73.8653 63.2084 73.6863 63.0838 73.4642 63.0527C72.5832 62.9177 71.2867 63.8625 69.7037 66.572C69.6608 66.6447 69.6106 66.7174 69.5605 66.7901L65.7284 71.6901L65.7069 71.7213C61.5596 77.4104 59.7761 78.76 56.5242 81.2204C55.8437 81.7395 55.0988 82.3001 54.1748 83.0268C53.8095 83.3175 53.4513 83.6704 53.1003 84.0545C52.7279 84.4698 52.3697 84.8954 52.0331 85.3107C50.314 87.4078 49.4115 89.1103 48.8958 90.9894C48.3586 92.9411 48.1652 95.3185 47.9002 98.5783C47.7927 99.8967 47.7139 101.194 47.6495 102.492C47.5993 103.115 47.5778 103.738 47.5563 104.35ZM15.5457 50.0135C15.5457 32.2092 27.1423 42.0716 28.0305 31.1503C28.1308 29.9564 26.1897 25.43 25.7528 23.2603C24.8073 21.0698 24.4634 17.592 25.5021 15.2665C25.9175 14.3426 25.7384 10.9893 25.7384 9.72279C25.7384 6.14117 26.906 4.08562 28.4818 2.17542C29.062 1.47986 29.1622 0.638957 30.0003 0.337893C34.1619 -1.1259 40.9737 2.19619 40.9737 9.72279C40.9737 11.3215 40.723 14.2491 41.3175 15.5053C41.8977 16.7199 41.9693 18.4848 41.7616 20.1355C41.5324 20.395 41.3104 20.6649 41.0883 20.9452C40.5941 21.5785 40.0999 22.2948 39.6128 23.0527C39.5913 23.0838 39.5698 23.115 39.5483 23.1461L39.5412 23.1565C39.3048 23.4887 39.1329 23.9247 39.0398 24.4127C38.8464 25.4612 39.0899 26.5409 39.6128 27.226C38.9968 28.8871 38.4452 30.4547 38.5384 31.1503C38.6888 32.2715 39.2618 33.2992 40.0855 34.2543V34.2751C40.0855 34.3374 40.0927 34.3893 40.0927 34.4516C40.1213 34.8565 40.1643 35.251 40.2288 35.5936C40.3004 35.9777 40.4007 36.3618 40.5296 36.7251C40.7445 37.348 41.0382 37.8879 41.4106 38.3239C41.5969 38.5419 41.7974 38.7288 42.0123 38.8741C42.0696 38.9676 42.1269 39.061 42.1771 39.1544L42.2702 39.3102C40.5726 39.7773 39.3979 40.2237 38.4094 41.646C37.3135 43.224 36.8909 45.4352 36.8909 49.4321C36.8909 49.6294 36.9052 49.8266 36.9267 50.0135H15.5457ZM51.2165 19.523C53.3009 1.70825 65.3129 2.1339 67.118 20.7999C68.307 33.0916 73.3854 32.6452 65.449 32.6452H62.2831C62.2687 35.77 61.9321 37.3688 64.174 39.1337C66.4088 40.8881 72.4471 41.7913 72.4471 46.2346V49.0792C72.4471 49.3076 72.3182 49.4944 72.1606 49.4944H58.2361V49.4321C58.2361 45.4352 57.8135 43.224 56.7176 41.646C55.8509 40.4002 54.8481 39.9123 53.4728 39.497C53.745 39.3205 54.0029 39.1233 54.2464 38.9156C56.2162 37.2027 55.8795 35.4897 55.8652 32.6556H55.0128C54.9985 32.5103 54.9842 32.3753 54.9627 32.2403C54.8696 31.6174 54.7191 31.0153 54.4971 30.4755C54.4613 30.382 54.4183 30.2886 54.3753 30.1952V29.7799C54.6404 28.3576 54.7048 26.8004 54.5401 25.347C54.3467 23.7171 53.8596 22.191 53.0216 21.049C52.5918 20.4573 52.1119 20.0213 51.589 19.7202C51.4601 19.6372 51.3383 19.5749 51.2165 19.523ZM40.9093 25.1394C43.889 20.3742 47.3271 17.7892 49.9057 22.0249C50.579 22.0664 51.1879 22.3986 51.6893 23.0838C52.7494 24.5269 52.9141 27.2364 52.427 29.375V31.2541C52.7565 31.5655 52.9643 32.1573 53.0645 32.8217C53.129 33.2473 53.1433 33.7249 53.1147 34.1817C53.086 34.6488 53.0001 35.0952 52.8711 35.469C52.6849 35.9984 52.4056 36.3722 52.0259 36.4448C51.6535 37.0158 51.2882 37.6387 50.9658 38.2305C50.6077 38.8845 50.3069 39.497 50.092 39.9953C49.9272 40.3794 49.9774 40.639 50.0418 40.9297C50.0705 41.075 50.0991 41.2307 50.1206 41.3865C50.7724 41.5941 51.3598 41.7498 51.8898 41.8951C55.2492 42.8087 56.295 43.089 56.295 49.4218C56.295 49.7436 56.1159 50.0031 55.8938 50.0031H39.2403C39.0183 50.0031 38.8392 49.7436 38.8392 49.4218C38.8392 43.089 39.8778 42.7983 43.2443 41.8951C43.7744 41.7498 44.376 41.5837 45.0279 41.3865C45.0494 41.2619 45.078 41.1477 45.1067 41.0231C45.1783 40.7428 45.2427 40.4625 45.0422 39.9953C44.8273 39.4866 44.5265 38.8741 44.1683 38.2305C43.846 37.6387 43.4807 37.0262 43.1082 36.4448C42.7286 36.3618 42.4493 35.9881 42.263 35.469C42.1341 35.1056 42.0553 34.6488 42.0195 34.1817C41.9908 33.7249 42.0052 33.2577 42.0696 32.8217C42.1627 32.1573 42.3705 31.5759 42.7 31.2645L42.263 30.8907C42.1413 29.0117 42.4851 25.7623 40.9093 25.1394ZM40.4365 104.35H24.7356C23.475 102.534 22.0926 100.644 20.6886 98.7236C17.7447 94.6852 14.6719 90.4703 11.5131 85.1965C7.90303 79.1648 7.51624 77.0782 6.42033 71.1711C6.21261 70.0602 5.9834 68.8145 5.68256 67.2676L3.80591 57.7062L3.78442 57.6024C2.78162 53.346 2.70283 50.5326 3.11828 48.9131C3.24721 48.4147 3.41195 48.0825 3.60535 47.9061C3.75577 47.7607 3.95632 47.7088 4.16405 47.7399C4.65112 47.8126 5.20265 48.259 5.70405 49.0584L11.2767 68.2954C11.3269 68.4719 11.3985 68.638 11.4773 68.7833C11.8068 69.645 12.2509 70.4859 12.8239 71.2853L22.7086 87.2624C23.2458 88.1345 24.1698 88.2071 24.7643 87.4285C25.3588 86.6499 25.4161 85.3107 24.8789 84.449L15.0014 68.4511C14.9584 68.3784 14.9154 68.3058 14.8653 68.2435C13.841 66.8316 13.5187 65.3055 13.6977 64.1947C13.755 63.8521 13.8553 63.5614 13.9986 63.3641C14.1347 63.1877 14.3137 63.0631 14.5358 63.0319C15.4168 62.897 16.7204 63.8417 18.2963 66.5513C18.2963 66.5513 18.4324 66.7485 18.4467 66.7693L22.2788 71.6694L22.3003 71.7005C26.4475 77.3896 28.2311 78.7392 31.483 81.1996C32.1635 81.7187 32.9084 82.2793 33.8324 83.006C34.1977 83.2967 34.5558 83.6497 34.9068 84.0338C35.2793 84.449 35.6374 84.8747 35.9741 85.2899C37.6931 87.387 38.5957 89.0896 39.1114 90.9686C39.6486 92.9204 39.842 95.2977 40.107 98.5575C40.2145 99.876 40.2933 101.174 40.3577 102.471C40.3935 103.115 40.415 103.738 40.4365 104.35ZM21.0826 105.077C20.8606 105.451 20.7245 105.939 20.7245 106.468V119.071C20.7245 120.245 21.3834 121.189 22.1857 121.189H41.9407C42.7501 121.189 43.4019 120.234 43.4019 119.071V106.344C43.4019 104.994 43.3446 103.541 43.2801 102.191C43.2157 100.81 43.1297 99.44 43.0223 98.08C42.7358 94.5191 42.5209 91.9134 41.8333 89.4114C41.1241 86.8472 39.9852 84.6359 37.8722 82.0509C37.4854 81.5733 37.0915 81.0958 36.676 80.6494C36.2391 80.1718 35.7664 79.7151 35.2363 79.2894C34.3768 78.6146 33.5745 78.0021 32.8439 77.4415C29.8355 75.1576 28.1881 73.9118 24.313 68.5964C24.2844 68.5549 24.2486 68.5134 24.2199 68.4822L20.4809 63.6964C18.196 59.824 15.9612 58.5367 14.2493 58.8067H14.2421C13.4041 58.9312 12.6878 59.4088 12.1148 60.1355L8.33996 47.0963H8.3328C8.2755 46.9094 8.20387 46.7329 8.11075 46.5668C7.06498 44.7501 5.73986 43.6912 4.47205 43.5043C3.60535 43.3797 2.7673 43.6496 2.03669 44.3348C1.3419 44.9888 0.768876 46.0062 0.410735 47.4077C-0.219592 49.8474 -0.205266 53.6367 1.02674 58.8793L2.88907 68.3784C3.16125 69.7488 3.39763 71.0672 3.61967 72.23C4.83735 78.8223 5.26712 81.1581 9.32843 87.9268C12.5445 93.2941 15.689 97.6128 18.7117 101.755C19.4925 102.876 20.2804 103.966 21.0826 105.077ZM23.8761 108.586C24.0695 108.648 24.27 108.648 24.4706 108.586H40.4723V116.954H23.6469V108.586H23.8761ZM66.9102 105.077C67.1323 105.451 67.2684 105.939 67.2684 106.468V119.071C67.2684 120.245 66.6166 121.189 65.8072 121.189H46.0593C45.2499 121.189 44.5981 120.234 44.5981 119.071V106.344C44.5981 106.271 44.5981 106.188 44.6053 106.115C44.6267 104.755 44.6626 103.437 44.7199 102.191C44.7843 100.81 44.8703 99.44 44.9777 98.08C45.2642 94.5191 45.4791 91.9134 46.1668 89.4114C46.8759 86.8472 48.0148 84.6359 50.1278 82.0509C50.5146 81.5733 50.9085 81.0958 51.324 80.6494C51.7609 80.1718 52.2337 79.7151 52.7637 79.2894C53.6232 78.6146 54.4255 78.0021 55.1561 77.4415C58.1645 75.1576 59.8119 73.9118 63.687 68.5964C63.7156 68.5549 63.7514 68.5134 63.7801 68.4822L67.5191 63.6964C69.804 59.824 72.0388 58.5367 73.7507 58.8067H73.7579C74.5959 58.9312 75.3122 59.4088 75.8852 60.1355L79.66 47.0963H79.6672C79.7245 46.9094 79.7961 46.7329 79.8893 46.5668C80.935 44.7501 82.2601 43.6912 83.528 43.5043C84.3947 43.3797 85.2327 43.6496 85.9633 44.3348C86.6581 44.9888 87.2311 46.0062 87.5893 47.4077C88.2196 49.8474 88.2053 53.6367 86.9733 58.8793L85.1109 68.3784C84.8387 69.7488 84.6024 71.0672 84.3803 72.23C83.1627 78.8223 82.7329 81.1581 78.6716 87.9268C75.4555 93.2941 72.311 97.6128 69.2883 101.755C68.5004 102.876 67.7125 103.966 66.9102 105.077ZM64.1167 108.586C63.9234 108.648 63.7228 108.648 63.5222 108.586H47.5205V116.954H64.346V108.586H64.1167Z\" fill=\"black\"><\/path>\n<\/svg>\n<br><br>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>FAMILY OWNED &<\/p><p>OPERATED<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_WkttHY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<br>\n\n<svg width=\"91\" height=\"91\" viewbox=\"0 0 91 91\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n<rect width=\"91\" height=\"91\" fill=\"url(#pattern0_881_328)\"><\/rect>\n<defs>\n<pattern id=\"pattern0_881_328\" patterncontentunits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_881_328\" transform=\"scale(0.00195312)\"><\/use>\n<\/pattern>\n<image id=\"image0_881_328\" width=\"512\" height=\"512\" xlink:href=\"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAACXBIWXMAACXLAAAlywEaR2RmAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAIABJREFUeJzt3Xm0HXWV6PHv5YYkJiEhzGGe51kGEZm1tR0QaVtBZXBqRFQcm+73XnfrW6\/fo9VWtFF5DtiiCEKLtNAiIDIrqKCMMiMgARnDmIQkN\/1HBQkh99xz793n7KpffT9r7bWy7CbZtavO77dPnarfDyRJUusMZCcgKcUkYMqSP88F5iXmIimBDYBUtjWAVwJ7AVsDmwIbACsu8\/+3ALgHuAO4GbgcuBJ4uG+ZSpKkcZkFHEs1gQ8Bi8cYQ0v+jmOX\/J2SJKmGdgJOAeYz9kl\/uJgPfAfYoW9HI0mSOlqXauIfz7f90dwVOAPYqC9HJkmSXmIQ+Huqh\/h6PfEvG88Cfwus0POjlCRJf7YB1YN6\/Z74l41LgPV7e6iSJAlgd+BB8if\/5+Nh4FU9PWJJklruYKrb79mT\/vJ+EnhLD49bkqTWeifV+\/rZk\/1wsRB4T8+OXpKkFjoaWET+JD9SDAEf7VENJElqlePIn9hHG8f3pBKSJLXEp8mfzG0CJEnqkwHgBPIn8fHG13CtAEmSujIInEz+5B0VpwITQiskSVJhJgJnkj9pR8ePgcmBdZIkqRhTgJ+SP1n3Kn4OTAurliRJBZgGXET+JN3ruAyYEVQzSZIabSZwFfmTc7\/iGmC1kMpJktRQawHXkz8p9ztuBtYJqJ8kSY2zAXA7+ZNxVtwNbDLuKkqS1CBbAPeSPwlnx2xg23HWUpKkRtiGauLLnnzrEn8CdhxXRSVJqrldgUfIn3TrFo8DrxxHXSVJqq19gSfJn2zrGk8DrxlrcSWNzkB2AlJLvAH4D1wNbyTzgUOBH2Un0mfrA0cB29Pua2QBcAPwTaoHZCWp0Q4BniP\/G3ZTYiFwxJgq3Uy7AHPIr3ud4hlgv\/EUVZKyvR9YRP6A2rRYtKR2bfBr8utdx7hzPEWVpEwfAobIH0ibGkPAJ0Zd9WZZCRvETrH+2EsrSTmOI3\/wLCWOH2Xtm2R98utb59hp7KWVpP4aAD5P\/sBZWvwbZT60bAPQOWwAemhCdgJSQVYATqI9v13304eAScAHqH4akDROK2QnIBViEDgZJ\/9eej9wKrBidiJSCWwApPGbBJxJu15dy3II1RoBL8tORGo6GwBpfKYC5wBvyU6kRd4AnEf1BL2kMbIBkMZuZeACXL42wz7ARcCq2YlITWUDII3NGsDFuIFNpl2BS4FZ2YlITWQDII3eLKpvn25hm28bqkZsvexEpKaxAZBGZ0PgcmDb5Dz0gi2ozsmm2YlITWIDIHVvK+AKYJPsRPQSG1A1AdtlJyI1hQ2A1J2dgcuAdbIT0bDWonomYPfsRKQmsAGQRrYX8HNgtexENKKZwM+A\/bMTkerOBkDqbD\/gJ8CM7ETUtWlUazO8LjsRqc7cC0Aa3sHAacDE7EQCPQFcCFwHzF7yv61N9UbDa4DpSXlFmwKcDbwDOCs5F0lSgxwOLCR\/N7SouBM4ks7r6K8IvBu4qwb5RsUC4LAOx5zN3QA7h7sBSuqrDwCLyB\/8ouIURrd2\/iTgSzXIOyqGgGNHcfz9ZAPQOWwAJPXN35E\/6EXFIqptdMfqQ5TVCB03jlr0ig1A57ABkNQXx5E\/4EXFQqrb+eP1Dqrb6NnHExXHB9Qkkg1A57ABkNRTA8AXyR\/somI+8NbA+rwJmFuD44qKr1KfN6BsADqHDYCknhkEvkX+QBcVz9Cb19\/2A56qwfFFxfeox1tQNgCdwwZAUk9MBM4gf5CLiqfo7QI4rwLm1OA4o+JsqgceM9kAdA4bAEnhJlFNANkDXFQ8Rn+WwN0ZeCjh+HoVP2F0b0hEswHoHDYAkkJNo1ouNntwi4oH6O8mOFsBf+zBcWTFZeQtgGQD0DlsACSFmQn8kvyBLSr+AGwWWaAubQjcMYo86x6\/IWevBxuAzmEDICnEmlRL4GYPalFxC7BeaIVGZxZww3LyamrcTLUscj\/ZAHQOGwBJ47Y+cBv5A1pU3Eg1AWdbA\/gt+fWIiruAjUMr1JkNQOewAZA0LlsA95I\/mEXFr4BVQys0PisDV5Jfl6i4B9g8tELDswHoHDYAksZsG+B+8geyqLgEWCmyQEGmAheQX5+oeBDYIbRCy2cD0DlsACSNyS7AI+QPYlFxLrmvrI1kEvBD8usUFY8De4RW6KVm1OA46xw2AJJGbR\/gCfIHsKg4jc5b+dbFIPDv5NcrKp4GXh1ZoOUoaYXF6LABkDQqrweeJX\/wiorvUI9la7u1AvB18usWFfOAg0Ir9GJX1OAY6xo2AJK69nbgOfIHrqg4kWqzoqYZAD5Pfv2iYgFwWGiFXvCJGhxfXcMGQFJX3oVb19ZNaVssvy+2PACshT8DDBc2AJJGdAywiPwBKyKGqL4VluIYqmPKrmvUufl4bHkA+IcaHFsdwwZAUkclfctcBLw\/tjy1cDjenelkMnB5DY6rbmEDIGm5BoDPkT9IRcVC4IjQCtXLIZT1fMaXiX0+Y1Wq5Yizj6tOYQMg6SUGgC+RP0BFxTzg4NAK1dMbKOsNjZOo3nqIsgpwVQ2Oqy5hAyDpRUp81\/w1kQWquX2AJ8mve1R8n9g1GqYBF9bguOoQNgCS\/mwi5a0298rQCjXDrpS1SuM5VL\/jRyltVcWxhg2AJACmAOeTPyhFxZ+AHUMr1CzbALPJPw9RcTGx+zQMAt+qwXFlhg2AJGZQ1opps4FtQyvUTCXu1LhKYH0GgH+twXFlhQ2A1HKrAFeTPxhFxd3AJqEVarYNgNvIPy9RcS2wemiFynrVdTRhAyC12FrA9eQPRFFxM7BOaIXKUNp5\/j2wbmiF4IOUs9hVt2EDILXUhsDt5A9CUXEN8d8MSzKTsl6BuxvYNLRC8A7KWkthpLABkFpoS+A+8gegqLic6jkGdTYNuIj88xUVDwDbhVaovLUUOoUNgNQyOwMPkT\/4RMXPqSY2dWcKcB755y0qHgV2C60Q7AXMqcGx9TpsAKQW2Y1qwMweeKLix8S+H94WE4EzyT9\/UTEH2DO0QtVbJPfX4Nh6GTYAUkvsR1krxJ0KTAitULsMAieTfx6j4hngL0IrBBsDd9Tg2HoVNgBSC7wRmEv+gBMVXyN2jfi2GgBOIP98RsV84K9CKwSzKOsNiqXDBkAq3KGU9WRz9Faxgk+Tf16jYiFwZGRxqN6g+EUNji06bACkgh1FWe82O\/n3TkmL4QwBH4ktD1Mpa6nsxdgASMX6MNVAmD3IRA3oH40tj5bjaMppGIeAT8WWp7iHJ20ApAKV9G1uIfCe2PKog3cCC8g\/71ERfddoEPhGDY4rImwApIKUtrnJfOCvQyukbhwIzCP\/\/EfFV4h9aHQA+GwNjmu8YQMgFWIQ+Cb5g0pUzAPeHFohjcZfUtaKeN8l\/rXR42j2z2w2AFIBVgR+QP6AEhVPAweEVkhjsRfwBPnXQ1T8gOqzEukDNPe5CRsAqeEmAT8ifzCJiseAV4RWSOPxcuBh8q+LqPgv4GWhFYKDaOZPJjYAUoNNBS4kfyCJigeB7UMrpAhbUdayuJcC00MrBPvTvJU2bQCkhlqZshYnuQfYLLRCirQRcCf510lU\/BpYNbRCsCvwSA2OrduwAZAaaE3gd+QPIFFxJ9UEo3pbH7iV\/OslKm4C1g6tEGwN\/LEGx9ZN2ABIDeMgrEylNZ93Ed98bgjcXoNjGylsAKQG8Tas6sCfn0a2FvVvlGwApIbYGh\/EUn34AOrIVgauqMGxDRc2AFID+CqW6shXUEc2BTivBse2vLABkGpub1yMRfU1ATiF\/OsqKnqxCNVE4PQaHNuyYQMg1ZjLsaoJStogZzG9WYZ6EDipBse2dNgASDX1Zpq5uthwcSKxG7KoXtyIqjt12qnTBkCqoXfhlqxqpjpNcOONXm1F\/RHqsYmQDYBUM0fT3M1Flo0h4FOx5VEDfJh6THBR1\/DHYssDwGHkN\/k2AFKNlPTtaYjqm47a6SjKaWQX05u7WAcCcxOPyQZAqonPkD\/IRcVC4MjQ6qiJDgWeI\/96jIrjqZ51iLQveW\/52ABIyQaAE8gf3KJiPnBwaIXUZG8k91tudHyN+IdZdwEeSjgWGwAp0SBwMvmDWlQ8A\/xFaIVUgn1p3la5neJU4l9n3Qq4t8\/HYQMgJZkInEn+YBYVc4A9QyukkuwKPEr+dRoVPwYmh1YINqC\/G33ZAEgJpgA\/JX8Qi4pHgd1CK6QS7UTOre5exc+BaaEVqnZbvLZP+dsASH02DbiI\/MErKh4AtgutkEq2JXAf+ddtVFwOzAitUPX3XdaH3G0ApD6aCVxF\/qAVFXcDm4ZWSG2wIXA7+ddvVFwDrB5ZIKqNls7qcd42AFKfrAVcT\/5gFRW\/B9YNrZDapLTPw83AOqEVqh407OVDwjYAUh9sQFnfeK4l\/huP2mcV4Gryr+eouBvYJLRC1WvCX+hRvjYAUo9tQVm\/eV5NNXBLEWYAV5B\/XUfFbGDb0ApVerFKqA2A1EM7AX8if1CKiouBlUIrJFVvxZxP\/vUdFX8CdgytUOUYYpdXtgGQemRX4BHyB6OoOIf4956l500Efkj+dR4VjwOvDK1Q5Z3ELa9sAyD1wL6UtfLZ94EVIwskLccg8G3yr\/eoeBp4TWiFKm8Eng3IzwZACvYGylr7\/CTi1z6XhjMAfIn86z4q5tGbvTH2plp90wZAqolDKGv3sy8Tv\/uZNJIB4LPkX\/9RsRA4IrRClZ0Z3zNGNgBSkL\/B\/c+lSL148j0rhoAPx5YHgI2BO8eYkw2AFOBDVB\/w7EEmaqD6eGx5pDH7IOU01kPAJ2PLA8Asxraokg2ANE4lfUtZCLwvtjzSuL0LWED+5yMqenF3bRXgl6PMwwZAGqMB4PPkDyZRsQA4LLRCUpy3UdbzNScS\/3zNNOCCUeRgAyCNwSDwdfIHkaiYBxwUWiEp3uuJef2tLnEK1Xr\/kSYB\/9Hlv28DII3SIPAd8gePqHgaeHVohaTe2Rt4gvzPTVScRvwaGxOAf+\/i3+7FksVSsfqxRWc\/43Fgj9AKSb23C2Wtsnku8LLQCo28idA8YGrwvykVayqj+32t7vEgsENohaT+2Rq4n\/zPUVRcQm\/22fhfw\/x7n+vBvyUVaWXgSvIHiai4B9g8tEJS\/20M3EX+5ykqfgWsGlqhytt4oU6PAp+h+ilT0gjWAH5L\/uAQFXdRDZxSCdYHbiP\/cxUVN1K9198LM3Hil7o2i+oDmT0oRMXNwNqhFZLyrQlcR\/7nKypuAdYLrZCkUdkIuIP8wSAqfgOsFlohqT5mMvqFcOocfwA2iyyQpO5sBfyR\/EEgKi4FpodWSKqfqcDPyP+8RcUDwPahFZLU0cuBh8n\/8EfFT4h\/xUiqq0nA2eR\/7qLiMWD30ApJWq69KGuRkbOpBkSpTSYCZ5D\/+YuKp4D9Qysk6UX2p\/qgZX\/Yo+J7xC8zKjXFIPAt8j+HUfEM8LrQCkkC4E3AXPI\/5FHxVWCF0ApJzTMAfJH8z2NUzAfeGlohqeXegVuNSiUrbcvu98SWR2qnDwCLyP9QR8U\/xZZHKkZJTcAQ8NHY8kjtUtqAcGxseaTi2PBLKmryXwi8O7Y8UrH8yU9qKR8KkuRDv1LL+FqQpOfth6\/9Sq0wETiT\/A9pVLgwiDR+rwLmkP95jor\/BCaHVkhquCnAeeR\/OKPCpUGlODsDD5H\/uY4Kl\/6WlphGeZuDbBdaIUmlbf51GW7+pZYrcXvQTSMLJOnPNsTtv6UirAlcR\/6HMCpuAdYLrZCkZc0CbiD\/8x4VNwPrhFZIqrn1gdvI\/\/BFxY1UA5Ok3lsD+C35n\/uouAvYJLRCUk1tAdxL\/ocuKn4FrBpaIUkjWRm4kvzPf1TMBrYJrZBUM9sA95P\/YYuKS4CVIgskqWtTgQvIHwei4k\/AjqEVkmpiF+AR8j9kUXEuvsojZZsEnEX+eBAVjwN7hFZISrYP8CT5H66oOA1YMbRCksZqEPh38seFqHgaeE1kgaQsbwCeJf9DFRVfxzW9pbpZgeqzmT0+RMU84KDQCkl99nbgOfI\/TFHxb1SbFUmqnwHg8+SPE1GxADg8tEJSnxyGW3pK6r\/SthJ\/X2x5pN46BlhE\/ocnIoaAT8SWR1KPHUP12c0eP6LGoI\/HlkfqjZK670XA+2PLI6lPDse7kFJfDACfI\/9DEhULgSNCKySp3w7B55CknhoAvkT+hyMq5gFvCa2QpCylvYn0\/\/FNJNWE7+BKqrt9cC0SKdRE4Ifkfxii4nHglaEVklQXu1LWaqTnAJNDKyR1aQpwPvkfgqhwHW6pfNtQbbyTPd5ExcW4H4n6bAZwBfkXf1TMBrYNrZCkuipxR9JVQiskDWMV4GryL\/qouBv34pbaZgPgdvLHn6i4Flg9tELSMtYCbiD\/Yo+Km4F1QiskqSnWAq4nfxyKit8D64ZWSFpiQ8rqmK8BVosskKTGmQlcRf54FBV\/ADaNLJC0JXAf+Rd3VFxG9RyDJE0DLiJ\/XIqKB4DtQiuk1toZeIj8izoqfk71gZek500BziN\/fIqKR4HdQyuk1tmN6kLKvpij4sf43qyk5ZsInEn+OBUVc4A9Qyuk1tgPeIr8izgqTgUmhFZIUmkGgZPJH6+i4hngtaEVUvHeBMwl\/+KNiq\/h2tmSujMAnED+uBUV84G\/Cq2QinUoZe2e5Raaksbi0+SPX1GxEDgysjgqz1HAIvIvVid\/SXVwHPnjWFQMAR+JLY9K8bdUF0j2RRp1oX80tjySWupoyvpi9I+x5VHTldTlLgTeE1seSS33TmAB+eNbVHh3VAwAXyD\/YoyK+cBfh1ZIkipvBuaRP85FxVfw4ejWGgS+Sf5FGBXzqD6gktQrfwk8S\/54FxXfxdejW2dF4AfkX3xR8RRwQGiFJGn59gKeIH\/ci4qzgUmhFVJtTQJ+RP5FFxWPAa8IrZAkdfZy4GHyx7+o+C\/gZaEVUu1MBS4k\/2KLigeB7UMrJEnd2Qq4n\/xxMCouBaaHVki1sTLwC\/Ivsqi4B9gstEKSNDobAXeSPx5Gxa9xm\/TirAn8jvyLKypuAdYLrZAkjc36wK3kj4tRcROwdmiFlMaLU5J6q7QvWXcBG4dWSH1X4u2pVUMrJEkxSvyZdfPQCqlvtqasB1QuwQdUJNVbiQ9a7xBaIfWcr6hIUo4SX7XeI7RC6pm9KWuRitOpFi6SpKaYAJxC\/vgZFU8Drw6tkMK5TKUk1cMg8A3yx9GomAccFFohhSlto4oTcaMKSc02APwr+eNpVLjhWg29C7eqlKS6Km3L9ffGlkdj9UFgEfkXRUQMAZ+KLY8k1cKHqca47HE2aqz+WGx5NFoldZVDwEdiyyNJtXIU5XxhW4x3a9N8hvyTHxULgSNDqyNJ9XQo8Bz5425U\/AvVsw7qgwHgBPJPelTMBw4OrZAk1dsbgbnkj79RcRI+tN1zg8DJ5J\/sqHgG+IvQCklSM+wLPEn+OBwVp+KaLT0zEfgP8k9yVMwB9gytkCQ1y27Ao+SPx1HxY2ByaIXEFOCn5J\/cqHiU6sKXpLbbCXiI\/HE5Kn4OTAutUItNAy4i\/6RGxQPAdqEVkqRm2xK4j\/zxOSouB2aEVqiFZgJXkX8yo+JuYNPQCklSGTYEbid\/nI6Ka4DVIwvUJmsB15N\/EqPi98C6oRWSpLKUOO6vE1qhFtiAsjrBa7ETlKRurAJcTf64HRV3A5uEVqhgpf0WdDXVBS1J6s4M4Aryx++omA1sG1qhApX2NOjFwEqhFZKkdpgCnE\/+OB4Vvv3Vwa7AI+SfpKg4B98HlaTxmAj8kPzxPCoex\/VfXmJfyloR6vu4IpQkRRgEvk3+uB4VrgC7FNeEliR1MgB8ifzxPSrcAwY4hLJ2hfoy7golSb0wAHyW\/HE+KhYCR4RWqEH+BveFliSNznHkj\/dRMQR8OLY89fchqgPPLn7UCfx4bHkkSR0cQzlfIIeAT8aWp75K6t4WAu+NLY8kqQvvAhaQPw9ERdF3kQeAz5Nf5Kh4DnhbaIUkSaPxNsp6juxECnyIfBD4BvnFjYp5wEGhFZIkjcXrgWfJnxei4hRgQmiFEk0AvkN+UaPiaeDVoRWSJI3H3sAT5M8PUXE6BawlMwk4i\/xiRsXjwB6hFZIkRdiFslaTPRd4WWiF+mgqcAH5RYyKB4EdQiskSYq0NXA\/+fNFVFxCA\/eTWRm4kvziRcU9wOahFZIk9cLGwF3kzxtR8Wtg1dAK9dAawG\/JL1pU3EV1QUmSmmF94Dby54+ouBFYO7RCPTCLKtHsYkXFTTSg6JKkl1gTuI78eSQqbgHWC61QoI2AO8gvUlT8BlgttEKSpH6aCfyS\/PkkKv4AbBZZoAhbAX8kvzhRcSkwPbRCkqQM04CfkT+vRMWDwPahFRqHlwMPk1+UqPgJDX71QpL0EpOAs8mfX6LiMeAVoRUag70oa\/GFs6kuFElSWSYCZ5A\/z0TFU8ABoRUahf2XJJBdhKj4HgUtvyhJeolB4FvkzzdR8QzwutAKdeFAYO44E69TfJUCN2CQJL3EAPBF8uedqJgPvDW0Qh28A7dglCQ1W2lb078ntjwv9QFgUfKBRsY\/xpZHktQgJTUBQ8BHY8vzgtIKdWxseSRJDVTaF9t\/ii1PWZP\/QuDdseWRJDWYP20vxwBwYg0OJirmAW+JKIwkqSgHUz1Qlz1PRcWJVHP4mJQ2+T8DvHasxZAkFW8\/ynq9\/cSxFuJ\/1iD5qJgDvGqshZAktUZpC9z93WgLcADlPBTxMNVyxZIkdWMXylnifiGwb7cHPoVydvV7ANiu2wOXJGmJkja5u50u97gp5db\/XcAm3RywJEnLsQlwN\/nzWUQcN9LBTgUeqUGi443fA+uOdLCSJI1gXao5JXteG288THWHf1jvrkGS440bgVmdDlKSpFFYA\/gt+fPbeOOwTgd5YQ0SHE\/8Ali50wFKkjQGM6nmmOx5bjxx3tIHtPQiAVOAR4HJ46lQoouAN1O9799kM4FPAK\/AZqZOngWuA04A7kzORVKOacB\/AvtnJzJGc4FVqBbFe5E9yO9Oxhrn0uUTjjW3OnAv+fU0ho+ngV2HO4GSijcJOIv8sWis8efxa4WlDmrrgMJkOI1qed+52YkE+AywXnYS6mgq8G\/ZSUhKMx94O3B6diJjtM3zf1i6AVgrIZHx+gbwLqpNHEqwZ3YC6srLKeOOk6SxWQC8k2oOapo\/z\/VLNwDTEhIZjy8AR1Ft7VsKf\/Nvhgk07\/MiKdYQ1Rz0xexERmml5\/+wdAOwKCGRsfoXqgflFmcnIklqrcXAxxnDevuJFj7\/h6UbgDkJiYzWYuCTNKvYkqSy\/QvwYZrxpfTx5\/8wYan\/8Z6EREZjEfAB4JvZiUiStIwTqR4QPIkXf7mum3uX9z9uSv7rCcPFQuDwqKOvsXvIr7XRXaw+zDmU1G6HAM+RP0YNFxsuL+kBYHYNkls25gJvGqnihbABaE7YAEgazpuo5q7scWrZ+OPSSS59m2Ix1QpHdfIMcCBwTnYikiR16RzgdcBT2Yks40ed\/o+vJL9DeT4eo1oOt028A9Cc8A6ApJHsQfXQXfZ49XzsPlLCV9cgyT8BO46UaIFsAJoTNgCSurEj1ZyWPWb9optk901OcjawbTeJFsgGoDlhAyCpW1uQv89L1xsYnZ6U4O0M84RiS9xG\/sRmdBfThzmHkrQ8GwJ3kDNenTqaRFcB7utzgjcCs0aTZIF+SP7EZowcdw93AiWpg7WBm+jveHUP1Tbzo7It1eqA\/UjwGmC10SZYoJ2o9\/ujRhVHDHcCJWkEM4Gr6M9Y9RSww1gT3XfJX9DLBC\/F26lL2xv4NdVuU9kTnfFCDAG30o4FqST11gzgMno7Zj0J7NMpiYEuEt0VOAtYdxQH163vAe+jWj5RLzYJmDKG\/24l6r+sc6YDgSvG8N89R7UuhSRFmAycDBzag7\/7PuAtVHfXx20N4GxiO5P3RiSml5hO\/rflOsd+Yy+tJIX7G2LvtP+IHv2kfiBw3TgSe45qM5+1e5GcABsAGwBJTbMO8G3G9wzY74A39jrRAeC1wGnAE10mdhPwmSUHqd6yAbABkNRM6wH\/G7iF7sazJ6he8Xst3f2k\/yKj\/g+WMQHYBdge2Ijq9UGoHmCbTfVe+9VUv0eoP6ZTXRRavv2Bi7OTkKQRrEe1lPBmVHfNJ1I9jPwo1avI1wHXUu2WKwHeAfAOgCR1YYWR\/18kSVJpbAAkSWohGwBJklrIBkCSpBayAZAkqYVsACRJaiEbAEmSWsgGoDzzqRaL0PLNzU5AkurABqA884F7s5OosVuzE5CkOrABKNN\/ZidQU5cDj2cnIUlSr6wBPED+srt1innA7uMpqiSVZLybAam+Ngb+L7AzMJicS7bbqXbY+kV2IpIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZJqZCA7AfXUmsBWwITsRJLdCdydnYQkSb02ETgJGAIWGywGzqdqiCRJKtb\/IX\/CrWP8ZDxFlaSS+BNAmWYDs7KTqKm1gQeyk5CkbCtkJ6Bw03Dy72Tz7AQkqQ5sAMrjOe3M+kgSDoaSJLWSDYAkSS1kAyBJUgvZAEiS1EI2AJIktZANgCRJLWQDIElSC9kASJLUQjYAkiS1kA2AJEktZAMgSVIL2QBIktRCNgCSJLWQDYAkSS1kAyBJUgvZAEiS1EI2AJIktZANgCRJLWQDIElSC9kASJLUQjYAkiS1kA2AJEktZAMgSVIL2QBIktRCNgCSJLWQDYAkSS1kAyBJUgvZAEiS1EI2AJIktZANgCRJLWQDIElSC9kASJLUQjYAkiS10ITsBCSFGABW7tO\/NQdY3Kd\/S5LUpelUg7Ox\/Nhv7KWtpT2B84Hn6F8NnwN+CuzRh+OTJHXJBqA9DcCRwELyarkAOLzXBylJ6o4NQDsagM3p77f+4WI+sFmPj1VSD\/gQoNRMxwArZicBTAQ+mJ2EpNHWMdo5AAALOklEQVSzAZCaabfsBJZSp1wkdckGQGqmadkJLGV6dgKSRs8GQJKkFrIBUNtMzU5AkurABkBts3Z2ApJUBzYAaputsxOQpDqwAVDbvDk7AUmqAxsAtc2GwD7ZSUhSNhsAtdFnqTbPkaTWsgFQG+0GfDI7CUnKZAOgtvp\/wMHZSUhSFhsAtdUgcAbVnQB\/DpDUOjYAarNB4HPAL4C9k3ORpL6akJ2AVAOvAC4F7gTOAW4EHqTa6na8FgG3AA8E\/F1tMgvYkqpJa5pngWeAp4Anlvx5XmpG0nLYAEgv2AT4aI\/+7p8BRwCze\/T3l2Id4DvAAdmJBFsA3E3VDN4K3LYkfkvVKEjSuE0HFhu1jMuI+9nthhocz\/NxQ9AxrQBcXoPj6WcsoPoJ6p+BVwNTxl1FSa1lA1Dv2G74UzcqJTYA29fgWLJjHnAucAjwsvGVU+rMhwCl\/toyO4Ea2yI7gRqYBLwBOI3quZFvUa1c6ZsqCmcDIPVXEx9q6xdr82IzgPcAlwDXA4fjc1sKZAMgSfW3LdXDkbcCxwKTc9NRCWwAJKk5NgZOAG4GDkrORQ1nAyBJzbMR8COq10t9rkRjYgMgSc11ANVaAp+meoBQ6poNgCQ122Tgn4BfApsl56IGsQGQpDLsBFwDvCM7ETWDDYAklWMl4FTg6\/imgEZgAyBJ5Xk\/1foBqyXnoRqzAZCkMu1OtcvletmJqJ5sACSpXFsDVxG3B4UKYgMgSWVbG7gYmwAtwwZAksq3KvBTqgWEJMAGoESLsxOQVEtrAxcCa2YnonqwASjPs9kJSKqtTYALgJWzE1E+G4DyLALmZichqba2p9pZcCA7EeWyASjTU9kJSKq1A4GPZyehXDYAZbIBkDSS44E9s5NQHhuAMj2dnYCk2psAnI6rBbaWDUCZZmcnIKkR1gW+kp2EctgAlOm27AQkNcbbgNdnJ6H+swEo063ZCUhqlC\/h7oGtYwNQJhsASaOxKXBcdhLqLxuAMtkASBqtv8OlglvFBqBMs4FHs5OQ1CiTgb\/PTkL9YwNQpsVU+4BL0mgcCWyQnYT6wwagXBdnJyCpcVYEPpWdhPrDBqBcNgCSxuJ9wDrZSaj3bADKdTPwYHYSkhpnEvDB7CTUezYA5VpMtfe3JI3WEcBgdhLqLRuAsp2WnYCkRloH2Dc7CfWWDUDZLgAeyE5CUiMdkZ2AessGoGyL8C6ApLE5GFgpOwn1jg1A+b6bnYCkRpoKvC47CfWODUD5fgf8JjsJSY20f3YC6h0bgHY4PjsBSY10QHYC6h0bgHY4C7gxOwlJjbMZsGF2EuoNG4B2WAx8NjsJSY20X3YC6g0bgPb4PnB7dhKSGmfP7ATUGzYA7bEI+MfsJCQ1zpbZCag3bADa5XTgouwkJDXKVtkJqDdsANrnaGB+dhKSGmMVYI3sJBTPBqB9bgf+NTsJSY3izwAFsgFop3\/GBwIldW+z7AQUzwagnZ4F3grMzU5EUiPMzE5A8WwA2ut64JPZSUhqhBnZCSieDUC7fZVqfQBJ6mR6dgKKZwOgDwK3Zichqda8A1AgGwA9AbwGuC87EUm1ZQNQIBsAQTX5vx54PDsRSbU0KTsBxbMB0PNupGoCns1ORFLtDGQnoHg2AFraVcDbgXnZiUiqFeeKAnlStaxzqbb\/fDQ7EUm14R2AAtkAaHmuAvYB\/pidiKRacK4okCdVw7kJ2Bu4LTsRSem8A1AgGwB1cjewK9U2wpLay7miQJ5UjeRJ4FDgCNw7QGor7wAUyAZA3ToFeBVwR3YikvrOuaJAnlSNxrXA9sBngPnJuUjqH+8AFMgGQKM1F\/g0sC1wfm4qkvrEuaJAnlSN1R3A64BDgDuTc5HUW84VBfKkarx+AGwOvA24OTkXSb3hTwAFsgFQhCHgTGA74K3ANbnpSArmXFEgT6oiDQE\/BHYBdgS+ADyQmlH9+PDk8KxNfTlXFMiTql65DvgEsB7wl8B3gQdTM6qH67MTqLEbshPQsPwJoEA2AOq1RcBPgcOBWcAmwFFUPxm0bcOhU\/GByU7uAE7LTkLLZQNQoAnZCah17gK+viQA1gW2oHqQcMslf14TmA7MAKYCk\/ufZqiHqRZS+ofsRBrgvVQ\/Gx0GrJ6ci17gl8UC2dWpCSYAK2UnMUaLgTk9+HtvoFqLoQ5upHoANNrKdD9GTaRqGjcEtqbayGr\/JX+Hxu8GqkXAJEnJbqBqLuoQdf3tfjLV66lXkl+jpkddz7HGwds6kko1DzgD2BN4LXBrbjqN5lxRIE+qpDa4ANgB+DLVN1qNjj8XF8gGQFJbzAeOpXojZUFyLk3jXFEgT6qktvke1YqVC7MTaRDvABTIBkBSG\/0YODo7iQZxriiQJ1VSW30T+HZ2Eg3hHYAC2QBIarNjgfuzk2gA54oCeVIltdlTwP\/ITqIBnCsK5EmV1Hbfxz0aRuJPAAWyAZDUdgt5YW8KLZ8NQIFsACSp2qnRBYKG51xRIE+q1Ex12kr54ewEAtwP3JSdRI15B6BANgBSM12ancBS6pTLeFyZnUCNOVcUyJMqNdOJwGPZSQCPAF\/JTiLI77MTqDHvABTIBkBqpoeBg4DHE3N4bEkOjyTmEMn1AIbnXFGgCdkJSBqzy4FtgI8BrwZm9OnfnQP8DPgi8GCf\/s1+eCI7gRqzASiQDYDUbA8Af5udRCHcIXB4\/gRQILs6Sar4GuDwbAAKZAMgSZWh7ARqzLmiQJ5USap4B2B43gEokA2AJFW8AzA854oCeVIlqeIdgOE5VxTIkypJFe8ADM+fAApkAyBJFe8ADM+5okCeVEmqeAdgeN4BKJANgCRVvAMwPOeKAnlSJaniHYDheQegQDYAklTxDsDwnCsK5EmVpIp3AIbnHYAC2QBIUsU7AJ3ZBBTGBkCSKt4B6Mz5ojCeUEmqeAegM+8AFMYGQJIq3gHozPmiMJ5QSap4B6Az7wAUxgZAkireAejM+aIwnlBJqngHoDPni8J4QiWp4h2AzvwJoDA2AJJUeSo7gRpbADyXnYRi2QBIUuVh4M7sJGrqGmwAJEkFez2wkOp5AKOKecAe4ymq6snfdCTpxXYHPgbsAExMziXTXOB3wPHAjcm5SJIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk9cZAdgKSVENbA1sCg9mJJJoP\/Ap4MDsRSZJ6bRA4GVhssBiYB7x3XBWVJKkBjiF\/0q1bLKS6I6LCtPn2liQtbQA4C5ienUjNrABMA87OTkSxVshOQJJqYhawTnYSNbVbdgKKZwMgSZX1sxOosY2yE1A8GwBJqviT6PAmZCegeDYAklRZnJ1AjfnKeIFsACSpYgMwPBuAAtkASFLFBmB4NgAFsgGQpIoNwPBsAApkAyBJFRsAtYoNgCRVbAA68y5AYWwAJKliA9CZDUBhbAAkqWID0JkNQGFsACSpYgPQmQ1AYWwAJKliA9CZDUBhXN5RUinWAN4PbMPYxraVY9MpzmnA0Bj+u2eB3wDfBOaFZiRJar2tgYcY3773Rm\/jemCl4U6g+s\/NLySV4Ayqb\/6qrzWp7sxcmJ2IKv6mI6npJgFPAhOzE9GIrgVenp2EKj4EKKnppuPk3xSrZSegF9gASJLUQjYAkiS1kA2AJEktZAMgSVIL2QBIktRCNgCSJLWQDYAkSS1kAyBJUgvZAEiS1EI2AJKabkF2AurawuwE9AIbAElNNweYnZ2EunJDdgJ6gbsBSirFa7MTUEdDwNHAPdmJqGIDIKkEVwNzgV2Bycm56KXuBd4HnJediF7gdsCSSjIArEe177zq4Vngwewk9FL\/Ddvb+b8pdemXAAAAAElFTkSuQmCC\"><\/image>\n<\/defs>\n<\/svg>\n<br><br>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>PROUDLY SERVING<\/p><p>SINCE 1939<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_bgL4B3",
+        "text_block_VKYnqE",
+        "text_block_WkttHY"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><\/h3><h3><strong>YOUR FRIENDLY NEIGHBORS<\/strong><\/h3><h3><\/h3>",
+        "align_text": "center",
+        "css_class": "neighbors",
+        "custom_css": "section.section.neighbors p {\n    margin-bottom: 0;\n}\n.neighbors .one-third.column.medium-down--one-whole.text-column {\n    width: calc(33% - 20px);\n}\n.neighbors .one-whole.column {\n    margin-bottom: 4%;\n}"
+      }
+    }
+  },
+  "order": [
+    "slideshow_RHjFLE",
+    "divider_Lz6UKr",
+    "collection_list_slider_kG6qnH",
+    "custom_html_XABKCB",
+    "16315439842a06c96b",
+    "image_with_text_overlay_cqTUci",
+    "text_columns_with_images_AwrTDB",
+    "text_columns_with_images_HjVU6a",
+    "image_with_text_overlay_wRej7e",
+    "featured_collection_f6ztK4",
+    "featured_text_4TRBJx",
+    "image_with_text_overlay_JhJCUB",
+    "image_with_text_overlay_T6GG3X",
+    "collection_list_n7tj94",
+    "featured_text_KRL7GG",
+    "image_with_text_overlay_FVhFy7",
+    "image_with_text_overlay_T9LHer",
+    "text_columns_with_images_gF9xLB",
+    "image_with_text_overlay_NRtWVE",
+    "image_with_text_overlay_7RzDFG",
+    "featured_text_g6EgK7",
+    "featured_text_LeKBkC",
+    "1728309366882ef383",
+    "text_columns_with_images_fafLjj"
+  ]
+}

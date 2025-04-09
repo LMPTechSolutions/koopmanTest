@@ -1,0 +1,320 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_wVf9EX": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/joyful-woman-smiling-at-worker-during-bluepring-ex-2023-11-27-05-10-52-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "Koopman Pro",
+        "subtitle": "<p><a href=\"https:\/\/koopmanlumber.com\/koopman-pro-2\/#services\"><strong>SERVICES-<\/strong><\/a><a href=\"https:\/\/koopmanlumber.com\/koopman-pro-2\/#benefits\"><strong>BENEFITS-<\/strong><\/a><a href=\"https:\/\/koopmanlumber.com\/koopman-pro-2\/#resources\"><strong>RESOURCES-<\/strong><\/a><a href=\"https:\/\/koopmanlumber.com\/koopman-pro-2\/#events\"><strong>EVENTS-<\/strong><\/a><a href=\"https:\/\/koopmanlumber.com\/koopman-pro-2\/#media\"><strong>MEDIA<\/strong><\/a><\/p><p>Many companies boast about their huge capability and great customer service, but few can actually deliver. Here at Koopman Lumber we believe we have the formula right. We’re family owned and operated, which means the family is actively engaged in the business every day.<\/p><p>We have 75 years of servicing the contractor – it’s what we’ve been doing since day one.<\/p><p>Sign up to become a Koopman Pro today and we’ll connect you with a member of our amazing staff to get you started and help you get the job done.<\/p>",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "darken_bg",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "pro-title",
+        "custom_css": ".pro-title .subtitle a {\n    font-size: 18px;\n}\n.pro-title .subtitle p {\n    font-size: 12px;\n}"
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "CREDIT",
+            "heading_size": "regular_text",
+            "text": "<p>As a leading supplier of building materials in New England, we have robust credit resources to extend to worthy professionals in the construction trade. We began in the construction business over 75 years ago and are proud to have financed thousands of customers build tens of thousands of homes in our three generations of ownership.<\/p><p>We trust you too will be impressed with our professionalism and steadfast support of area independent business people.<\/p>",
+            "button_label": "Business Credit Application",
+            "button_link": "https:\/\/cus.bectran.com\/customer\/MySecuredLogin?zid=CcORz2208rUyh52994o0Ewj",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_GPmnB7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img fetchpriority=\"high\" decoding=\"async\" width=\"501\" height=\"338\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/Credit-Application2.jpg\" class=\"attachment-full size-full wp-image-10799\" alt=\"Credit Application\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/Credit-Application2.jpg 501w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/Credit-Application2-300x202.jpg 300w\" sizes=\"(max-width: 501px) 100vw, 501px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_GPmnB7"
+      ],
+      "settings": {
+        "title": "Pro Services Menu",
+        "text": "",
+        "align_text": "left",
+        "css_class": "koopman-pro",
+        "custom_css": ".koopman-pro  a.text-columns-with-images__button.global-button.global-button--text {\n    color: #FFF;\n    background-color: #D54D4D;\n    border-color: #D54D4D;\n}\n.koopman-pro a.text-columns-with-images__button.global-button.global-button--text:hover {\n    color: #D54D4D;\n    background-color: #FFF;\n}"
+      }
+    },
+    "text_columns_with_images_Gzzqdx": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_6GJBcb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "SALES",
+            "heading_size": "regular_text",
+            "text": "<p>The core of how we deliver unparalleled service levels to professional contractors is built around our sales team.<\/p><p>We have dozens of industry experts on the road full time every day delivering valuable expertise and coordinating all material supply needs. These folks are backed up by a dedicated crew of inside support professionals as an additional critical component of the service team.<\/p><p>At Koopman Lumber, you have access not only to one sales person on the road, but to his\/her dedicated inside support person and all the professionals around them whose mission it is to ensure you receive the best value any supplier could possibly offer.<\/p>",
+            "button_label": "Email Our Sales Team",
+            "button_link": "https:\/\/cus.bectran.com\/customer\/MySecuredLogin?zid=CcORz2208rUyh52994o0Ewj",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_9CCf9H": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-sales.jpg\" class=\"attachment-full size-full wp-image-10802\" alt=\"Men Loading A Pickup Truck\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-sales.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-sales-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6GJBcb",
+        "text_block_9CCf9H"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "koopman-pro",
+        "custom_css": ".koopman-pro  a.text-columns-with-images__button.global-button.global-button--text {\n    color: #FFF;\n    background-color: #D54D4D;\n    border-color: #D54D4D;\n}\n.koopman-pro a.text-columns-with-images__button.global-button.global-button--text:hover {\n    color: #D54D4D;\n    background-color: #FFF;\n}"
+      }
+    },
+    "text_columns_with_images_BpYT4g": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_8mR966": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Engineering & Estimating",
+            "heading_size": "regular_text",
+            "text": "<p>As building codes change, and business practices adapt, it’s important that you have the support of a dedicated team of individuals as a resource for you and your business.<\/p><p>Our department has been recognized as a leading authority of current construction practices as we have led continuing education events for area building inspectors and trade professionals. When you want some insight on the most effective way to frame a house, visit with our engineered lumber team.<\/p><p>Our estimates are accurate and complete because we care about your business and the finished product that the trade professional must stand behind. In a nutshell, you can trust Koopman Lumber’s Engineered Lumber and Estimating departments to get it done right.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_bmmqbU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-engineering-and-estimates.jpg\" class=\"attachment-full size-full wp-image-10801\" alt=\"Precut Lumber\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-engineering-and-estimates.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-engineering-and-estimates-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8mR966",
+        "text_block_bmmqbU"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "koopman-pro",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_DgXQ8K": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_nUzh44": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Delivery",
+            "heading_size": "regular_text",
+            "text": "<p>We love lumber, but we really love trucks too. The raw power. The chrome. Trucks are literally where the rubber hits the road. We are constantly investing in our fleet and drivers to “git ‘r dun” every day.<\/p><p>Our GPS tracked fleet and drivers are second to none in the industry. You can trust Koopman Lumber to get you accurate deliveries in full and on time.<\/p>",
+            "button_label": "Email Our Sales Team",
+            "button_link": "https:\/\/cus.bectran.com\/customer\/MySecuredLogin?zid=CcORz2208rUyh52994o0Ewj",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_zcie6W": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-delivery.jpg\" class=\"attachment-full size-full wp-image-10800\" alt=\"Delivery Trucks\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-delivery.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-services-delivery-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_nUzh44",
+        "text_block_zcie6W"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "koopman-pro",
+        "custom_css": ".koopman-pro  a.text-columns-with-images__button.global-button.global-button--text {\n    color: #FFF;\n    background-color: #D54D4D;\n    border-color: #D54D4D;\n}\n.koopman-pro a.text-columns-with-images__button.global-button.global-button--text:hover {\n    color: #D54D4D;\n    background-color: #FFF;\n}"
+      }
+    },
+    "text_columns_with_images_8NMmAz": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_xRqpyd": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Trim Shop",
+            "heading_size": "regular_text",
+            "text": "<p>Our climate controlled trim shop not only gets you millwork and trim that is ready to install the moment it arrives on the job site, but we also offer advanced services such as trim packs that are custom cut for every opening in the house and custom window mulls.<\/p><p>Our in house carpentry team can deliver just about anything you can dream up.<\/p>",
+            "button_label": "Email Our Sales Team",
+            "button_link": "https:\/\/cus.bectran.com\/customer\/MySecuredLogin?zid=CcORz2208rUyh52994o0Ewj",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_cqPrze": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-trim-shop.jpg\" class=\"attachment-full size-full wp-image-10803\" alt=\"\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-trim-shop.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/kp-trim-shop-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_xRqpyd",
+        "text_block_cqPrze"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "koopman-pro",
+        "custom_css": ".koopman-pro  a.text-columns-with-images__button.global-button.global-button--text {\n    color: #FFF;\n    background-color: #D54D4D;\n    border-color: #D54D4D;\n}\n.koopman-pro a.text-columns-with-images__button.global-button.global-button--text:hover {\n    color: #D54D4D;\n    background-color: #FFF;\n}"
+      }
+    },
+    "text_columns_with_images_3ngTqG": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_Qnzc4j": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-be70f2a elementor-widget elementor-widget-html\" data-id=\"be70f2a\" data-element_type=\"widget\" data-widget_type=\"html.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<table>\n    <tbody>\n      <tr>\n        <td><strong>1.<\/strong><\/td>\n        <td>Lumber & building material takeoffs from your plans<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>2.<\/strong><\/td>\n        <td>Engineered Wood Product (EWP) Design<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>3.<\/strong><\/td>\n        <td>EWP CAD framing plans with jobsite cut packs<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>4.<\/strong><\/td>\n        <td>EWP beam & joist calculations<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>5.<\/strong><\/td>\n        <td>REScheck residential energy compliance reports<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>6.<\/strong><\/td>\n        <td>Boom truck delivery from our Sharon location<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>7.<\/strong><\/td>\n        <td>GPS tracked delivery fleet reaching most of New England<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>8.<\/strong><\/td>\n        <td>The best brands and products in the business<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>9.<\/strong><\/td>\n        <td>Billion dollar buying power through our independent buying group<\/td>\n      <\/tr>\n    <\/tbody>\n  <\/table>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_4EXaeC": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<div class=\"elementor-element elementor-element-640dbb5 elementor-widget elementor-widget-html\" data-id=\"640dbb5\" data-element_type=\"widget\" data-widget_type=\"html.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t<table>\n    <tbody>\n      <tr>\n        <td><strong>10.<\/strong><\/td>\n        <td>Kitchen & bath design services – in your home or at one of 3 showrooms<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>11.<\/strong><\/td>\n        <td>Interior and exterior trim packs to optimize materials and speed up installation<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>12.<\/strong><\/td>\n        <td>Outside salespersons to provide expert, on-site service for your business<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>13.<\/strong><\/td>\n        <td>Emailing of invoices and other financial\/billing services available<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>14.<\/strong><\/td>\n        <td>Five locations with drive through lumber yards, six locations with paint, two locations with equipment rental, three locations with Stihl power equipment<\/td>\n      <\/tr>\n      <tr>\n        <td><strong>15.<\/strong><\/td>\n        <td>Over 275 employees in 9 locations seeking to serve you!<\/td>\n      <\/tr>\n    <\/tbody>\n  <\/table>\t\t<\/div>\n\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>*Some services have fees associated with them. <\/p><p>The best way to learn more about Koopman Lumber is to connect you with our professional service team led by one of our nearly 40 outside sales professionals. Fill out the form above and we’ll have someone reach out to you right away.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Qnzc4j",
+        "text_block_4EXaeC"
+      ],
+      "settings": {
+        "title": "Pro Benefits",
+        "text": "<h5><strong>What does Koopman Lumber offer the Professional Contractor?<\/strong><\/h5><p>Basically everything a contractor needs to be a successful residential or small commercial builder can be provided by Koopman Lumber. Below is a partial list of what is offered. Other services are also available where specific situations warrant it.<\/p>",
+        "align_text": "center",
+        "css_class": "pro-benefits",
+        "custom_css": ".pro-benefits  table td {\n    padding: 15px;\n    line-height: 1.5;\n    vertical-align: top;\n    border: 1px solid hsla(0, 0%, 50.2%, .5019607843);\n}\n.pro-benefits table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th {\n    background-color: hsla(0, 0%, 50.2%, .0705882353);\n}\n.pro-benefits table {\n    background-color: transparent;\n    width: 100%;\n    margin-block-end: 15px;\n    font-size: .9em;\n    border-spacing: 0;\n    border-collapse: collapse;\n}\n.pro-benefits tr {\n    display: table-row;\n    vertical-align: inherit;\n    unicode-bidi: isolate;\n    border-color: inherit;\n}\n.pro-benefits .rte {\n    word-break: unset;\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_wVf9EX",
+    "text_columns_with_images_b9MCYY",
+    "text_columns_with_images_Gzzqdx",
+    "text_columns_with_images_BpYT4g",
+    "text_columns_with_images_DgXQ8K",
+    "text_columns_with_images_8NMmAz",
+    "text_columns_with_images_3ngTqG"
+  ]
+}

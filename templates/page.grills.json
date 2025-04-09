@@ -1,0 +1,515 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_8Vpytf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YXaURm": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23510001Y10.jpg",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_tA3GWL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22510001Y1.jpg",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_E7dWjd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23510001Y2.jpg",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_MJbHcJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/father-and-son-at-barbecue-grill-in-garden-2024-06-06-03-51-36-utc.jpg",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_mTg3Ny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/father-grilling-meat-and-vegetable-on-grill-during-2023-11-27-05-11-55-utc.jpg",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_QkiEMX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/young-family-cooking-grilled-food-together-in-the-2023-11-27-05-36-37-utc.jpg",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_T6HWwm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smiling-senior-man-making-barbecue-at-outdoor-gril-2023-11-27-05-35-02-utc.png",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_DLGqkr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/family-spend-time-together-while-having-barbecue-w-2023-11-27-05-33-00-utc.png",
+            "pretext": "",
+            "title": "Grills for all your occasions",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "image_YXaURm",
+        "image_tA3GWL",
+        "image_E7dWjd",
+        "image_MJbHcJ",
+        "image_mTg3Ny",
+        "image_QkiEMX",
+        "image_T6HWwm",
+        "image_DLGqkr"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeIn",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": true,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "home-title",
+        "custom_css": ".home-title h1.headline, .home-title p.headline{\n    text-shadow: #000 1px 0 10px;\n}"
+      }
+    },
+    "collection_list_r4CF7q": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_qRraGe": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "gas-grills"
+          }
+        },
+        "collection_WgJehB": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "charcoal-grills"
+          }
+        },
+        "collection_NkXji9": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "pellet-grills"
+          }
+        }
+      },
+      "block_order": [
+        "collection_qRraGe",
+        "collection_WgJehB",
+        "collection_NkXji9"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>BBQ Inspirations<\/strong><\/h3><p><a href=\"\/collections\/grills\" title=\"Grills\">Shop All Grills<\/a><\/p>",
+        "align_text": "center",
+        "align_height": false,
+        "collection_height": 200,
+        "frontpage_collections_per_row": 3,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.top-shop a.thumbnail-overlay__button.global-button.global-button--product-grid-text-hover {\n    color: red;\n    border-color: red;\n}\n.top-shop .product-wrap {\n    padding: 20px 10px;\n}\n.top-shop .product-wrap:hover  {\n    border: 1px solid #D54D4D;\n}"
+      }
+    },
+    "image_text_P9VRWL": {
+      "type": "image-text",
+      "blocks": {
+        "image_PGMmVj": {
+          "type": "image",
+          "settings": {
+            "title": "Grilling Tools & Apparel",
+            "text": "<p>Get Fired Up for the holiday season<\/p>",
+            "button_label": "Shop Now",
+            "link": "https:\/\/shopkoopman.com\/collections\/grilling-tools-apparel",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PGMmVj"
+      ],
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "center",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_kCNUqX": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_QGX6Tg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7819576.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Get Fired Up for the holiday season<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        },
+        "text_block_QkQDkx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7932692_3040809e-46a5-450d-962f-62c57f98bb41.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Get Fired Up for the holiday season<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_QGX6Tg",
+        "text_block_QkQDkx"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Grilling Tools & Apparel<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/grilling-tools-a\" title=\"https:\/\/shopkoopman.com\/collections\/grilling-tools-apparel\">Shop Now<\/a><\/p>",
+        "align_text": "center",
+        "css_class": "double-win",
+        "custom_css": ".double-win a {\n    border-bottom: 1px solid;\n}\n.double-win h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.double-win .border-style--box.text-align--center {\n    border: 1px solid #ccc;\n    border-radius: 5%;\n    font-size: 22px;\n    padding: 3%;\n}\n.double-win .border-style--box.text-align--center:hover {\n    color: #E10F0F;  \n}\n\n.double-win .image-element__wrap {\n    margin-bottom: 5%;\n    border: 1px solid #ccc;\n    border-radius: 2.5%;\n}\n.double-win img {\n    padding: 0 19%;\n    margin: 10px 0;\n}\n.double-win .border-style--box.text-align--center .rte-setting {\n    min-height: 6rem;\n    margin: 10% 0 5%;\n    align-content: center; \n}"
+      }
+    },
+    "custom_html_pG3Uqw": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<div class=\"banner-logo\">\n<p>Ready<br><sup>In<\/sup><b>60<\/b>\n<\/p>\n\n<\/div>\n<div class=\"banner-text\">\n                <p><a>Order Online,<\/a><br>Pickup in 60 minutes.*<\/p>\n              <\/div>",
+        "css_class": "adv-ban",
+        "custom_css": ".adv-ban  {\n    height: 140px;\n    width: 100%;\n    margin-top: 4%;\n    margin-bottom: 4%;\n}\n.adv-ban  .one-whole.column.custom-html-container {\n     margin: 0;\n    width: 100%;     \n     background-color: lightblue;\n}\n.banner-logo {\n     padding: 0 3%;\n}\n.banner-text p {\n    margin: 40px 0;\n    font-size: 20px;\n    font-weight: bold;\n}\n.banner-text a {\n    color: #d54d4d;\n}\n.rte {\n    display: flex;\n}\n.banner-logo p {\n    border: 3px dotted #d54d4d;\n    border-radius: 40px;\n    background-color: #000;\n    color: #FFF;\n    font-size: 12px;\n    width: 62px;\n     padding: 5px;\n     margin: 40px 5%;\n}\n.banner-logo sup {\n    top: -14px;\n}\n.banner-logo b {\n    color: #d54d4d;\n    font-size: 32px;\n    font-weight: 800;\n     font-family: Arial, Helvetica, \n      sans-serif;\n}"
+      }
+    },
+    "custom_html_hFrCYq": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<div class=\"banner-logo\">\n      <p><sub>Ready<\/sub><br><sup>In<\/sup><b>60<\/b>\n<\/p>\n     <\/div>          \n     <div class=\"caption-content align-left\">\n        <div class=\"subtitle\">\n<p>\n<a href=\"\/pages\/contact-us\" title=\"Contact Us\">\n<strong>Order Online<\/strong>\n<\/a>\n<\/p>\n<p><strong>Pickup in 60 minutes.*<\/strong>\n<\/p>\n<\/div>\n<\/div>",
+        "css_class": "pickup",
+        "custom_css": ".pickup  {\n    width: 100%;\n    margin-bottom: 1%;\n}\n\n.pickup .caption {\n    max-width: 1100px;\n}\n.pickup .container {\n    background-color: #CDC;\n    border-radius: 6px;\n    max-height: 150px;\n    width: 98%;\n    flex-wrap: nowrap;\n}\n.pickup .banner {\n    background-color: #FFF;\n    width: 100%;\n    margin: 0;\n}\n.pickup p {\n    text-transform: none;\n    font-size: 26px;\n    line-height: 1.2;\n     margin: 5% 0;\n}\n.pickup .a {\n   color: #E10F0F;\n    border-color: #E10F0F;\n    text-transform: capitalize;\n    font-size: 20px;\n    font-weight: 600;\n    padding: 0 30px;\n    line-height: 1.6;\n}\n.pickup .banner-logo {\n    padding-left: 4%;\n    padding-right: 1%;\n}\n.banner-text p {\n    margin: 40px 0;\n    font-size: 20px;\n    font-weight: bold;\n}\n.banner-text a {\n    color: #d54d4d;\n}\n.pickup .rte {\n    display: flex;\n    gap: 20px;\n}\n.banner-logo p {\n    border: 5px dotted #E10F0F;\n    border-radius: 50px;\n    background-color: #000;\n    color: #FFF;\n    font-weight: 800;\n    line-height: 0.6;\n    width: 88px;\n     margin: 30px 5%;\n}\n.banner-logo sub {\n    font-family: Tahoma, Verdana, \n    sans-serif;\n    font-size: 15px;\n    left: 6px;\n    top: 8px;\n    }\n.banner-logo sup {\n    font-size: 15px;\n    top: -24px;\n    left: 6px;\n    }\n.banner-logo b {\n    color: #E10F0F;\n    font-size: 44px;\n    line-height: 1.4;\n    font-weight: 1000;\n    font-family: Tahoma, Verdana, \n     sans-serif;\n}\n.pickup .caption-content.align-left {\n    padding: 16px 0;\n}\n.pickup .one-whole.column.custom-html-container {\n    margin-left: 2%;\n}"
+      }
+    },
+    "image_with_text_overlay_xUBpnP": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "image": "shopify:\/\/shop_images\/55130-forklift-machinery-in-a-row-in-warehouse-2023-11-27-04-53-04-utc.jpg",
+        "custom_html": "<div class=\"banner-logo\">\n<p>Ready<br><sup>In<\/sup><b>60<\/b>\n<\/p>\n<\/div>",
+        "pretext": "",
+        "title": "",
+        "subtitle": "<p><a href=\"\/pages\/contact-us\" title=\"Contact Us\"><strong>Order Online<\/strong><\/a><\/p><p><strong>Pickup in 60 minutes.*<\/strong><\/p>",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "left",
+        "text_align": "left",
+        "caption_content_background": "darken_bg",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "pickup",
+        "custom_css": ".pickup  {\n    width: 100%;\n    margin-bottom: 4%;\n}\n.pickup .caption {\n    max-width: 1100px;\n}\n.pickup .container {\n    max-height: 200px;\n    flex-wrap: nowrap;\n}\n.pickup .banner {\n    background-color: #333;\n    width: 100%;\n    margin: 0;\n}\n.pickup p {\n    text-transform: none;\n    font-size: 26px;\n    line-height: 1.2;\n     margin: 5% 0;\n}\n.pickup .first_button {\n   color: #d54d4d;\n    border-color: #d54d4d;\n    text-transform: capitalize;\n    font-size: 20px;\n    font-weight: 600;\n    padding: 0 30px;\n    line-height: 1.6;\n}\n.pickup .banner-logo {\n    padding-left: 4%;\n    padding-right: 1%;\n}\n.banner-text p {\n    margin: 40px 0;\n    font-size: 20px;\n    font-weight: bold;\n}\n.banner-text a {\n    color: #d54d4d;\n}\n.pickup .rte {\n    display: flex;\n   align-items: center;\n   justify-content: flex-start;\n    gap: 20px;\n}\n.banner-logo p {\n    border: 4px dotted #d54d4d;\n    border-radius: 50px;\n    background-color: #000;\n    color: #FFF;\n    font-size: 12px;\n    line-height: 1;\n    width: 72px;\n     padding: 5px;\n     margin: 40px 5%;\n}\n.banner-logo sup {\n    top: -28px;\n}\n.banner-logo b {\n    color: #d54d4d;\n    font-size: 41px;\n    font-weight: 800;\n     font-family: Arial, Helvetica, \n      sans-serif;\n}\n.pickup .caption-content.align-left {\n    padding: 30px 0;\n}\n.pickup .position-left.caption.js-caption {\n    padding: 0;\n}\n.pickup img {\n    width: 100%;\n    min-height: 120px;\n    margin-right: 0;\n}"
+      }
+    },
+    "text_columns_with_images_TJARVc": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_XjghpT": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/9929829.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Grill Cleaning<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/grill-cleaning",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_6JRwrg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/8221681_81596a4c-247e-4dc9-88ba-2e2a41e48cce.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Charcoal & Wood<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/charcoal-wood",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_iGBkeG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/6757611.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Grill Parts & Accessories<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/grill-parts-accessories",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_Pd3RMh": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/100086092.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Grill Cookware & Rotisseries<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/grill-cookware-rotisseries",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_XjghpT",
+        "text_block_6JRwrg",
+        "text_block_iGBkeG",
+        "text_block_Pd3RMh"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>GRILLING ACCESSORIES & FUEL<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/grill-parts-accessories\" title=\"https:\/\/shopkoopman.com\/collections\/grill-parts-accessories\">Shop Grill Accessories<\/a><\/p>",
+        "align_text": "center",
+        "css_class": "category",
+        "custom_css": ".category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category a {\n    border-bottom: 1px solid;\n}\n.category p {\n     margin: 0;\n}\n.category h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.category .one-whole.column {\n    margin-bottom: 2%;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}"
+      }
+    },
+    "text_columns_with_images_9eJHQF": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_94F7Dh": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7819576.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Grilling Tools & Apparel<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/grilling-tools-apparel",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_dLtqbp": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/YETI_18010130007_1_a0b0ac6b-23a0-4888-be21-7831854868ca.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Ice Chests & Coolers<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/ice-chests-coolers",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_V37hQM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/6522221.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Marinades, Batters & Oils<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/marinades-batters-oils",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_4qQ9Ap": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/3409059.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Propane Tanks & Accessories<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/propane-tanks-accessories",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_94F7Dh",
+        "text_block_dLtqbp",
+        "text_block_V37hQM",
+        "text_block_4qQ9Ap"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "category",
+        "custom_css": ".category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category p {\n     margin: 0;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}\n.category .feature-divider {\n    display: none;\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_8Vpytf",
+    "collection_list_r4CF7q",
+    "image_text_P9VRWL",
+    "text_columns_with_images_kCNUqX",
+    "custom_html_pG3Uqw",
+    "custom_html_hFrCYq",
+    "image_with_text_overlay_xUBpnP",
+    "text_columns_with_images_TJARVc",
+    "text_columns_with_images_9eJHQF"
+  ]
+}

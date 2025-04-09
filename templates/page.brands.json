@@ -1,0 +1,111 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "divider_W8fFKb": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 0,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "logo_bar_X7wJHe": {
+      "type": "logo-bar",
+      "blocks": {
+        "logo_image_NpyB9M": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s-l1200_copy.jpg",
+            "link": ""
+          }
+        },
+        "logo_image_mkeVQ6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-05-28_at_11.34.02_AM.png",
+            "link": ""
+          }
+        },
+        "logo_image_nA3pd4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/header-logo.png",
+            "link": ""
+          }
+        },
+        "logo_image_ME7qgy": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JGreen-footer-Logo-large.webp",
+            "link": ""
+          }
+        },
+        "logo_image_qkPCht": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560px-Velux_logo.svg-300x104.png",
+            "link": ""
+          }
+        },
+        "logo_image_zrMMxL": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Scotts-Logo-transparent1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_NpyB9M",
+        "logo_image_mkeVQ6",
+        "logo_image_nA3pd4",
+        "logo_image_ME7qgy",
+        "logo_image_qkPCht",
+        "logo_image_zrMMxL"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "css_class": "brand",
+        "custom_css": ".brand .logo-list.logo-list--grid {\n    display: flex;\n    gap: 1rem;\n    flex-direction: row;\n    align-items: center;\n    justify-content: space-between;\n}"
+      }
+    },
+    "custom_html_tzjAXG": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<button class=\"blnk-mob\">ALL BRANDS<\/button>\n<div id=\"myBtnContainer\">\n<button class=\"blnk\">ALL BRANDS<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('all')\"> All<\/button>\n  <button class=\"btn active\" onclick=\"filterSelection('A')\"> A<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('B')\"> B<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('C')\"> C<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('-D')\"> D<\/button>\n <button class=\"btn\" onclick=\"filterSelection('E')\"> E<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('F')\"> F<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('G')\"> G<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('H')\"> H<\/button>\n <button class=\"btn\" onclick=\"filterSelection('I')\"> I<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('J')\"> J<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('K')\"> K<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('L')\"> L<\/button>\n<button class=\"btn\" onclick=\"filterSelection('M')\"> M<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('N')\"> N<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('O')\"> O<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('P')\"> P<\/button>\n <button class=\"btn\" onclick=\"filterSelection('Q')\"> Q<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('R')\"> R<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('S')\"> S<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('T')\"> T<\/button>\n <button class=\"btn\" onclick=\"filterSelection('U')\"> U<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('V')\"> V<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('W')\"> W<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('X')\"> X<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('Y')\"> Y<\/button>\n  <button class=\"btn\" onclick=\"filterSelection('Z')\"> Z<\/button>\n<\/div>",
+        "css_class": "brands-selection",
+        "custom_css": ".brands-selection button {\n    background-color: #E10F0F;\n    padding: 12px 10px;\n    border: none;\n}\n.brands-selection  {\n     background-color: #E10F0F;\n}\n.brands-selection .btn.active { \n      border: 1px solid #FFF;\n      border-radius: 25px;\n      padding: 5px 8px;\n}\n.brands-selection .blnk {\n      margin: 0 20px;\n}"
+      }
+    },
+    "custom_liquid_fXpNe3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\">\n<ul>\n {%- for product_vendor in shop.vendors -%}\n <li class=\"filterDiv -{{ product_vendor | slice: 0 | \nupcase }}\"><a href=\"\/collections\/{{ product_vendor}}\" title=\"{{ product_vendor}}\">{{ product_vendor| capitalize }}<\/a><\/li>\n {%- endfor -%}\n<\/ul>\n <\/div>",
+        "css_class": "result",
+        "custom_css": ".container  ul{\n    padding: 0;\n}\n.container  a {\ncolor: #000000;\ntext-transform: capitalize;\n}\n.container  a:hover {\ncolor: #E10F0F;\n}\n.filterDiv {\n  float: left; \n  width: 228px;\n  line-height: 20px;\n  text-align: left;\n  margin: 4px;\n  display: none;\n}\n.show {\n  display: block;\n}"
+      }
+    },
+    "custom_html_hGyjph": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<script>\nfilterSelection(\"A\")\nfunction filterSelection(c) {\n  var x, i;\n  x = document.getElementsByClassName(\"filterDiv\");\n  if (c == \"all\") c = \"\";\n  for (i = 0; i < x.length; i++) {\n    w3RemoveClass(x[i], \"show\");\n    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], \"show\");\n  }\n}\n\nfunction w3AddClass(element, name) {\n  var i, arr1, arr2;\n  arr1 = element.className.split(\" \");\n  arr2 = name.split(\" \");\n  for (i = 0; i < arr2.length; i++) {\n    if (arr1.indexOf(arr2[i]) == -1) {element.className += \" \" + arr2[i];}\n  }\n}\n\nfunction w3RemoveClass(element, name) {\n  var i, arr1, arr2;\n  arr1 = element.className.split(\" \");\n  arr2 = name.split(\" \");\n  for (i = 0; i < arr2.length; i++) {\n    while (arr1.indexOf(arr2[i]) > -1) {\n      arr1.splice(arr1.indexOf(arr2[i]), 1);     \n    }\n  }\n  element.className = arr1.join(\" \");\n}\n\n\/\/ Add active class to the current button (highlight it)\nvar btnContainer = document.getElementById(\"myBtnContainer\");\nvar btns = btnContainer.getElementsByClassName(\"btn\");\nfor (var i = 0; i < btns.length; i++) {\n  btns[i].addEventListener(\"click\", function(){\n    var current = document.getElementsByClassName(\"active\");\n    current[0].className = current[0].className.replace(\" active\", \"\");\n    this.className += \" active\";\n  });\n}\n<\/script>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "divider_W8fFKb",
+    "logo_bar_X7wJHe",
+    "custom_html_tzjAXG",
+    "custom_liquid_fXpNe3",
+    "custom_html_hGyjph"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "search-template",
+      "blocks": {
+        "faceted_filtering_w7QpeY": {
+          "type": "faceted_filtering",
+          "settings": {
+            "show_filter_product_count": true
+          }
+        }
+      },
+      "block_order": [
+        "faceted_filtering_w7QpeY"
+      ],
+      "settings": {
+        "wide_display": true,
+        "caption_content_background": "original",
+        "search_breadcrumb": true,
+        "search_term": "Search...",
+        "products_per_row": 4,
+        "pagination_limit": 40,
+        "blog_author": false,
+        "read_more_link": true,
+        "blog_date": true,
+        "toggle": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

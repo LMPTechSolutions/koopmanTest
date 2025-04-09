@@ -1,0 +1,56 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer_0": {
+          "type": "logo",
+          "settings": {
+            "text_align": "left",
+            "social_icons_footer": false
+          }
+        },
+        "footer_1": {
+          "type": "link_list",
+          "settings": {
+            "menu": "company",
+            "social_icons_footer": false
+          }
+        },
+        "footer_2": {
+          "type": "link_list",
+          "settings": {
+            "menu": "resources",
+            "social_icons_footer": false
+          }
+        },
+        "link_list_mDi6JL": {
+          "type": "link_list",
+          "settings": {
+            "menu": "legal",
+            "social_icons_footer": false
+          }
+        }
+      },
+      "block_order": [
+        "footer_0",
+        "footer_1",
+        "footer_2",
+        "link_list_mDi6JL"
+      ],
+      "settings": {
+        "copyright_text": "",
+        "display_designed_by": false,
+        "display_payment_methods": true,
+        "enable_follow_on_shop": true,
+        "show_locale_selector": false,
+        "show_currency_selector": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,200 @@
+<style>
+  .page-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;    
+  }
+  .page-width h1 {
+    margin-top: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }  
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    fill: currentColor;
+  }  
+  .search-field input {
+    width: 100%;
+  }
+  .search-field input:focus {
+    outline: none;
+  }
+  .search-field {
+    position: relative;
+  }
+  .search-icon {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    padding: 10px;
+    background-color: #f6f6f6;
+  }
+  .search-icon p {
+    margin-bottom: unset;
+  }
+  .Addresses {
+    display: flex;
+    align-items: center;
+  }
+  .address-child-one .icon {
+    margin-left: 13px;
+    margin-bottom: 5px;
+  }
+  .address-child-one {
+    width: 10%;
+    text-align: left;
+  }
+  .address-child-two {
+    width: 70%;
+  }
+  .address-child-two h4 {
+    margin-bottom: unset !important;
+    font-weight: 700;
+    text-transform: capitalize;    
+  }
+  .address-child-two p {
+    margin-bottom: unset !important;
+  }
+  .address-child-three {
+    text-align: right;
+    width: 20%;
+  }
+  .address-child-three button {
+    border: none;
+    background-color: #12724c;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+  .mainStorePage hr {
+    margin: 30px 0;
+    border: 0;
+    border-bottom: 1px solid #8D8D8D;   
+  }
+  .sort-by {
+    margin-top: 10px;
+  }
+  @media only screen and (max-width: 768px){
+    .Addresses {
+      flex-direction: column;
+    }
+    .address-child-two {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    .address-child-three {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    .address-child-one {
+      width: 100%;
+    }
+  }
+</style>
+<div class="page-width">
+  <h1 style="font-size: 32px; font-weight: 500;">{{ section.settings.title }}</h1>
+  <div class="mainStorePage">
+    <div style="display: none">
+      <p>{{ section.settings.inventory }}</p>
+      <div class="search-field">
+        <div>
+          <input type="text" id="location" placeholder="Enter your location...">
+        </div>
+        <div class="search-icon">
+          {% include 'icon-search' %}
+        </div>
+      </div>
+      <div class="sort-by">{{ section.settings.sort_by }}</div>
+    </div>
+    <hr>
+    <div class="mainLocations">
+      {% for block in section.blocks %}
+      <div class="Addresses">
+        <div class="address-child-one">
+          <a href="{{ block.settings.gMap }}" target="_blank">{% include 'icon-pin' %}</a>
+        </div>
+        <div class="address-child-two">
+          <h4>{{ block.settings.city_name }}</h4>
+          <p>{{ block.settings.street_address1 }}</p>
+          <p>{{ block.settings.street_address2 }}</p>
+          <p>{{ block.settings.availability }}</p>
+        </div>
+        <div class="address-child-three">
+          <button>Make my store</button>
+        </div>
+      </div>
+      <hr>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{ 
+"name": "your_location",
+"settings": [    
+  {      
+    "type": "text",     
+    "id": "title",      
+    "label": "Page title"    
+  },
+  {
+    "type": "text",     
+    "id": "inventory",      
+    "label": "Add inventory text" 
+  },
+  {
+    "type": "richtext",     
+    "id": "sort_by",      
+    "label": "Sort by" 
+  }
+  ],
+   "blocks": [   
+    {  
+     "name": "location",
+     "type": "slide",
+	 "limit": 10,
+     "settings": [    
+      {           
+          "type": "text",
+          "id": "city_name",
+          "label": "City"         
+      },
+      {           
+          "type": "url",
+          "id": "gMap",
+          "label": "Google Maps URL"         
+      },
+      {           
+          "type": "text",
+          "id": "street_address1",
+          "label": "Street address 1"         
+      },
+      {           
+          "type": "text",
+          "id": "street_address2",
+          "label": "Street address 2"         
+      },
+      {           
+          "type": "text",
+          "id": "availability",
+          "label": "Availability"         
+      }
+   ]    
+  }   
+ ],
+  "presets": [   
+   {        
+      "name": "your_location"      
+   }   
+  ]
+}
+{% endschema %}

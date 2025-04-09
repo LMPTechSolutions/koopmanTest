@@ -1,0 +1,431 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_YfHzjT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XgmNYD": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-07-26_at_1.31.56_PM.png",
+            "pretext": "",
+            "title": "Buy online, Pickup in store",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_UwgJWB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snow-Blower.png",
+            "pretext": "",
+            "title": "Stay ahead of the snow",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_aX8KpR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lawn-mower-people-working-on-the-backyard-2023-11-27-05-14-59-utc.jpg",
+            "pretext": "",
+            "title": "Buy online, Pickup in store",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "right",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_W9adtx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-using-red-snowblower-machine-outdoor-removing-2023-11-27-04-52-15-utc.png",
+            "pretext": "",
+            "title": "Stay ahead of the snow",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "left",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_qWtWCj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lawn-mover-on-green-grass-machine-for-cutting-law-2023-11-27-05-04-27-utc.png",
+            "pretext": "",
+            "title": "Buy online, Pickup in store",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "left",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_3tpFMT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-using-red-snowblower-machine-outdoor-removing-2023-11-27-05-31-05-utc.png",
+            "pretext": "",
+            "title": "Stay ahead of the snow",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "right",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_8xPiAg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-man-is-working-in-the-garden-mowing-grass-wit-2023-11-27-05-12-00-utc.jpg",
+            "pretext": "",
+            "title": "Buy online, Pickup in store",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "left",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "image_XgmNYD",
+        "image_UwgJWB",
+        "image_aX8KpR",
+        "image_W9adtx",
+        "image_qWtWCj",
+        "image_3tpFMT",
+        "image_8xPiAg"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeIn",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": true,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "home-title",
+        "custom_css": ".home-title h1.headline, .home-title p.headline{\n    text-shadow: #000 1px 0 10px;\n}"
+      }
+    },
+    "collection_list_KDmrUy": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_zXcNwD": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "lawn-mowers"
+          }
+        },
+        "collection_FBLMKm": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "snow-blowers"
+          }
+        },
+        "collection_UeGcLf": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "pressure-washers"
+          }
+        },
+        "collection_CEhXAm": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "trimmers-edgers"
+          }
+        },
+        "collection_FECpjU": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "generators"
+          }
+        },
+        "collection_cA9Pin": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "leaf-blowers-vacuums"
+          }
+        },
+        "collection_xrDz9a": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "chainsaws-accessories"
+          }
+        },
+        "collection_HjjPJy": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "chippers-log-splitting"
+          }
+        }
+      },
+      "block_order": [
+        "collection_zXcNwD",
+        "collection_FBLMKm",
+        "collection_UeGcLf",
+        "collection_CEhXAm",
+        "collection_FECpjU",
+        "collection_cA9Pin",
+        "collection_xrDz9a",
+        "collection_HjjPJy"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Outdoor Power Equipment<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/outdoor-power-equipment\" title=\"https:\/\/shopkoopman.com\/collections\/outdoor-power-equipment\">Shop Power Equipment<\/a><\/p>",
+        "align_text": "center",
+        "align_height": true,
+        "collection_height": 400,
+        "frontpage_collections_per_row": 4,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.top-shop .image__container {\n    padding: 15%;\n    border: 2px solid #ccc;\n    border-radius: 50%;\n}"
+      }
+    },
+    "custom_html_MtQAEe": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<div class=\"banner-text\">\n<p><span>Look to Rent!<\/span>\n               <br> All the tools you will need to get the job done<br><a href=\"https:\/\/koopmanlumber.com\/rentals\/power-rentals\/\">View All Rentals<\/a><\/p>\n              <\/div>",
+        "css_class": "rent-ban",
+        "custom_css": ".rent-ban {\n    height: 150px;\n    width: 100%;\n    margin-top: 2%;\n    margin-bottom: 2%;\n}\n.rent-ban  .one-whole.column.custom-html-container {\n      margin: 0;\n    width: 100%; \n     background-color: lightblue;\n}\n.banner-text p {\n    margin: 30px 10%;\n    font-size: 18px;\n    line-height: 1.6;\n    font-weight: 400;\n}\n.banner-text a {\n    color: #d54d4d;\n    border: 1px solid #d54d4d;\n    font-size: 16px;\n     padding: 5px 30px;\n      line-height: 2.5;\n}\n.banner-text span { \n    font-size: 28px;\n     line-height: 0;   \n    font-weight: 600;\n    text-transform: uppercase;\n}"
+      }
+    },
+    "image_with_text_overlay_EwqiFh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/on-a-blue-background-a-set-of-electric-tools-in-o-2023-11-27-04-51-30-utc.png",
+        "custom_html": "",
+        "pretext": "",
+        "title": "Look to Rent!",
+        "subtitle": "<p>All the tools you will need to get the job done<\/p>",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner-highlighted",
+        "button2": "View All Rentals",
+        "button2_link": "https:\/\/koopmanlumber.com\/rentals\/power-rentals\/",
+        "button2_style": "global-button--banner",
+        "text_position": "left",
+        "text_align": "left",
+        "caption_content_background": "darken_bg",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "rent",
+        "custom_css": ".rent  {\n    width: 100%;\n    margin-bottom: 4%;\n}\n\n.rent .container {\n   max-height: 25rem !important;\n    flex-wrap: nowrap;\n}\n.rent .banner {\n    width: 100%;\n    margin: 0;\n}\n.rent h1.headline {\n    font-size: 2.2rem;\n    line-height: 1.2;\n    margin: 0;\n}\n.rent .caption .subtitle p {\n    text-transform: none;\n    font-size: 1.1rem;\n    line-height: 1.2;\n    margin: 0;\n}\n.rent .second_button {\n   color: #FFF;\n    border-color: #E10F0F;\n    background-color: #E10F0F; \n    text-transform: capitalize;\n    font-size: 20px;\n    font-weight: 600;\n    padding: 0 30px;\n    line-height: 1.6;\n}\n.rent .second_button:hover {\n    color: #E10F0F;\n    background-color: #FFF;  \n    border-color:  #FFF;\n}\n.rent .caption-content.align-left {\n    padding: 0;\n}\n.rent  img {\n    min-height: 200px !important;\n    margin-right: 0;\n}"
+      }
+    },
+    "collection_list_TJ7KhP": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_wX9VUr": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "chainsaws-accessories"
+          }
+        },
+        "collection_C8JVfE": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "lawn-mower-accessories"
+          }
+        },
+        "collection_EJ9KBC": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "generators-parts"
+          }
+        },
+        "collection_3L7p8f": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "power-equipment-parts-accessories"
+          }
+        },
+        "collection_d7zXik": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "small-engine-maintenance"
+          }
+        },
+        "collection_WfiQpe": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "specialty-power-tool-parts-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection_wX9VUr",
+        "collection_C8JVfE",
+        "collection_EJ9KBC",
+        "collection_3L7p8f",
+        "collection_d7zXik",
+        "collection_WfiQpe"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>REPLACEMENT PARTS<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/outdoor-power-equipment\" title=\"https:\/\/shopkoopman.com\/collections\/outdoor-power-equipment\">Shop Parts<\/a><\/p>",
+        "align_text": "center",
+        "align_height": false,
+        "collection_height": 200,
+        "frontpage_collections_per_row": 3,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}"
+      }
+    },
+    "image_text_7PwAW3": {
+      "type": "image-text",
+      "blocks": {
+        "image_zz8cqh": {
+          "type": "image",
+          "settings": {
+            "title": "Snow Blowers",
+            "text": "<p>Be ready for the snow. find snow blowers, shovels, ice melt, and ice scrapers to handle winter weather.<\/p>",
+            "button_label": "Shop Snow blowers",
+            "link": "https:\/\/shopkoopman.com\/collections\/snow-blowers",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zz8cqh"
+      ],
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_d3dPkN": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_RcxMzP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/100094226.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>CORDLESS<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/cordless-power-tools",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_AFBb6z": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/100016902.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>CORDED<\/p>",
+            "button_label": "",
+            "button_link": "https:\/\/shopkoopman.com\/collections\/corded-power-tools",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_GPaxpK": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7514094_a7bfa9df-beb6-4c6c-a6f6-dac591c585fd.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>HANDHELD<\/p>",
+            "button_label": "",
+            "button_link": "https:\/\/shopkoopman.com\/collections\/hand-tools",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_RcxMzP",
+        "text_block_AFBb6z",
+        "text_block_GPaxpK"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Power tools<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/tools\" title=\"https:\/\/shopkoopman.com\/collections\/tools\">Shop all Tools<\/a><\/p>",
+        "align_text": "center",
+        "css_class": "category",
+        "custom_css": ".category .one-third {\n    width: calc(33.3333333333% - 20px);\n}\n.category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category a {\n    border-bottom: 1px solid;\n}\n.category p {\n     margin: 0;\n}\n.category h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_YfHzjT",
+    "collection_list_KDmrUy",
+    "custom_html_MtQAEe",
+    "image_with_text_overlay_EwqiFh",
+    "collection_list_TJ7KhP",
+    "image_text_7PwAW3",
+    "text_columns_with_images_d3dPkN"
+  ]
+}

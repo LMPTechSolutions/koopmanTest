@@ -1,0 +1,370 @@
+<style>
+  .modal2 {
+    position: fixed;
+    display: none;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+  }
+
+  .modalframe {
+    background-color: #fefefe;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    max-height: 600px;
+    overflow-y: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #modalchart .close {
+    position: absolute;
+    padding: 15px 10px;
+    color: black;
+    float: right;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    line-height: 0;
+  }
+
+  #modalchart .close:hover, #modalchart .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  div#modal_img {
+    padding: 10px;
+  }
+  #modalchart .stock-qty1 {
+    width: 30%;
+  } 
+  #modalchart .stock-qty1 .stock-label1 {
+    min-height: unset;
+  }
+  #modalchart .Addresses {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  #modalchart .address-child-one1 .icon {
+    margin-left: 13px;
+    margin-bottom: 5px;
+  }
+  #modalchart .address-child-one1 {
+    width: 10%;
+    text-align: left;
+  }
+  #modalchart .address-child-two1 {
+    width: 40%;
+  }
+  #modalchart .address-child-two1 h4 {
+    margin-bottom: unset !important;
+  }
+  #modalchart .address-child-two1 p {
+    margin-bottom: unset !important;
+  }
+  #modalchart .address-child-three1 {
+    text-align: right;
+    width: 20%;
+  }
+  #modalchart .address-child-three1 button {
+    border: none;
+    background-color: #12724c;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+  .stock-qty1 {
+    position: relative;
+  } 
+  .stock-count1 {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: #12724c;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .stock-qty1 .stock-count1+.stock-label1 {
+    padding-left: 70px;
+    font-size: 13px;
+  }
+  .stock-qty1 .stock-label1 {
+    width: 100%;
+    padding-top: 0;
+    display: inline-block;
+  }
+  @media only screen and (max-width: 768px) {
+    #modalchart .Addresses {
+      flex-direction: column;
+      padding: 10px;
+    }
+    #modalchart .address-child-two1 {
+      margin-top: 5px;
+      width: 100%;
+      text-align: center;
+    }
+    #modalchart .address-child-three1 {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    #modalchart .address-child-one1 {
+      width: 100%;
+      text-align: center;
+    }
+    #modalchart .stock-qty1 {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  @media only screen and (min-width: 601px) {
+    .modalframe {
+      width:75%;
+    }
+  }
+</style>
+<div id="modalchart" class="modal2">
+  <div class="modalframe">     
+    <span class="close">&times;</span>       
+    <div id="modal_img">
+      <div class="mainLocations">
+
+        <div class="Addresses">
+          <div class="address-child-one1">
+            <a href="{{ settings.storeWhitinsvilleURL }}" target="_blank">{% include 'icon-pin' %}</a>
+          </div>
+          <div class="address-child-two1">
+            <h4>{{ settings.storeWhitinsville }}</h4>
+            <p>{{ settings.storeWhitinsvilleA1 }}</p>
+            <p>{{ settings.storeWhitinsvilleA2 }}</p>
+            <p>OPENED</p>
+          </div>
+          <!-- <div class="stock-qty1" id="qty1" data-loc="58485178545">
+            <div class="stock-count1"></div>
+            <div class="stock-label1">
+              <div>
+                <span class="inOut1">In stock for FREE pickup</span><span> in <strong class="store-name-target" id="storeNamePDP1">Whitinsville</strong></span>
+                <br>
+              </div>
+            </div>
+          </div> -->
+          <div class="address-child-three1">
+            <button style="background-color: black;">Current Store</button>
+          </div>
+        </div>
+
+        <div class="Addresses">
+          <div class="address-child-one1">
+            <a href="{{ settings.storeUxbridgeURL }}" target="_blank">{% include 'icon-pin' %}</a>
+          </div>
+          <div class="address-child-two1">
+            <h4>{{ settings.storeUxbridge }}</h4>
+            <p>{{ settings.storeUxbridgeA1 }}</p>
+            <p>{{ settings.storeUxbridgeA2 }}</p>
+            <p>OPENED</p>
+          </div>
+
+          <!-- <div class="stock-qty1" id="qty1" data-loc="58891600049">
+            <div class="stock-count1"></div>
+            <div class="stock-label1">
+              <div>
+                <span class="inOut1">In stock for FREE pickup</span><span> in <strong class="store-name-target" id="storeNamePDP1">Uxbridge</strong></span>
+                <br>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="address-child-three1">
+            <button>Make my store</button>
+          </div>
+        </div>
+
+        <div class="Addresses">
+          <div class="address-child-one1">
+            <a href="{{ settings.storeNorthGraftonURL }}" target="_blank">{% include 'icon-pin' %}</a>
+          </div>
+          <div class="address-child-two1">
+            <h4>{{ settings.storeNorthGrafton }}</h4>
+            <p>{{ settings.storeNorthGraftonA1 }}</p>
+            <p>{{ settings.storeNorthGraftonA2 }}</p>
+            <p>OPENED</p>
+          </div>
+
+          <!-- <div class="stock-qty1" id="qty1" data-loc="58892484785">
+            <div class="stock-count1"></div>
+            <div class="stock-label1">
+              <div>
+                <span class="inOut1">In stock for FREE pickup</span><span> in <strong class="store-name-target" id="storeNamePDP1">North Grafton</strong></span>
+                <br>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="address-child-three1">
+            <button>Make my store</button>
+          </div>
+        </div>
+
+        <div class="Addresses">
+          <div class="address-child-one1">
+            <a href="{{ settings.storeSharonURL }}" target="_blank">{% include 'icon-pin' %}</a>
+          </div>
+          <div class="address-child-two1">
+            <h4>{{ settings.storeSharon }}</h4>
+            <p>{{ settings.storeSharonA1 }}</p>
+            <p>{{ settings.storeSharonA2 }}</p>
+            <p>OPENED</p>
+          </div>
+
+          <!-- <div class="stock-qty1" id="qty1" data-loc="58892550321">
+            <div class="stock-count1"></div>
+            <div class="stock-label1">
+              <div>
+                <span class="inOut1">In stock for FREE pickup</span><span> in <strong class="store-name-target" id="storeNamePDP1">Sharon</strong></span>
+                <br>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="address-child-three1">
+            <button>Make my store</button>
+          </div>
+        </div>
+ 
+        <div class="Addresses">
+          <div class="address-child-one1">
+            <a href="{{ settings.storeLocation5URL }}" target="_blank">{% include 'icon-pin' %}</a>
+          </div>
+          <div class="address-child-two1">
+            <h4>{{ settings.storeLocation5 }}</h4>
+            <p>{{ settings.storeLocation5A1 }}</p>
+            <p>{{ settings.storeLocation5A2 }}</p>
+            <p>OPENED</p>
+          </div>
+
+          <!-- <div class="stock-qty1" id="qty1" data-loc="67302457521">
+            <div class="stock-count1"></div>
+            <div class="stock-label1">
+              <div>
+                <span class="inOut1">In stock for FREE pickup</span><span> in <strong class="store-name-target" id="storeNamePDP1">{{ settings.storeLocation5 }}</strong></span>
+                <br>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="address-child-three1">
+            <button>Make my store</button>
+          </div>
+        </div>
+
+
+        <div class="Addresses">
+          <div class="address-child-one1">
+            <a href="{{ settings.storeLocation6URL }}" target="_blank">{% include 'icon-pin' %}</a>
+          </div>
+          <div class="address-child-two1">
+            <h4>{{ settings.storeLocation6 }}</h4>
+            <p>{{ settings.storeLocation6A1 }}</p>
+            <p>{{ settings.storeLocation6A2 }}</p>
+            <p>OPENED</p>
+          </div>
+<!-- 
+          <div class="stock-qty1" id="qty1" data-loc="67970597041">
+            <div class="stock-count1"></div>
+            <div class="stock-label1">
+              <div>
+                <span class="inOut1">In stock for FREE pickup</span><span> in <strong class="store-name-target" id="storeNamePDP1">{{ settings.storeLocation6 }}</strong></span>
+                <br>
+              </div>
+            </div>
+          </div>
+ -->
+          <div class="address-child-three1">
+            <button>Make my store</button>
+          </div>
+        </div>
+        <p class="notAvail" style="display:none; color:red; font-weight: bold; padding: 20px;">Sorry!! Currently this product is not available in any location.</p>
+        
+      </div>
+
+    </div>       
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+
+
+    $('.address-child-three1 button').each(function() {
+
+
+      $(this).click(function() {
+        var location1 = $(this).parents('.Addresses').find('.address-child-two1 h4').text();
+
+        setCookie("globalLocation", location1, 30);
+        $(this).text('CURRENT STORE');
+        $(this).css('background','black');
+        $('.address-child-three1 button').not(this).text('MAKE MY STORE');
+        $('.address-child-three1 button').not(this).css('background','#12724c');
+        location.reload();
+      }); 
+    });
+
+    if(getCookie("globalLocation") != ''){
+      $('.address-child-three1 button').each(function(){
+        var location2 = $(this).parents('.Addresses').find('.address-child-two1 h4').text();
+        if(location2 == getCookie("globalLocation")){
+          $(this).text('CURRENT STORE');
+          $(this).css('background','black');
+          $('.address-child-three1 button').not(this).text('MAKE MY STORE');
+          $('.address-child-three1 button').not(this).css('background','#12724c');
+        }
+      });
+    } else {
+      setCookie("globalLocation", "Whitinsville", 30);
+    }
+
+    var threshold = 5000;
+    var cnt=0;
+
+    var meroxLoop =  setInterval(function(){
+      var huntingElement = document.getElementById("tomit_inventory_list");
+      if( huntingElement!=null || cnt>threshold){
+        $("ul#tomit_inventory_list li").each(function() {
+          var appLoc = $(this).attr('data-loc');
+          var appStock =  $(this).find('.stockCount').text();
+          $('div.stock-qty1').each(function(){
+            var modalLoc = $(this).attr('data-loc');
+            if(appLoc == modalLoc) {
+              $(this).find('.stock-count1').text(appStock);
+
+              if($(this).find('.stock-count1').text() <= 0) {
+                $(this).parent().remove();
+              }
+              if($('#modal_img .Addresses').length < 1) {
+                $('.notAvail').show();
+              }
+            }
+          });
+        });
+      }
+      cnt++;
+
+    }, 10);
+  });
+</script>

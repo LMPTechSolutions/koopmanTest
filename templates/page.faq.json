@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-faq-template",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "show_banner": true,
+        "caption_content_background": "original",
+        "pretext": "",
+        "title": "Page FAQ Template",
+        "subtitle": "<p>Create an amazing FAQ page with a full-width banner<\/p>",
+        "text_position": "center",
+        "text_align": "center",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner"
+      }
+    },
+    "featured_text_KfqNEg": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "content": "<h1><strong>F.A.Q.<\/strong><\/h1>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "faq_dxebww": {
+      "type": "faq",
+      "blocks": {
+        "heading_Hfm6Bj": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "About Us"
+          }
+        },
+        "content_wVyLQM": {
+          "type": "content",
+          "settings": {
+            "title": "What is Koopman Lumber?",
+            "answer": "<p>Koopman Lumber is a family-owned business that has been serving the hardware needs of local communities for over 85 years, offering a wide range of lumber and building materials.<br\/><\/p>"
+          }
+        },
+        "content_jp7Y7A": {
+          "type": "content",
+          "settings": {
+            "title": "Where is Koopman Lumber located?",
+            "answer": "<p>Koopman Lumber operates 10 locations in Massachusetts, including full-line lumber, hardware, paint, lawn and garden stores, and kitchen design centers.<\/p>"
+          }
+        },
+        "content_xnmgnJ": {
+          "type": "content",
+          "settings": {
+            "title": "What is the history of Koopman Lumber?",
+            "answer": "<p>Founded in 1939 by Peter T. Koopman, the company has grown and expanded its services over the years, maintaining its commitment to quality products and exceptional service.<\/p>"
+          }
+        },
+        "content_xftYB4": {
+          "type": "content",
+          "settings": {
+            "title": "How does Koopman Lumber support the local community?",
+            "answer": "<p>Koopman Lumber is actively engaged in the local community, providing 200 local jobs and supporting various community activities and initiatives.<\/p>"
+          }
+        },
+        "heading_RcKgwN": {
+          "type": "heading",
+          "settings": {
+            "faq_title": "Services"
+          }
+        },
+        "content_pRzQ8B": {
+          "type": "content",
+          "settings": {
+            "title": "What services does Koopman Lumber provide?",
+            "answer": "<p>The company provides lumber and building material sales, hardware, paint, lawn and garden equipment rental, power equipment sales and service, window, door, and millwork sales, as well as kitchen & bath design and sales.<br\/><\/p>"
+          }
+        },
+        "content_VrFD6A": {
+          "type": "content",
+          "settings": {
+            "title": "Does Koopman Lumber offer any specialized services for professionals?",
+            "answer": "<p>Yes, Koopman Lumber offers services tailored for professionals, including credit support, engineering & estimating, educational events, delivery services, an in-house trim shop, and a professional support team to increase profits.<br\/><\/p>"
+          }
+        },
+        "content_nd6wh9": {
+          "type": "content",
+          "settings": {
+            "title": "How can I become a Koopman Pro?",
+            "answer": "<p>To become a Koopman Pro, you can learn more and sign up through their website to gain access to specialized services and support designed for professional builders and contractors.<\/p>"
+          }
+        },
+        "content_wPWNnF": {
+          "type": "content",
+          "settings": {
+            "title": "Does Koopman Lumber offer design consultations?",
+            "answer": "<p>Yes, they have kitchen and bath design experts who can assist with design and ordering processes for contractors, installers, and homeowners.<br\/><\/p>"
+          }
+        },
+        "content_mUHH3E": {
+          "type": "content",
+          "settings": {
+            "title": "Does Koopman Lumber offer delivery services?",
+            "answer": "<p>Yes, Koopman Lumber offers delivery services, ensuring accurate and on-time deliveries for your convenience.<br\/><\/p>"
+          }
+        },
+        "content_pp7Jcp": {
+          "type": "content",
+          "settings": {
+            "title": "What are the holiday hours?",
+            "answer": "<p>Koopman Lumber's holiday hours are not explicitly listed in the search results. For the most accurate and up-to-date information regarding holiday hours, it's best to contact the specific Koopman Lumber location you plan to visit or check their official website. This ensures you receive the correct hours as they can vary by location and are subject to change during holiday periods.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hfm6Bj",
+        "content_wVyLQM",
+        "content_jp7Y7A",
+        "content_xnmgnJ",
+        "content_xftYB4",
+        "heading_RcKgwN",
+        "content_pRzQ8B",
+        "content_VrFD6A",
+        "content_nd6wh9",
+        "content_wPWNnF",
+        "content_mUHH3E",
+        "content_pp7Jcp"
+      ],
+      "settings": {
+        "title": "F.A.Q."
+      }
+    },
+    "image_text_iXgGte": {
+      "type": "image-text",
+      "blocks": {
+        "image_xYMHaF": {
+          "type": "image",
+          "settings": {
+            "title": "Your headline",
+            "text": "<p>Promotion description appears here.<\/p>",
+            "button_label": "View all",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xYMHaF"
+      ],
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_qydtPF": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "<p>* <a href=\"\/pages\/contact-us\" title=\"Contact Us\">For more detailed information, contact their customer service.<\/a><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_text_KfqNEg",
+    "faq_dxebww",
+    "image_text_iXgGte",
+    "featured_text_qydtPF"
+  ]
+}

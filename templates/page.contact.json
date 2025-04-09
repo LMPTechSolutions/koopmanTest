@@ -1,0 +1,175 @@
+{
+  "sections": {
+    "map_MtMawT": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_wide_display": true,
+        "map_address": "665 Church StreetWhitinsville, MA 01588",
+        "map_height": 400,
+        "zoom_level": 16,
+        "api_key": "",
+        "show_pin": true,
+        "map_style": "silver",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "image_with_text_overlay_9WhcTc": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/location.png",
+        "custom_html": "",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "right",
+        "text_align": "right",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "contact-template",
+      "settings": {
+        "wide_display": true,
+        "contact_heading": "Need to Contact Us?",
+        "contact_subheading": "Call or visit one of our locations below!",
+        "caption_content_background": "original",
+        "contact_text": "<p><strong>Thanks for contacting us. We'll get back to you as soon as possible.<\/strong><\/p>",
+        "show_map": false,
+        "map_wide_display": true,
+        "map_address": "",
+        "map_height": 400,
+        "zoom_level": 16,
+        "api_key": "",
+        "show_pin": true,
+        "map_style": "default",
+        "css_class": "custcont",
+        "custom_css": ".container.content.is-justify-center {\n    padding: 20px 0 0;\n}\n.contact-form__content.rte p, h1 span,  h2 span {\n    display: none;\n}\n.contact-title  h1{\n    color: #E10F0F;\n    text-transform: capitalize;\n}\n.contact-title  small {\n    font-size: smaller;\n}\n.span3 {\n    width: 50%;\n}\n.contact-form__content.rte {\n    display: inline-flex;\n    justify-content: space-between;\n    align-items: baseline;\n    flex-wrap: wrap;\n}\n  input.global-button.global-button--primary {\n     background-color: #E10F0F;\n     border-color: #E10F0F;\n}\ninput.global-button.global-button--primary:hover {\n     background-color: #FFF;\n     color: #E10F0F;\n}"
+      }
+    },
+    "164736184124975cbe": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Koopman Blog",
+        "blog_widget_select": "community-blog",
+        "home_page_articles": 3,
+        "blog_tags": false,
+        "blog_author": false,
+        "read_time": true,
+        "blog_date": true,
+        "blog_comment_count": true,
+        "read_more_link": false,
+        "excerpt_display": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_DiJbYe": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_4C3dNJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<article class=\"elementor-post elementor-grid-item post-22628 post type-post status-publish format-standard has-post-thumbnail hentry category-general\">\n\t\t\t<div class=\"elementor-post__card\">\n\t\t\t\t<a target=\"_blank\" class=\"elementor-post__thumbnail__link\" href=\"https:\/\/koopmanlumber.com\/5-best-replacement-windows-in-boston\/\" tabindex=\"-1\"><div class=\"elementor-post__thumbnail\"><img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1700\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-scaled.jpg\" class=\"attachment-full size-full wp-image-22622\" alt=\"A modern interior living room has blue walls and large windows.\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-scaled.jpg 2560w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-300x199.jpg 300w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-1024x680.jpg 1024w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-768x510.jpg 768w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-1536x1020.jpg 1536w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-2048x1360.jpg 2048w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/07\/trendy-modern-interior-living-room-with-blue-walls-white-windows-600x399.jpg 600w\" sizes=\"(max-width: 2560px) 100vw, 2560px\"><\/div><\/a>\n\t\t\t\t<div class=\"elementor-post__badge\">General<\/div>\n\t\t\t\t<div class=\"elementor-post__text\">\n\t\t\t\t<h3 class=\"elementor-post__title\">\n\t\t\t<a target=\"_blank\" href=\"https:\/\/koopmanlumber.com\/5-best-replacement-windows-in-boston\/\">\n\t\t\t\t5 Best Replacement Windows In Boston\t\t\t<\/a>\n\t\t<\/h3>\n\t\t\t\t<div class=\"elementor-post__excerpt\">\n\t\t\t<p>Source Choosing the best replacement windows for your Boston home can enhance its aesthetic appeal as well as boost its energy efficiency and overall comfort. <\/p>\n\t\t<\/div>\n\t\t\n\t\t<a target=\"_blank\" class=\"elementor-post__read-more\" href=\"https:\/\/koopmanlumber.com\/5-best-replacement-windows-in-boston\/\" aria-label=\"Read more about 5 Best Replacement Windows In Boston\" tabindex=\"-1\">\n\t\t\tRead More »\t\t<\/a>\n\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-post__meta-data\">\n\t\t\t\t\t<span class=\"elementor-post-date\">\n\t\t\tJuly 11, 2024\t\t<\/span>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n<\/article>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_pym7ny": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<article class=\"elementor-post elementor-grid-item post-22555 post type-post status-publish format-standard has-post-thumbnail hentry category-lawn-care\">\n\t\t\t<div class=\"elementor-post__card\">\n\t\t\t\t<a target=\"_blank\" class=\"elementor-post__thumbnail__link\" href=\"https:\/\/koopmanlumber.com\/best-grass-seed-for-massachusetts\/\" tabindex=\"-1\"><div class=\"elementor-post__thumbnail\"><img loading=\"lazy\" decoding=\"async\" width=\"933\" height=\"620\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/06\/Screen-Shot-2024-06-14-at-12.16.27-PM.png\" class=\"attachment-full size-full wp-image-22559\" alt=\"A close-up of long green grass covered in dew\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/06\/Screen-Shot-2024-06-14-at-12.16.27-PM.png 933w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/06\/Screen-Shot-2024-06-14-at-12.16.27-PM-300x199.png 300w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/06\/Screen-Shot-2024-06-14-at-12.16.27-PM-768x510.png 768w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/06\/Screen-Shot-2024-06-14-at-12.16.27-PM-600x399.png 600w\" sizes=\"(max-width: 933px) 100vw, 933px\"><\/div><\/a>\n\t\t\t\t<div class=\"elementor-post__badge\">Lawn Care<\/div>\n\t\t\t\t<div class=\"elementor-post__text\">\n\t\t\t\t<h3 class=\"elementor-post__title\">\n\t\t\t<a href=\"https:\/\/koopmanlumber.com\/best-grass-seed-for-massachusetts\/\">\n\t\t\t\tBest Grass Seed for Massachusetts\t\t\t<\/a>\n\t\t<\/h3>\n\t\t\t\t<div class=\"elementor-post__excerpt\">\n\t\t\t<p>Growing the perfect Massachusetts lawn is a rewarding project that enhances the beauty and utility of your outdoor spaces. At Koopman Lumber, we understand that<\/p>\n\t\t<\/div>\n\t\t\n\t\t<a target=\"_blank\" class=\"elementor-post__read-more\" href=\"https:\/\/koopmanlumber.com\/best-grass-seed-for-massachusetts\/\" aria-label=\"Read more about Best Grass Seed for Massachusetts\" tabindex=\"-1\">\n\t\t\tRead More »\t\t<\/a>\n\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-post__meta-data\">\n\t\t\t\t\t<span class=\"elementor-post-date\">\n\t\t\tJune 14, 2024\t\t<\/span>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div><\/article>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_KFTYx3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<article class=\"elementor-post elementor-grid-item post-22513 post type-post status-publish format-standard has-post-thumbnail hentry category-lawn-care\">\n\t\t\t<div class=\"elementor-post__card\">\n\t\t\t\t<a target=\"_blank\" class=\"elementor-post__thumbnail__link\" href=\"https:\/\/koopmanlumber.com\/when-to-dethatch-lawn\/\" tabindex=\"-1\"><div class=\"elementor-post__thumbnail\"><img loading=\"lazy\" decoding=\"async\" width=\"1600\" height=\"1067\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/05\/image-1.png\" class=\"attachment-full size-full wp-image-22518\" alt=\"\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/05\/image-1.png 1600w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/05\/image-1-300x200.png 300w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/05\/image-1-1024x683.png 1024w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/05\/image-1-768x512.png 768w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/05\/image-1-1536x1024.png 1536w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2024\/05\/image-1-600x400.png 600w\" sizes=\"(max-width: 1600px) 100vw, 1600px\"><\/div><\/a>\n\t\t\t\t<div class=\"elementor-post__badge\">Lawn Care<\/div>\n\t\t\t\t<div class=\"elementor-post__text\">\n\t\t\t\t<h3 class=\"elementor-post__title\">\n\t\t\t<a href=\"https:\/\/koopmanlumber.com\/when-to-dethatch-lawn\/\">\n\t\t\t\tWhen to Dethatch Your Lawn in New England\t\t\t<\/a>\n\t\t<\/h3>\n\t\t\t\t<div class=\"elementor-post__excerpt\">\n\t\t\t<p>Maintaining a lush, vibrant lawn in New England requires more than just regular mowing and watering. Dethatching is a critical maintenance task that should not<\/p>\n\t\t<\/div>\n\t\t\n\t\t<a target=\"_blank\" class=\"elementor-post__read-more\" href=\"https:\/\/koopmanlumber.com\/when-to-dethatch-lawn\/\" aria-label=\"Read more about When to Dethatch Your Lawn in New England\" tabindex=\"-1\">\n\t\t\tRead More »\t\t<\/a>\n\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-post__meta-data\">\n\t\t\t\t\t<span class=\"elementor-post-date\">\n\t\t\tMay 28, 2024\t\t<\/span>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n<\/article>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_4C3dNJ",
+        "text_block_pym7ny",
+        "text_block_KFTYx3"
+      ],
+      "settings": {
+        "title": "Koopman Blog",
+        "text": "<p>We’ve spent years collecting the best information for homeowners, DIYers, and contractors alike and putting it all in one convenient place. Browse our latest, or search for what you need!<\/p>",
+        "align_text": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_H8Ajwh": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "content": "",
+        "button_label": "Get Help From Our Blog",
+        "button_link": "https:\/\/koopmanlumber.com\/koopman-blog\/",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "custblog",
+        "custom_css": ".custblog .global-button {\n     background-color: #d54d4d;\n     border-color: #d54d4d;\n     text-transform: capitalize;\n   }\n.custblog .global-button:hover {\n     background-color: #FFF;\n     color: #d54d4d;\n}\n  .custblog {\n     margin-bottom: 20px;\n   }"
+      }
+    },
+    "custom_html_kzn67A": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<section class=\"section custblog\">\n  <div class=\"container\">\n    <div class=\"one-whole column\">\n      <div class=\"rich-text__content center\">\n        \n\n        \n\n        <div class=\"rich-text__text featured_text\">\n          \n\n          \n            <a target=\"_blank\" class=\"global-button\" href=\"https:\/\/koopmanlumber.com\/koopman-blog\/?__hstc=211194186.f53308a32f1e82b377d8d8473674068f.1714568803899.1732138467390.1733411926532.52&__hssc=211194186.12.1733411926532&__hsfp=810579359\">\n              Get Help From Our Blog\n            <\/a>\n          \n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/section>",
+        "css_class": "",
+        "custom_css": ".custblog .global-button {\n     background-color: #E10F0F;\n     border-color: #E10F0F;\n     text-transform: capitalize;\n   }\n.custblog .global-button:hover {\n     background-color: #FFF;\n     color: #E10F0F;\n}\n  .custblog {\n     margin-bottom: 20px;\n   }"
+      }
+    }
+  },
+  "order": [
+    "map_MtMawT",
+    "image_with_text_overlay_9WhcTc",
+    "main",
+    "164736184124975cbe",
+    "text_columns_with_images_DiJbYe",
+    "featured_text_H8Ajwh",
+    "custom_html_kzn67A"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_wVf9EX": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "custom_html": "",
+        "pretext": "",
+        "title": "All departments under our roof",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "custom_html": "",
+            "title": "Add a title or tagline",
+            "heading_size": "regular_text",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_GPmnB7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "custom_html": "",
+            "title": "Add a title or tagline",
+            "heading_size": "regular_text",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_GPmnB7"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Text columns with images",
+        "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+        "align_text": "left",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_npjAXm": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Paint Calculator",
+        "content": "<p>Use the <strong>Area<\/strong> section  to calculate the walls and ceiling values.<\/p><p>Input the dimensions of the room to be painted, to calculate the amount of paint and man-hours needed for this job.<br\/><br\/>Use the <strong>Number of Doors and Windows<\/strong> section to calculate the Doors and Windows values. (Note: This option requires that the Area values be defined.) <br\/><br\/>Use the <strong>Moulding<\/strong> section to calculate the moulding values. (Note: This option requires that the Area values be defined.)<\/p><p>Interior paint coverage depends on the brand of paint used. The coverage amount is listed on the label of the paint can. Use this to adjust the values in the <strong>Paint Coverage <\/strong>section below. Paint usually is applied at 350 to 400 square feet per gallon (primer at 200 to 300 square feet per gallon).<\/p><p>This calculator is to be used as an estimating tool only.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "css_class": "paint-title",
+        "custom_css": ".paint-title {\n    max-width: 800px;\n    width: 95%;\n    margin-left: auto;\n    margin-right: auto;\n}\n.paint-title h2.rich-text__heading.title {\n    text-transform: capitalize;\n    font-size: 36px;\n    font-weight: 600;\n    letter-spacing: 0.5px;\n}\n.paint-title p {\n    text-align: left;\n}"
+      }
+    },
+    "custom_html_KAikcf": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/angularjs\/1.6.9\/angular.min.js\"><\/script>\n<div class=\"area-calc\" data-ng-app=\"\" data-ng-init=\"Length=0;Linche=0;Width=0;Winche=0;Height=0;Hinche=0;moulding=0;primer=350;finish=200\">\n<form>\n<p class=\"section-calc\">Area<\/p>\n<div class=\"field-group-wrapper\">\n<p class=\"ParagraphRegular\">Length<\/p>\n<div class=\"field-group\">\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel role=\" label for=\"backyard-85045\">Feet<\/label>\n<div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"Length\" class=\"textinput type--text\" aria-label=\"length feet\" value=\"\">\n<\/div>\n<\/div>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-24076\">Inches<\/label>\n<div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"Linche\" class=\"textinput type--text\" aria-label=\"length inches\" value=\"\">\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"field-group-wrapper\">\n<p class=\"ParagraphRegular\">Width<\/p>\n<div class=\"field-group\">\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-15213\">Feet<\/label><div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"Width\" class=\"textinput type--text\" aria-label=\"width feet\" value=\"\">\n<\/div>\n<\/div>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-66936\">Inches<\/label><div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"Winche\" class=\"textinput type--text\" aria-label=\"width inches\" value=\"\">\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"field-group-wrapper\">\n<p class=\"ParagraphRegular\">Height<\/p>\n<div class=\"field-group\">\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-89429\">Feet<\/label>\n<div class=\"TextInputFormControl-sc-1c4ljsw-0 qsCmy form-control shape--rounded size--medium interaction--incomplete\">\n<input type=\"number\" ng-model=\"Height\" class=\"textinput type--text\" aria-label=\"height feet\" value=\"\">\n<\/div>\n<\/div>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-59909\">Inches<\/label>\n<div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"Hinche\" class=\"textinput type--text \" aria-label=\"height inches\" value=\"\">\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<hr class=\"hr-p-calc\">\n<p class=\"section-calc\">Number of Doors and Windows<\/p>\n<div class=\"field-group-wrapper\">\n<div class=\"field-group\">\n<div class=\"field-input\">\n<p class=\"ParagraphRegular\">Doors<\/p>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-26791\"><\/label>\n<div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"doors\" class=\"textinput type--text\" aria-label=\"number of doors\" value=\"\">\n<\/div>\n<\/div>\n<\/div>\n<div class=\"field-input\">\n<p class=\"ParagraphRegular\">Windows<\/p>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-13745\"><\/label><div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"windows\" class=\"textinput type--text\" aria-label=\"number of windows\" value=\"\">\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<hr class=\"hr-p-calc\">\n<p class=\"section-calc\">Moulding<\/p>\n<div class=\"field-group-wrapper\">\n<p class=\"ParagraphRegular\">Width<\/p>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-54904\">Inches<\/label>\n<div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"moulding\" class=\"textinput type--text \" aria-label=\"moulding width inches\" value=\"\">\n<\/div>\n<\/div>\n<\/div>\n<hr class=\"hr-p-calc\">\n<p class=\"section-calc\">Paint Coverage<\/p>\n<div class=\"field-group-wrapper\">\n<p class=\"ParagraphRegular\">Primer *<\/p>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-62806\">Square Feet per Gallon<\/label>\n<div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"primer\" class=\"textinput type--text\" aria-label=\"primer square feet per gallon\" value=\"350\">\n<\/div>\n<\/div>\n<\/div>\n<div class=\"field-group-wrapper\">\n<p class=\"ParagraphRegular\">Finish *<\/p>\n<div class=\"TextInputWrapper\">\n<label class=\"TextInputLabel\" role=\"label\" for=\"backyard-1438\">Square Feet per Gallon<\/label><div class=\"TextInputFormControl\">\n<input type=\"number\" ng-model=\"finish\" class=\"textinput type--text\" aria-label=\"finish square feet per gallon\" value=\"200\">\n<\/div>\n<\/div>\n<\/div>\n\n<span class=\"CaptionRegular\">* Indicates a required field<\/span>\n\n<hr class=\"hr-p-calc\">\n<div class=\"engage-common\">\n\n<h3 class=\"H3-align--left\">Walls<\/h3>\n<p class=\"ParagraphRegular\">This job requires <span ng-bind=\"(((((Length + (Linche \/ 12 ) + Width + (Winche \/ 12 ))  * 2 ) * (Height + (Hinche \/ 12 ))) - (( 17.2 * (0 + doors)) + ( 15.3 * (0 + windows)))) \/ primer ).toFixed(1)\">\n<\/span> gallons of primer (estimated labor: <span ng-bind=\"(((((Length + (Linche \/ 12 ) + Width + (Winche \/ 12 ))  * 2 ) * (Height + (Hinche \/ 12 ))) - (( 17.2 * (0 + doors)) + ( 15.3 * (0 + windows)))) * 0.002 ).toFixed(0)\"><\/span> hours) and <span ng-bind=\"(((((Length + (Linche \/ 12 ) + Width + (Winche \/ 12 )) * 2 ) * (Height + (Hinche \/ 12 ))) - (( 17.2 * (0 + doors)) + ( 15.3 * (0 + windows)))) \/ finish ).toFixed(1)\">\n<\/span> gallons of finish (estimated labor: <span ng-bind=\"(((((Length + (Linche \/ 12 ) + Width + (Winche \/ 12 )) * 2 ) * (Height + (Hinche \/ 12 ))) - (( 17.2 * (0 + doors)) + ( 15.3 * (0 + windows)))) * 0.003 ).toFixed(0)\"><\/span> hours).<\/p>\n\n<h3 class=\"H3-align--left\" color=\"text_primary\">Ceiling<\/h3>\n<p class=\"ParagraphRegular\">This job requires <span ng-bind=\"(( (Length + (Linche \/ 12 )) * (Width + (Winche \/ 12 ))) \/ primer ).toFixed(1)\">\n<\/span> gallons of primer (estimated labor: <span ng-bind=\"((Length + (Linche \/ 12 )) * (Width + (Winche \/ 12 )) * 0.004 ).toFixed(0)\">\n<\/span> hours) and <span ng-bind=\"(((Length + (Linche \/ 12 )) * (Width + (Winche \/ 12 ))) \/ finish ).toFixed(1)\">\n<\/span> gallons of finish (estimated labor: <span ng-bind=\"((Length + (Linche \/ 12 )) * (Width + (Winche \/ 12 )) * 0.005 ).toFixed(0)\">\n<\/span> hours).<\/p>\n\n<h3 class=\"H3-align--left\">Doors and Windows<\/h3>\n<p class=\"ParagraphRegular\">This job requires <span ng-bind=\"((( 17.2 * (0 + doors)) + ( 4.5 * (0 + windows))) \/ primer ).toFixed(1)\">\n<\/span> gallons of primer and <span ng-bind=\"((( 17.2 * (0 + doors)) + ( 4.5 * (0 + windows))) \/ finish ).toFixed(1)\">\n<\/span> gallons of finish (estimated labor for doors: <span ng-bind=\"( 0.4 * (0 + doors)) .toFixed(1)\">\n<\/span> hours; estimated labor for windows: <span ng-bind=\"( 0.23 * (0 + windows)).toFixed(1)\">\n<\/span> hours).<\/p>\n\n<h3 class=\"H3-align--left\">Moulding<\/h3>\n<p class=\"ParagraphRegular\">This job requires <span ng-bind=\"(((( moulding \/ 12 ) * 30 * (0 + doors)) + ((moulding \/ 12 ) * 15 * (0 + windows))) \/ primer ).toFixed(1)\">\n<\/span> gallons of primer and <span ng-bind=\"(((( moulding \/ 12 ) * 30 * (0 + doors)) + ((moulding \/ 12 ) * 15 * (0 + windows))) \/ finish ).toFixed(1)\">\n<\/span> gallons of finish; estimated labor: <span ng-bind=\"(( 0.246 * (0 + doors)) + ( 0.12 * (0 + windows))).toFixed(1)\">\n<\/span> hours.<\/p>\n<\/div>\n<\/form>\n<\/div>",
+        "css_class": "paint-calc",
+        "custom_css": ".paint-calc {\n   max-width: 800px;\n    width: 95%;\n    margin-left: auto;\n    margin-right: auto;\n}\n.paint-calc .area-calc {\n    border: 1px solid rgba(0, 0, 0, 0.12);\n    padding: 2.5rem;\n    margin-top: 1.5rem;\n    margin-bottom: 1.5rem;\n    border-radius: 0.5rem;\n}\n\n.field-group {\n    display: flex;\n    -webkit-box-pack: justify;\n    justify-content: space-between;\n}\n   .field-group > div:first-child {\n        margin-right: 2.5rem;\n    }\n.field-input {\n    width: 50%;\n}\n.TextInputWrapper {\n    border: none;\n    display: flex;\n    flex-direction: column;\n    vertical-align: top;\n    padding: 0px;\n    position: relative;\n    width: 100%;\n}\n.paint-calc hr{\n    box-sizing: border-box;\n    border: none;\n    background-color: rgba(0, 0, 0, 0.12);\n    height: 1px;\n    overflow: visible;\n    margin: 2.5rem 0px 1.75rem;\n}\n.section-calc, .ParagraphRegular span {\n    font-weight: 600;\n    color: #E10F0F;\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_wVf9EX",
+    "text_columns_with_images_b9MCYY",
+    "featured_text_npjAXm",
+    "custom_html_KAikcf"
+  ]
+}

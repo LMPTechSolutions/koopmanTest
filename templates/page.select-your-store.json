@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_wVf9EX": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "wide_display": true,
+        "custom_html": "",
+        "pretext": "",
+        "title": "All departments under our roof",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "custom_html_G8dzTJ": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<h1>Select your store<\/h1>\n<a onclick=\"history.back()\">Go Back <span class=\"icon-right-arrow\"><\/span><\/a>",
+        "css_class": "back",
+        "custom_css": ".back {\n    max-width: 1100px;\n    margin: 20px auto  -40px auto;\n    padding-left: 2%; \n}\n.back .one-whole.column.custom-html-container {\n    margin: 0;\n}\n.back .rte {\n  display: flex;\n    justify-content: space-between;\n    justify-items: stretch;\n    align-items: center;\n}\n.back h1 {\nwidth: 55%;\nmargin: 20px 0;\nfont-size: 32px; \nfont-weight: 500;\nline-height: 1em;\ntext-transform: capitalize;\n}\n .back a {\nmargin-top: 10px;\ncolor: #000;\nfont-size: 22px; \nfont-weight: 500;\ncursor: pointer;\n}\n.back .icon-right-arrow {\ncolor: #000;\n}"
+      }
+    },
+    "select_store_AEtFtC": {
+      "type": "select-store",
+      "blocks": {
+        "slide_GdT3zQ": {
+          "type": "slide",
+          "settings": {
+            "city_name": "Whitinsville",
+            "gMap": "https:\/\/www.google.com\/maps\/place\/Koopman+Lumber+%26+Hardware+Co.\/@42.123376,-71.646903,12z\/data=!4m5!3m4!1s0x0:0x4e7fc1c55d543140!8m2!3d42.1233756!4d-71.6469032?hl=en-US",
+            "street_address1": "665 Church Street",
+            "street_address2": "Whitinsville, MA 01588",
+            "availability": ""
+          }
+        },
+        "slide_VbBV3P": {
+          "type": "slide",
+          "settings": {
+            "city_name": "Uxbridge",
+            "gMap": "https:\/\/www.google.com\/maps?ll=42.0757,-71.633127&z=13&t=m&hl=en-US&gl=US&mapclient=embed&cid=6762561060492281959",
+            "street_address1": "12 Douglas Street",
+            "street_address2": "Uxbridge, MA 01569",
+            "availability": ""
+          }
+        },
+        "slide_mALx7h": {
+          "type": "slide",
+          "settings": {
+            "city_name": "North Grafton",
+            "gMap": "https:\/\/www.google.com\/maps\/place\/Koopman+Lumber+and+Hardware\/@42.214248,-71.689856,11z\/data=!4m5!3m4!1s0x0:0x16d558f3727bc845!8m2!3d42.2169737!4d-71.6938813?hl=en-US",
+            "street_address1": "82 Worcester Street",
+            "street_address2": "North Grafton, MA 01536",
+            "availability": ""
+          }
+        },
+        "slide_JJXBgA": {
+          "type": "slide",
+          "settings": {
+            "city_name": "Sharon",
+            "gMap": "https:\/\/maps.app.goo.gl\/Z8QYyNYpXZbfCqqDA",
+            "street_address1": "1050 General Edwards HWY",
+            "street_address2": "Sharon, MA 012067",
+            "availability": ""
+          }
+        },
+        "slide_JULT8g": {
+          "type": "slide",
+          "settings": {
+            "city_name": "Indian Orchard",
+            "gMap": "https:\/\/www.google.com\/maps\/place\/Koopman+Lumber+%26+Hardware+Indian+Orchard\/@42.14699,-72.495834,12z\/data=!4m6!3m5!1s0x89e6c2956e0dad1b:0xd7c5ff647377da96!8m2!3d42.1469904!4d-72.4958336!16s%2Fg%2F1tf6n6zd?hl=en-US&entry=ttu",
+            "street_address1": "476 Oak St. Indian",
+            "street_address2": "Orchard MA, 01151",
+            "availability": ""
+          }
+        },
+        "slide_k6WBdz": {
+          "type": "slide",
+          "settings": {
+            "city_name": "Dennis",
+            "gMap": "https:\/\/maps.app.goo.gl\/Lz3vYDVWYoCuQBTL9",
+            "street_address1": "243 Main St #6a",
+            "street_address2": "Dennis, MA 02638",
+            "availability": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_GdT3zQ",
+        "slide_VbBV3P",
+        "slide_mALx7h",
+        "slide_JJXBgA",
+        "slide_JULT8g",
+        "slide_k6WBdz"
+      ],
+      "settings": {
+        "title": "",
+        "inventory": "",
+        "sort_by": "<p>Sorting by distance from <strong>Whitinsville<\/strong><\/p>"
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "custom_html": "",
+            "title": "Add a title or tagline",
+            "heading_size": "regular_text",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_GPmnB7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "custom_html": "",
+            "title": "Add a title or tagline",
+            "heading_size": "regular_text",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_GPmnB7"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Text columns with images",
+        "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+        "align_text": "left",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_wVf9EX",
+    "custom_html_G8dzTJ",
+    "select_store_AEtFtC",
+    "text_columns_with_images_b9MCYY"
+  ]
+}

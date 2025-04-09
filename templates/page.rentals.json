@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_wVf9EX": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/electric-power-tools-are-on-the-workbench-in-the-w-2023-11-27-05-08-37-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "Equipment Rentals",
+        "subtitle": "<p>We have a massive rental fleet ready for you to take home today. Full-day and half-day rates available.<\/p>",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "darken_bg",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "rentals-title",
+        "custom_css": ".rentals-title h1.headline, .rentals-title p{\n    text-shadow: #000 1px 0 10px;\n}"
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/100016902.jpg",
+            "custom_html": "",
+            "title": "Contractor Equipment",
+            "heading_size": "regular_text",
+            "text": "<p>Table saws, compressors, lifts, and more. Everything you need for the jobsite\t<\/p>",
+            "button_label": "Click Here",
+            "button_link": "https:\/\/koopmanlumber.com\/product-category\/contractor-equipment\/",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        },
+        "text_block_GPmnB7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/T_C_2172.jpg",
+            "custom_html": "",
+            "title": "Landscaping Equipment",
+            "heading_size": "regular_text",
+            "text": "<p>Aerators, dethatchers, trimmers, mowers, anything your lawn could need<\/p>",
+            "button_label": "Click Here",
+            "button_link": "https:\/\/koopmanlumber.com\/product-category\/landscaping-equipment\/",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        },
+        "text_block_6HKNdF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/23510001BBR.png",
+            "custom_html": "",
+            "title": "Party  and  Events",
+            "heading_size": "regular_text",
+            "text": "<p>Tables, chairs, popcorn machines and anything else for a memorable event <\/p>",
+            "button_label": "Click Here",
+            "button_link": "https:\/\/koopmanlumber.com\/product-category\/party-and-events\/",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        },
+        "text_block_gFyBy8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/967863702.jpg",
+            "custom_html": "",
+            "title": "Power Rentals",
+            "heading_size": "regular_text",
+            "text": "<p>Chainsaws, drills, backpack blowers, and more. Anything you need for a 1-time job<\/p>",
+            "button_label": "Click Here",
+            "button_link": "https:\/\/koopmanlumber.com\/rentals\/power-rentals\/",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_GPmnB7",
+        "text_block_6HKNdF",
+        "text_block_gFyBy8"
+      ],
+      "settings": {
+        "title": "Choose Your Equipment Needs",
+        "text": "",
+        "align_text": "left",
+        "css_class": "rentals",
+        "custom_css": ".rentals  a.text-columns-with-images__button.global-button.global-button--text {\n    color: #FFF;\n    background-color: #E10F0F;\n    border-color: #E10F0F;\n}\n.rentals  a.text-columns-with-images__button.global-button.global-button--text:hover {\n    color: #E10F0F;\n    background-color: #FFF;\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_wVf9EX",
+    "text_columns_with_images_b9MCYY"
+  ]
+}

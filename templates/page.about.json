@@ -1,0 +1,732 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_wVf9EX": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/55130-forklift-machinery-in-a-row-in-warehouse-2023-11-27-04-53-04-utc.jpg",
+        "custom_html": "",
+        "pretext": "",
+        "title": "Koopman LumberTrue to the trade ℠",
+        "subtitle": "<p>Lumber is in our name. Lumber and building materials are at the core of what we do. We’ve built a fantastic network of lumber, hardware, and paint stores unlike any other in New England.<\/p>",
+        "button1": "Shop our online store",
+        "button1_link": "shopify:\/\/collections",
+        "button1_style": "global-button--banner",
+        "button2": "Become A Koopman PRO",
+        "button2_link": "shopify:\/\/pages\/koopman-pro",
+        "button2_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "darken_bg",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "about-title",
+        "custom_css": ".about-title a.first_button {\n    background-color: #E10F0F;\n    border-color: #E10F0F;\n}\n.about-title a.first_button:hover {\n   color: #E10F0F;\n   background-color: #FFF;\n    border-color: #FFF;\n}"
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Honest",
+            "heading_size": "regular_text",
+            "text": "<p>Today, Pete’s grandson, Dirk, Dirk’s sister Denise and her husband Tony lead a group of over 200 employees seeking to live up to the standards set by Pete’s legacy of honesty, integrity, and unending hard work.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "box"
+          }
+        },
+        "text_block_GPmnB7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Hard Working Experts",
+            "heading_size": "regular_text",
+            "text": "<p>We work very hard at staffing our wide variety of operations with people that know their area of expertise extremely well. We then make sure they are equipped to fill customer needs with every resource available.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "box"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_GPmnB7"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h2><strong>Who We Are<\/strong><\/h2><p><strong>The company you see today draws strength from the roots planted by Peter T. Koopman in 1939 and cultivated by him and the stalwart teams that he was able to lead for decades.<\/strong><\/p><p><strong>Who we are isn’t a simple question for Koopman Lumber. When you service and sell everything from engineered lumber to horse feed, it’s tough to narrow it down to one thing.<\/strong><\/p>",
+        "align_text": "center",
+        "css_class": "about",
+        "custom_css": ".about .rte-setting.text-align--center strong {\n    text-transform: capitalize;\n}\n.about .rte-setting.text-align--center {\n    width: 80%;\n    margin: 40px auto;\n    font-size: 18px;\n}"
+      }
+    },
+    "text_columns_with_images_A3wpeT": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_bRpj6q": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Your Neighbor",
+            "heading_size": "regular_text",
+            "text": "<p>Koopman Lumber began in the building trade and we are always looking to build for the future. Since 2011, five locations have been added to completely cover eastern Massachusetts and reach much of New England. In three of our acquisition cases, multi-generation family businesses were stabilized and grown while honoring the legacies of those families.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "box"
+          }
+        },
+        "text_block_UyjkjM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Responsible",
+            "heading_size": "regular_text",
+            "text": "<p>We make sure our staff are equipped to fill customer needs with every resource available. As you learn more about Koopmans, we hope you will appreciate the dedication put forth to serve your needs and the needs of every customer. Whatever we do for contractors and builders, we always strive to be True to the Trade℠<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "box"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_bRpj6q",
+        "text_block_UyjkjM"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "",
+        "custom_css": ".rte-setting {\n    min-height: 180px;\n}"
+      }
+    },
+    "text_columns_with_images_aqLMMV": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_XUFwci": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img fetchpriority=\"high\" decoding=\"async\" width=\"400\" height=\"800\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/09\/contractors_about.jpg\" class=\"attachment-full size-full wp-image-12056\" alt=\"Black and White of Man building house\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/09\/contractors_about.jpg 400w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/09\/contractors_about-200x300.jpg 200w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/09\/contractors_about-683x1024.jpg 683w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/09\/contractors_about-768x1152.jpg 768w\" sizes=\"(max-width: 400px) 100vw, 400px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_H69kM8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "For Contractors & Builders",
+            "heading_size": "regular_text",
+            "text": "<p>With an extensive network of professionals that allow us to service the builder. In addition to our network of lumber yards, each builder is supported by an outside sales representative that supports the planning of construction as well as on the jobsite.<\/p><p>Coordination with our engineered lumber and estimating departments assist in planning the project and is backed up with a dedicated inside salesperson. This process of planning and coordination takes place before the first piece of lumber goes out on a truck.<\/p><p>State of the art distribution centers (DCs) then fulfill orders delivering them on a GPS tracked fleet throughout central New England.<\/p><p>Distribution centers also deliver complete kitchen packages specified by our kitchen design staff. The kitchen staff can also bring the entire showroom to your home and do a 2020 design on site via three mobile showrooms.<\/p>",
+            "button_label": "Become A Koopman PRO",
+            "button_link": "shopify:\/\/pages\/koopman-pro",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_XUFwci",
+        "text_block_H69kM8"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h2><strong>What We Do<\/strong><\/h2><p><strong>We are your neighbors and members of your local community simply seeking to serve you. Although we no longer build houses ourselves, we started as builders by trade. The most important building we can do is building a relationship with our customers to be a dependable resource for a lifetime.<\/strong><\/p>",
+        "align_text": "center",
+        "css_class": "about",
+        "custom_css": ".about  a.text-columns-with-images__button.global-button.global-button--text {\n    color: #FFF;\n    background-color: #E10F0F;\n    border-color: #E10F0F;\n}\n.about a.text-columns-with-images__button.global-button.global-button--text:hover {\n    color: #E10F0F;\n    background-color: #FFF;\n}\n.about .rte-setting.text-align--center strong {\n    text-transform: capitalize;\n}\n.about .rte-setting.text-align--center {\n    width: 80%;\n    margin: 40px auto;\n    font-size: 18px;\n}\n.about h3.regular_text {\n    color: #E10F0F;\n}"
+      }
+    },
+    "text_columns_with_images_CcGkbC": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_Bq74ya": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "For Homeowners & Do-It-Yourselfers",
+            "heading_size": "regular_text",
+            "text": "<p>A growing network of lumber\/hardware\/paint stores unlike any other in New England. These stores allow us to effectively service any customer large or small. Our expertise in lawn and garden and live plants has developed over the last several years to be a destination for expert advice and great value.<\/p><p>Helpful advice is a cornerstone throughout the company including in paint where even choosing a paint color can be a daunting task. We understand and are here to help. From the simple paint project to complex industrial applications, we have the coatings industry covered.<\/p><p><\/p>",
+            "button_label": "Shop Online - Pickup Today!",
+            "button_link": "shopify:\/\/collections",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_kU9bUx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-lumber-service2.jpg\" class=\"attachment-full size-full wp-image-9094\" alt=\"Woman helping select paint trim\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-lumber-service2.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-lumber-service2-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Bq74ya",
+        "text_block_kU9bUx"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "about",
+        "custom_css": ".about  a.text-columns-with-images__button.global-button.global-button--text {\n    color: #FFF;\n    background-color: #E10F0F;\n    border-color: #E10F0F;\n}\n.about a.text-columns-with-images__button.global-button.global-button--text:hover {\n    color: #E10F0F;\n    background-color: #FFF;\n}\n.about h3.regular_text {\n    color: #E10F0F;\n}"
+      }
+    },
+    "featured_text_yejizy": {
+      "type": "featured-text",
+      "disabled": true,
+      "settings": {
+        "title": "Koopman Lumber History Timeline",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_YbBgtD": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_Mw7nWF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-family-1936\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6OTEyNCwidXJsIjoiaHR0cHM6XC9cL2tvb3BtYW5sdW1iZXIuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wOFwva29vcG1hbi1mYW1pbHktMTkzNi5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936.jpg\" class=\"attachment-full size-full wp-image-9124\" alt=\"Koopman Family Circa 1936\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Family <\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1936<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_q9zFDm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-family-1948\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6OTEyMywidXJsIjoiaHR0cHM6XC9cL2tvb3BtYW5sdW1iZXIuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wOFwva29vcG1hbi1mYW1pbHktMTk0OC5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948.jpg\" class=\"attachment-full size-full wp-image-9123\" alt=\"Koopman Family 1948\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Family <\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1948<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_PNJMFB": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"whitinsville-store-1950\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6OTEzNSwidXJsIjoiaHR0cHM6XC9cL2tvb3BtYW5sdW1iZXIuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wOFwvd2hpdGluc3ZpbGxlLXN0b3JlLTE5NTAuanBnIn0%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950.jpg\" class=\"attachment-full size-full wp-image-9135\" alt=\"Whitinsville Store 1950\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n<figcaption class=\"widget-image-caption wp-caption-text\">This is the first retail hardware store on Church Street in Whitinsville. Notice the basketball hoop on the side -The Koopmans have a long history in athletics!<\/figcaption>\t\t\t\t\t\t\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1950<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_8GKGPc": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"grafton-location-1980\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzgsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2dyYWZ0b24tbG9jYXRpb24tMTk4MC0xLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1.jpg\" class=\"attachment-full size-full wp-image-15438\" alt=\"Grafton Location circa 1980\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The original Grafton Store was a service station and then a custom van shop before Koopman acquired it. The current Grafton store sits on this parcel. <\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1980<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Mw7nWF",
+        "text_block_q9zFDm",
+        "text_block_PNJMFB",
+        "text_block_8GKGPc"
+      ],
+      "settings": {
+        "title": "Koopman Lumber History Timeline",
+        "text": "",
+        "align_text": "center",
+        "css_class": "timeline",
+        "custom_css": ".timeline .container {\n    justify-content: center;\n}\n.timeline .one-fourth.column.medium-down--one-half.text-column {\n    border-bottom: 3px solid;\n    margin: 40px 0;\n}\n\n.timeline .elementor-widget-container {\n    margin: 0 10px;\n    height: 310px;\n}\n.timeline .rte img{\n    margin:  0 ;\n}\n.timeline .rte-setting {\n    margin: 0 auto; \n    width: 60px;\n    height: 15px;\n}\n.timeline .elementor-widget-container  {\n    line-height: 1.4em;\n}\n.timeline .rte-setting p {  \n     border: 1px solid;\n     background: #FFF;  \n}"
+      }
+    },
+    "text_columns_with_images_MPBYh8": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_P4irNQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"whitinsville-store-1980\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0NTEsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3doaXRpbnN2aWxsZS1zdG9yZS0xOTgwLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980.jpg\" class=\"attachment-full size-full wp-image-15451\" alt=\"Whitinsville Store 1980\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The Whitinsville Koopman Lumber Store<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1980<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_RCLhxF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"grafton-grand-opening-1982\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzUsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2dyYWZ0b24tZ3JhbmQtb3BlbmluZy0xOTgyLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982.jpg\" class=\"attachment-full size-full wp-image-15435\" alt=\"Grand Opening Of Grafton Store\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The Grand Opening of the old Grafton store. Koopman Lumber was Koopman True Value for over 30 years before 2013.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1982<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_cJq9HD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"peter-koopman-1986-article\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzAsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3BldGVyLWtvb3BtYW4tMTk4Ni1hcnRpY2xlLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article.jpg\" class=\"attachment-full size-full wp-image-15430\" alt=\"Peter Koopman In the Right Place at the Right Time article\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Peter T. Koopman in front of the Whitinsville Store.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1986<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_QJM9FJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"peter-koopman-donates-hay-1987-article\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzEsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3BldGVyLWtvb3BtYW4tZG9uYXRlcy1oYXktMTk4Ny1hcnRpY2xlLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article.jpg\" class=\"attachment-full size-full wp-image-15431\" alt=\"Peter Koopman Donates Hay article from 1987\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber donates nearly 500 loads of hay to southern farmers during a draught.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1987<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_P4irNQ",
+        "text_block_RCLhxF",
+        "text_block_cJq9HD",
+        "text_block_QJM9FJ"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "css_class": "timeline",
+        "custom_css": ".timeline .container {\n    justify-content: center;\n}\n.timeline .one-fourth.column.medium-down--one-half.text-column {\n    border-bottom: 3px solid;\n    margin: 40px 0;\n}\n\n.timeline .elementor-widget-container {\n    margin: 0 10px;\n    height: 280px;\n}\n.timeline .rte img{\n    margin:  0 ;\n}\n.timeline .rte-setting {\n    margin: 0 auto; \n    width: 60px;\n    height: 15px;\n}\n.timeline .elementor-widget-container  {\n    line-height: 1.4em;\n}\n.timeline .rte-setting p {  \n     border: 1px solid;\n     background: #FFF;  \n}"
+      }
+    },
+    "text_columns_with_images_dVpyf6": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_mTyER4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"nyenhuis-50th-gala-1989\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MjgsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL255ZW5odWlzLTUwdGgtZ2FsYS0xOTg5LmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989.jpg\" class=\"attachment-full size-full wp-image-15428\" alt=\"Don getting ready for 50th\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Don and Peter Koopman getting ready for the 2 day 50<sup>th<\/sup> anniversary bash at the Whitinsville, Uxbridge, and Grafton stores.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1989<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_zndUaV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"dirk-koopman-basketball-coach-1989\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzQsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2Rpcmsta29vcG1hbi1iYXNrZXRiYWxsLWNvYWNoLTE5ODkuanBnIn0%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989.jpg\" class=\"attachment-full size-full wp-image-15434\" alt=\"Dirk Koopman as a basketball coach in 1989\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Dirk Koopman was an incredible and imposing basketball coach for the Whitinsville Christian School Crusaders.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1989<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_iyPNEj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-party-article-1989\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MjcsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2tvb3BtYW4tcGFydHktYXJ0aWNsZS0xOTg5LmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989.jpg\" class=\"attachment-full size-full wp-image-15427\" alt=\"Koopman Party article from 1989\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber “mom-and-pop” store turns 50 years old and they get ready to open a new store in the area.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1989<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_QCmmNF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"racetrack-vote-article-1991\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzMsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3JhY2V0cmFjay12b3RlLWFydGljbGUtMTk5MS5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991.jpg\" class=\"attachment-full size-full wp-image-15433\" alt=\"Koopman Speaks Out About Anti-Dutch Messages Article\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber speaks out after a local resident parked a truck in their parking lot with anti-Dutch messages.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1991<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_mTyER4",
+        "text_block_zndUaV",
+        "text_block_iyPNEj",
+        "text_block_QCmmNF"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "css_class": "timeline",
+        "custom_css": ".timeline .container {\n    justify-content: center;\n}\n.timeline .one-fourth.column.medium-down--one-half.text-column {\n    border-bottom: 3px solid;\n    margin: 40px 0;\n}\n\n.timeline .elementor-widget-container {\n    margin: 0 10px;\n    height: 280px;\n}\n.timeline .rte img{\n    margin:  0 ;\n}\n.timeline .rte-setting {\n    margin: 0 auto; \n    width: 60px;\n    height: 15px;\n}\n.timeline .elementor-widget-container  {\n    line-height: 1.4em;\n}\n.timeline .rte-setting p {  \n     border: 1px solid;\n     background: #FFF;  \n}"
+      }
+    },
+    "text_columns_with_images_7etKBF": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_nNgFix": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"peter-koopman-honored-1996\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzIsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3BldGVyLWtvb3BtYW4taG9ub3JlZC0xOTk2LmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996.jpg\" class=\"attachment-full size-full wp-image-15432\" alt=\"Peter Koopman Printout 1996\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Peter Koopman passes away at the age of 88 in 1996. Leaving his wife of 64 years, 3 sons, 2 daughters, 16 grandchildren and 13 great-grandchildren.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1996<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_QHgMG4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"truserve-honor-roll-1998\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU1MDQsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3RydXNlcnZlLWhvbm9yLXJvbGwtMTk5OC5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998.jpg\" class=\"attachment-full size-full wp-image-15504\" alt=\"Truserve Honor for Don Koopman\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">TruServ honors Don Koopman with the TruServ manufacturing 10 High Sales Honor Roll Award in 1997 at the TruServ Spring Market in Dallas, Texas.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>1997<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_EwyydD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"grafton-reopening-2002\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzcsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2dyYWZ0b24tcmVvcGVuaW5nLTIwMDIuanBnIn0%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002.jpg\" class=\"attachment-full size-full wp-image-15437\" alt=\"Grand Reopening Sign For Grafton Store\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The Koopman Lumber Grafton location has a grand Re-opening in fall of 2002.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>2002<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_DVDg8t": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": true,
+            "custom_html": "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-article-2002\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MjYsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2tvb3BtYW4tYXJ0aWNsZS0yMDAyLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002.jpg\" class=\"attachment-full size-full wp-image-15426\" alt=\"Koopman Article about lumber 2002\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber thrives during the economic doldrums that exacted a toll on the reset of the state of the nation.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>2002<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_nNgFix",
+        "text_block_QHgMG4",
+        "text_block_EwyydD",
+        "text_block_DVDg8t"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "css_class": "timeline",
+        "custom_css": ".timeline .container {\n    justify-content: center;\n}\n.timeline .one-fourth.column.medium-down--one-half.text-column {\n    border-bottom: 3px solid;\n    margin: 40px 0;\n}\n\n.timeline .elementor-widget-container {\n    margin: 0 10px;\n    height: 300px;\n}\n.timeline .rte img{\n    margin:  0 ;\n}\n.timeline .rte-setting {\n    margin: 0 auto; \n    width: 60px;\n    height: 15px;\n}\n.timeline .elementor-widget-container  {\n    line-height: 1.4em;\n}\n.timeline .rte-setting p {  \n     border: 1px solid;\n     background: #FFF;  \n}"
+      }
+    },
+    "custom_html_4FkYzn": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-660910a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"660910a\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-bd77015\" data-id=\"bd77015\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-1a3209b elementor-widget elementor-widget-image\" data-id=\"1a3209b\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-family-1936\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6OTEyNCwidXJsIjoiaHR0cHM6XC9cL2tvb3BtYW5sdW1iZXIuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wOFwva29vcG1hbi1mYW1pbHktMTkzNi5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936.jpg\" class=\"attachment-full size-full wp-image-9124\" alt=\"Koopman Family Circa 1936\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1936-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Family <\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-71e5d32 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"71e5d32\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-149e1f3 elementor-widget elementor-widget-text-editor\" data-id=\"149e1f3\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t1936\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-bf44daa\" data-id=\"bf44daa\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-3c3ff12 elementor-widget elementor-widget-image\" data-id=\"3c3ff12\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-family-1948\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6OTEyMywidXJsIjoiaHR0cHM6XC9cL2tvb3BtYW5sdW1iZXIuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wOFwva29vcG1hbi1mYW1pbHktMTk0OC5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948.jpg\" class=\"attachment-full size-full wp-image-9123\" alt=\"Koopman Family 1948\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-family-1948-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Family <\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-021df70 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"021df70\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-16d79a5 elementor-widget elementor-widget-text-editor\" data-id=\"16d79a5\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t1948\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fbcc490\" data-id=\"fbcc490\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-dc5251f elementor-widget elementor-widget-image\" data-id=\"dc5251f\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"whitinsville-store-1950\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6OTEzNSwidXJsIjoiaHR0cHM6XC9cL2tvb3BtYW5sdW1iZXIuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wOFwvd2hpdGluc3ZpbGxlLXN0b3JlLTE5NTAuanBnIn0%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950.jpg\" class=\"attachment-full size-full wp-image-9135\" alt=\"Whitinsville Store 1950\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/whitinsville-store-1950-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n<figcaption class=\"widget-image-caption wp-caption-text\">This is the first retail hardware store on Church Street in Whitinsville. Notice the basketball hoop on the side -The Koopmans have a long history in athletics!<\/figcaption>\t\t\t\t\t\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-ae79fb6 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"ae79fb6\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-3c764eb elementor-widget elementor-widget-text-editor\" data-id=\"3c764eb\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t1950\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ece03c5\" data-id=\"ece03c5\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-5528d38 elementor-widget elementor-widget-image\" data-id=\"5528d38\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"grafton-location-1980\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzgsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2dyYWZ0b24tbG9jYXRpb24tMTk4MC0xLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1.jpg\" class=\"attachment-full size-full wp-image-15438\" alt=\"Grafton Location circa 1980\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-location-1980-1-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The original Grafton Store was a service station and then a custom van shop before Koopman acquired it. The current Grafton store sits on this parcel. <\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4f0e5de elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"4f0e5de\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-edfa3fe elementor-widget elementor-widget-text-editor\" data-id=\"edfa3fe\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">1980<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-7b0527c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"7b0527c\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b397f62\" data-id=\"b397f62\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-49a5d42 elementor-widget elementor-widget-image\" data-id=\"49a5d42\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"whitinsville-store-1980\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0NTEsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3doaXRpbnN2aWxsZS1zdG9yZS0xOTgwLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980.jpg\" class=\"attachment-full size-full wp-image-15451\" alt=\"Whitinsville Store 1980\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/whitinsville-store-1980-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The Whitinsville Koopman Lumber Store<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-3556d39 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"3556d39\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-25c2ecb elementor-widget elementor-widget-text-editor\" data-id=\"25c2ecb\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t1980\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-63f0e8e\" data-id=\"63f0e8e\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-b53125e elementor-widget elementor-widget-image\" data-id=\"b53125e\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"grafton-grand-opening-1982\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzUsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2dyYWZ0b24tZ3JhbmQtb3BlbmluZy0xOTgyLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982.jpg\" class=\"attachment-full size-full wp-image-15435\" alt=\"Grand Opening Of Grafton Store\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-grand-opening-1982-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The Grand Opening of the old Grafton store. Koopman Lumber was Koopman True Value for over 30 years before 2013.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9936cc9 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"9936cc9\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-f07319b elementor-widget elementor-widget-text-editor\" data-id=\"f07319b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t1982\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1c1600e\" data-id=\"1c1600e\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-049cf1e elementor-widget elementor-widget-image\" data-id=\"049cf1e\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"peter-koopman-1986-article\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzAsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3BldGVyLWtvb3BtYW4tMTk4Ni1hcnRpY2xlLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article.jpg\" class=\"attachment-full size-full wp-image-15430\" alt=\"Peter Koopman In the Right Place at the Right Time article\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1986-article-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Peter T. Koopman in front of the Whitinsville Store.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0e04d62 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"0e04d62\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-ccb3538 elementor-widget elementor-widget-text-editor\" data-id=\"ccb3538\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">1986<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-59eb3ee\" data-id=\"59eb3ee\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-df946a7 elementor-widget elementor-widget-image\" data-id=\"df946a7\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"peter-koopman-donates-hay-1987-article\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzEsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3BldGVyLWtvb3BtYW4tZG9uYXRlcy1oYXktMTk4Ny1hcnRpY2xlLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article.jpg\" class=\"attachment-full size-full wp-image-15431\" alt=\"Peter Koopman Donates Hay article from 1987\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-donates-hay-1987-article-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber donates nearly 500 loads of hay to southern farmers during a draught.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9c63c23 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"9c63c23\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0a14869 elementor-widget elementor-widget-text-editor\" data-id=\"0a14869\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">1987<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-ba60239 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"ba60239\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-bf86a25\" data-id=\"bf86a25\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-3baf811 elementor-widget elementor-widget-image\" data-id=\"3baf811\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"nyenhuis-50th-gala-1989\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MjgsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL255ZW5odWlzLTUwdGgtZ2FsYS0xOTg5LmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989.jpg\" class=\"attachment-full size-full wp-image-15428\" alt=\"Don getting ready for 50th\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/nyenhuis-50th-gala-1989-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Don and Peter Koopman getting ready for the 2 day 50<sup>th<\/sup> anniversary bash at the Whitinsville, Uxbridge, and Grafton stores.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-fcbdd6f elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"fcbdd6f\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-a67f10c elementor-widget elementor-widget-text-editor\" data-id=\"a67f10c\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">1989<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-5c40318\" data-id=\"5c40318\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-e09f412 elementor-widget elementor-widget-image\" data-id=\"e09f412\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"dirk-koopman-basketball-coach-1989\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzQsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2Rpcmsta29vcG1hbi1iYXNrZXRiYWxsLWNvYWNoLTE5ODkuanBnIn0%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989.jpg\" class=\"attachment-full size-full wp-image-15434\" alt=\"Dirk Koopman as a basketball coach in 1989\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/dirk-koopman-basketball-coach-1989-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Dirk Koopman was an incredible and imposing basketball coach for the Whitinsville Christian School Crusaders.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-ccc0fce elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"ccc0fce\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-70dcc4b elementor-widget elementor-widget-text-editor\" data-id=\"70dcc4b\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">1989<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2c20c5d\" data-id=\"2c20c5d\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-c084405 elementor-widget elementor-widget-image\" data-id=\"c084405\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-party-article-1989\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MjcsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2tvb3BtYW4tcGFydHktYXJ0aWNsZS0xOTg5LmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989.jpg\" class=\"attachment-full size-full wp-image-15427\" alt=\"Koopman Party article from 1989\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-party-article-1989-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber “mom-and-pop” store turns 50 years old and they get ready to open a new store in the area.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0951e1c elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"0951e1c\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d08cf83 elementor-widget elementor-widget-text-editor\" data-id=\"d08cf83\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t1989\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-05820db\" data-id=\"05820db\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-e169586 elementor-widget elementor-widget-image\" data-id=\"e169586\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"racetrack-vote-article-1991\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzMsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3JhY2V0cmFjay12b3RlLWFydGljbGUtMTk5MS5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991.jpg\" class=\"attachment-full size-full wp-image-15433\" alt=\"Koopman Speaks Out About Anti-Dutch Messages Article\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/racetrack-vote-article-1991-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber speaks out after a local resident parked a truck in their parking lot with anti-Dutch messages.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e46ed40 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"e46ed40\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-33a2546 elementor-widget elementor-widget-text-editor\" data-id=\"33a2546\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">1991<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n<\/div>\n\t\t<\/section>\n\t\t\t\t<section class=\"elementor-section elementor-inner-section elementor-element elementor-element-c4603e4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"c4603e4\" data-element_type=\"section\">\n\t\t\t\t\t\t<div class=\"elementor-container elementor-column-gap-default\">\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-18a6699\" data-id=\"18a6699\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-2e77600 elementor-widget elementor-widget-image\" data-id=\"2e77600\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"peter-koopman-honored-1996\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzIsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3BldGVyLWtvb3BtYW4taG9ub3JlZC0xOTk2LmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996.jpg\" class=\"attachment-full size-full wp-image-15432\" alt=\"Peter Koopman Printout 1996\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-honored-1996-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Peter Koopman passes away at the age of 88 in 1996. Leaving his wife of 64 years, 3 sons, 2 daughters, 16 grandchildren and 13 great-grandchildren.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9bacc95 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"9bacc95\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-64441fa elementor-widget elementor-widget-text-editor\" data-id=\"64441fa\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t1996\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-be15c2f\" data-id=\"be15c2f\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-c49e32f elementor-widget elementor-widget-image\" data-id=\"c49e32f\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"truserve-honor-roll-1998\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU1MDQsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL3RydXNlcnZlLWhvbm9yLXJvbGwtMTk5OC5qcGcifQ%3D%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998.jpg\" class=\"attachment-full size-full wp-image-15504\" alt=\"Truserve Honor for Don Koopman\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/truserve-honor-roll-1998-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">TruServ honors Don Koopman with the TruServ manufacturing 10 High Sales Honor Roll Award in 1997 at the TruServ Spring Market in Dallas, Texas.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-a5dd91b elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"a5dd91b\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n<div class=\"elementor-element elementor-element-257af7c elementor-widget elementor-widget-text-editor\" data-id=\"257af7c\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">1997<\/div>\n\t<\/div>\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-275d65a\" data-id=\"275d65a\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-6dada82 elementor-widget elementor-widget-image\" data-id=\"6dada82\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"grafton-reopening-2002\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MzcsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2dyYWZ0b24tcmVvcGVuaW5nLTIwMDIuanBnIn0%3D\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002.jpg\" class=\"attachment-full size-full wp-image-15437\" alt=\"Grand Reopening Sign For Grafton Store\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/grafton-reopening-2002-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">The Koopman Lumber Grafton location has a grand Re-opening in fall of 2002.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0fe24c8 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"0fe24c8\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9a5873f elementor-widget elementor-widget-text-editor\" data-id=\"9a5873f\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">2002<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<div class=\"elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-5263998\" data-id=\"5263998\" data-element_type=\"column\" data-settings='{\"background_background\":\"classic\"}'>\n\t\t\t<div class=\"elementor-widget-wrap elementor-element-populated\">\n\t\t\t\t\t\t<div class=\"elementor-element elementor-element-8ce62a8 elementor-widget elementor-widget-image\" data-id=\"8ce62a8\" data-element_type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t<figure class=\"wp-caption\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002.jpg\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"koopman-article-2002\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTU0MjYsInVybCI6Imh0dHBzOlwvXC9rb29wbWFubHVtYmVyLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMVwvMTBcL2tvb3BtYW4tYXJ0aWNsZS0yMDAyLmpwZyJ9\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002.jpg\" class=\"attachment-full size-full wp-image-15426\" alt=\"Koopman Article about lumber 2002\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/koopman-article-2002-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">\t\t\t\t\t\t\t\t<\/a>\n\t\t\t\t\t\t\t\t\t\t\t<figcaption class=\"widget-image-caption wp-caption-text\">Koopman Lumber thrives during the economic doldrums that exacted a toll on the reset of the state of the nation.<\/figcaption>\n\t\t\t\t\t\t\t\t\t\t<\/figure>\n\t\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-c6a2483 elementor-widget__width-initial elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-id=\"c6a2483\" data-element_type=\"widget\" data-widget_type=\"divider.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-divider\">\n\t\t\t<span class=\"elementor-divider-separator\">\n\t\t\t\t\t\t<\/span>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"elementor-element elementor-element-07efd49 elementor-widget elementor-widget-text-editor\" data-id=\"07efd49\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">2002<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t<\/section>",
+        "css_class": "",
+        "custom_css": ".elementor-column.elementor-col-25, .elementor-column[data-col=\"25\"] {\n        width: 100%;\n    }\n.elementor-section .elementor-container {\n    display: flex;\n    margin-right: auto;\n    margin-left: auto;\n    position: relative;\n}\n \n\n\n\n.elementor-widget.elementor-widget-text-editor {\n    background: #FFF;\n    text-align: center;\n    margin: 0 36% 20px;\n    border-style: solid;\n    border-width: 1px 1px 1px 1px;\n}\n.elementor-widget.elementor-widget-image {\n    padding: 10px;\n    height: 330px;\n    margin-bottom: -15px;\n    border-bottom: 3px solid;\n}"
+      }
+    },
+    "text_columns_with_images_pVNUei": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_U68XTe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1980.jpg\" class=\"attachment-full size-full wp-image-15429\" alt=\"Peter Koopman Leaning on a Tree\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1980.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/10\/peter-koopman-1980-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p><em>Peter T. Koopman loved logging. He would cut, split, and sell the wood and donate all the money to charity.<\/em><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_RCp8ep": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Always Wanting To Help",
+            "heading_size": "regular_text",
+            "text": "<p>Founder Peter T. Koopman was a resourceful builder who was willing to share resources with others. By stockpiling materials he needed to build, he was able to offer those materials to others from his garage and basement just a few feet from where the current Whitinsville store stands today.<\/p><p>His wife would tend the five children, and take care of contractors wanting supplies when they rang the doorbell on the garage. After WWII, John Nyenhuis returned from his service in the Navy and helped establish the hardware store and solidify the complete lumber yard. John was joined by several others who returned from the war and were provided work at Koopman Lumber as part of the GI Bill.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_U68XTe",
+        "text_block_RCp8ep"
+      ],
+      "settings": {
+        "title": "Our Founder and Family",
+        "text": "",
+        "align_text": "left",
+        "css_class": "about",
+        "custom_css": ".about h3.regular_text {\n    color: #E10F0F;\n}"
+      }
+    },
+    "text_columns_with_images_LgdCwX": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_iFc8LJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"500\" height=\"300\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-lumber-peter-koopman.jpg\" class=\"attachment-full size-full wp-image-9118\" alt=\"Pete Koopman\" srcset=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-lumber-peter-koopman.jpg 500w, https:\/\/koopmanlumber.com\/wp-content\/uploads\/2021\/08\/koopman-lumber-peter-koopman-300x180.jpg 300w\" sizes=\"(max-width: 500px) 100vw, 500px\">",
+            "title": "Volunteering",
+            "heading_size": "regular_text",
+            "text": "<p>Pete Koopman set the bar high as he volunteered for those less fortunate in Mississippi and many rural areas in the South, and traveled to help rebuild areas struck by natural disasters. He also coordinated sending truckloads of hay from this area to drought stricken farmers in the Midwest.<\/p><p>These acts come from a mindset that we are blessed and should be a blessing to others. This is the reason why we work so hard to support local communities through schools, churches, and other groups. Up until the week he passed away at the age of 88, Pete continued to volunteer for the benefit of others.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_hY8Eep": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Bringing the Family Onboard",
+            "heading_size": "regular_text",
+            "text": "<p>Pete’s son, Bob Koopman joined Koopman Construction in 1962 helping build houses in the area. Bob’s brother, Don Koopman returned to town in 1973 and focused on hardware side of the business after serving 20 years as a school teacher and salesman.<\/p><p>Pete was the original founder, but it wasn’t until Don arrived that Koopmans took the steps to really fortify the foundation on which today’s Koopman Lumber is built. Not long after Don’s arrival, Koopmans underwent its first expansion to a storefront on South Main St in Uxbridge before moving to its current location on Rt 16 in 1980. In 1982, property was purchased and renovated in Grafton to house its hardware store and lumber yard. Don not only oversaw the first retail expansion, but he also invested in the business with some of the first computerized inventory control systems available and embracing all that True Value could offer in the hardware arena. In 1987, Don’s son, Dirk Koopman returned to the business after playing professional basketball in Germany. The Whitinsville store was expanded again in 1989. Dirk’s sister Denise returned to Whitinsville with her husband Tony and they joined the business in 1996.<\/p><p>Three years later, the Uxbridge store was expanded and modernized. After nearly a decade of planning, the current Grafton facility was constructed behind the original store. Just a few months after Grafton opened in 2002, the massive new distribution center opened in south Uxbridge making a dramatic leap forward in our delivery capabilities.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_iFc8LJ",
+        "text_block_hY8Eep"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "about",
+        "custom_css": ".about h3.regular_text {\n    color: #E10F0F;\n}"
+      }
+    },
+    "text_columns_with_images_mP6HgX": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_bcqJRG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "",
+            "title": "Strategic Expansions",
+            "heading_size": "regular_text",
+            "text": "<p>Each expansion we have undertaken has been rooted in the desire to continually provide excellent service to our customers. A paint store was acquired in Milford in 2011. Knowing that painters need a supplier in close proximity to where they are working, we expanded our trading area to better serve them.<\/p><p>We then undertook the construction of the Sharon facility, which opened in the summer of 2013. After sending hundreds of delivery trucks to the greater Boston area in recent years, we believed we could better serve our customers with a location in the Metro West area.<\/p><p>Since then, Lampson Lumber was acquired in March of 2015 continuing over 100 years of service to the Hudson area and another family owned operation, Doyles Lumber in Andover was acquired in September of 2017. These locations serve as critical delivery outposts for the entire operation but along with all six yards, are extremely convenient pickup locations as well.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_mgnxTX": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_link": false,
+            "custom_html": "<img loading=\"lazy\" decoding=\"async\" width=\"600\" height=\"200\" src=\"https:\/\/koopmanlumber.com\/wp-content\/uploads\/2018\/05\/truetothetrade-koopman-2-e1628191748495.jpg\" class=\"attachment-full size-full wp-image-7424\" alt=\"True To the Trade\">",
+            "title": "Cherishing Relationships",
+            "heading_size": "regular_text",
+            "text": "<p>At the end of the day, it’s about the relationships. We know that unless we meet people where and how they need to be met, we can’t fill their needs. Every day, we strive to meet the high standard set so many years ago. We know life is about much more than worldly possessions. That’s why honesty, integrity, and hard work undergird all we do at Koopman Lumber.<\/p><p>We will continue to be grateful every day for the blessing of being able to serve those that give us the opportunity to serve them.<\/p>",
+            "button_label": "Stop By Your Nearest Location today",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_bcqJRG",
+        "text_block_mgnxTX"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "about",
+        "custom_css": ".about h3.regular_text {\n    color: #E10F0F;\n}"
+      }
+    },
+    "featured_text_xXehAV": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "",
+        "button_label": "Stop By Your Nearest Location today",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": "a.global-button {\n    background-color: #E10F0F;\n    border-color: #E10F0F;"
+      }
+    },
+    "divider_874Mgd": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_wVf9EX",
+    "text_columns_with_images_b9MCYY",
+    "text_columns_with_images_A3wpeT",
+    "text_columns_with_images_aqLMMV",
+    "text_columns_with_images_CcGkbC",
+    "featured_text_yejizy",
+    "text_columns_with_images_YbBgtD",
+    "text_columns_with_images_MPBYh8",
+    "text_columns_with_images_dVpyf6",
+    "text_columns_with_images_7etKBF",
+    "custom_html_4FkYzn",
+    "text_columns_with_images_pVNUei",
+    "text_columns_with_images_LgdCwX",
+    "text_columns_with_images_mP6HgX",
+    "featured_text_xXehAV",
+    "divider_874Mgd"
+  ]
+}

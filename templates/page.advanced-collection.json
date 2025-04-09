@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_Ygh9mL": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ddNQQk": {
+          "type": "image",
+          "settings": {
+            "pretext": "",
+            "title": "Turbo Shopify Theme",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "image_ddNQQk"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeInDown",
+        "slideshow_animation": "fade",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_collection_b4Ce7Q": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Product List",
+        "collection_description": true,
+        "collection": "",
+        "collection_style": "grid",
+        "products_per": 3,
+        "products_limit": 9,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_T7zVEx": {
+      "type": "featured-text",
+      "settings": {
+        "title": "Collection Description",
+        "content": "<p>Collection Description<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "featured_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "collection_list_9yXGFj": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_T9ebkL": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_piyPet": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_dr3BLa": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_T9ebkL",
+        "collection_piyPet",
+        "collection_dr3BLa"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "align_height": false,
+        "collection_height": 200,
+        "frontpage_collections_per_row": 3,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "faq_Xe6tfe": {
+      "type": "faq",
+      "blocks": {
+        "content_rGdMeQ": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "content_KzwVPb": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "content_WnjVGD": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "content_8jfkFa": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "content_BpLLBE": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "content_RANPzT": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        },
+        "content_EVCHAd": {
+          "type": "content",
+          "settings": {
+            "title": "Question",
+            "answer": "<p>Provide the answer to the question here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_rGdMeQ",
+        "content_KzwVPb",
+        "content_WnjVGD",
+        "content_8jfkFa",
+        "content_BpLLBE",
+        "content_RANPzT",
+        "content_EVCHAd"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_Ygh9mL",
+    "featured_collection_b4Ce7Q",
+    "featured_text_T7zVEx",
+    "collection_list_9yXGFj",
+    "faq_Xe6tfe"
+  ]
+}

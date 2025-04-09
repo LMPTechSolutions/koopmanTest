@@ -1,0 +1,637 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_zGfGA7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4fVD96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/patio-area-with-a-firepit-and-lawn-areas-near-the-2024-03-26-22-13-21-utc.jpg",
+            "pretext": "",
+            "title": "Enjoy life at home outdoors",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_DNMppi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-house-with-some-chairs-a-table-and-some-lights-o-2024-03-26-23-04-50-utc.jpg",
+            "pretext": "",
+            "title": "Enjoy life at home outdoors",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_XDFYf4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/poolside-patio-with-tables-umbrellas-and-chairs-2024-02-12-16-43-26-utc.jpg",
+            "pretext": "",
+            "title": "Enjoy life at home outdoors",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        },
+        "image_cCxgkK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-backyard-with-a-swimming-pool-hot-tub-and-pati-2024-07-10-14-41-00-utc.jpg",
+            "pretext": "",
+            "title": "Enjoy life at home outdoors",
+            "subtitle": "",
+            "button1": "",
+            "button1_link": "",
+            "button1_style": "global-button--banner",
+            "button2": "",
+            "button2_link": "",
+            "button2_style": "global-button--banner",
+            "text_position": "center",
+            "text_align": "center",
+            "caption_content_background": "original"
+          }
+        }
+      },
+      "block_order": [
+        "image_4fVD96",
+        "image_DNMppi",
+        "image_XDFYf4",
+        "image_cCxgkK"
+      ],
+      "settings": {
+        "wide_display": true,
+        "slideshow_text_animation": "fadeIn",
+        "slideshow_animation": "slide",
+        "slideshow_speed": 6,
+        "activate_adaptiveHeight": true,
+        "mobile_text_below_image": false,
+        "mobile_text_color": "",
+        "css_class": "home-title",
+        "custom_css": ".home-title h1.headline, .home-title p.headline{\n    text-shadow: #000 1px 0 10px;\n}"
+      }
+    },
+    "collection_list_RzyyKJ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_4ULfmK": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "patio-furniture",
+            "image": "shopify:\/\/shop_images\/7113210_072c5e37-0f3d-4a06-9185-4f58265d19e3.jpg"
+          }
+        },
+        "collection_WLwYXK": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "patio-seating",
+            "image": "shopify:\/\/shop_images\/9697475_bb6f8f26-e7fe-4ac1-a372-299993a3391f.jpg"
+          }
+        },
+        "collection_464wEf": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "patio-tables",
+            "image": "shopify:\/\/shop_images\/9925520_89064961-c832-4c38-a95f-97dfe5b2d378.jpg"
+          }
+        },
+        "collection_PQtQin": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "fire-pits-patio-heaters",
+            "image": "shopify:\/\/shop_images\/3465127.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collection_4ULfmK",
+        "collection_WLwYXK",
+        "collection_464wEf",
+        "collection_PQtQin"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Stay Inspired<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/patio-furniture\" title=\"https:\/\/shopkoopman.com\/collections\/patio-furniture\">Shop Patio Furniture<\/a><\/p>",
+        "align_text": "center",
+        "align_height": true,
+        "collection_height": 400,
+        "frontpage_collections_per_row": 2,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.top-shop .product-wrap {\n    padding: 20px 0;\n}\n.top-shop .product-wrap:hover  {\n    border: 1px solid #E10F0F;\n}"
+      }
+    },
+    "image_text_KMLQhw": {
+      "type": "image-text",
+      "blocks": {
+        "image_6DPwWr": {
+          "type": "image",
+          "settings": {
+            "title": "Stay Inspired",
+            "text": "<p>Patio Furniture <br\/><a href=\"https:\/\/shopkoopman.com\/collections\/patio-seating\" target=\"_blank\"><span style=\"text-decoration:underline\">Patio Seating<\/span><\/a> <br\/><a href=\"https:\/\/shopkoopman.com\/collections\/patio-tables\" target=\"_blank\"><span style=\"text-decoration:underline\">Patio Sets<\/span><\/a> <br\/><a href=\"https:\/\/shopkoopman.com\/collections\/fire-pits-patio-heaters\" target=\"_blank\"><span style=\"text-decoration:underline\">Fire Pits & Patio Heaters<\/span><\/a><\/p>",
+            "button_label": "Shop Patio Furniture",
+            "link": "https:\/\/shopkoopman.com\/collections\/patio-furniture",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6DPwWr"
+      ],
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_b9MCYY": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_tdgD6F": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7222326.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Cabinet & Drawer Hardware<\/p>",
+            "button_label": "",
+            "button_link": "https:\/\/shopkoopman.com\/collections\/cabinet-drawer-hardware",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        },
+        "text_block_zNfdJm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7176597.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Cabinet & Drawer Hardware<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "center",
+            "border_style": "box"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tdgD6F",
+        "text_block_zNfdJm"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Hardware<\/strong><\/h3><p><a href=\"https:\/\/shopkoopman.com\/collections\/hardware\" title=\"https:\/\/shopkoopman.com\/collections\/hardware\">Shop All Hardware<\/a><\/p>",
+        "align_text": "center",
+        "css_class": "double-win",
+        "custom_css": ".double-win a {\n    border-bottom: 1px solid;\n}\n.double-win h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.double-win .border-style--box.text-align--center {\n    border: 1px solid #ccc;\n    border-radius: 5%;\n     padding: 3%;\n     font-size: 22px;\n}\n.border-style--box.text-align--center:hover {\n    color: #E10F0F;\n}\n.double-win .image-element__wrap {\n    margin-bottom: 5%;\n    border: 1px solid #ccc;\n    border-radius: 2.5%;\n}\n.double-win img {\n    padding: 0 19%;\n    margin: 10px 0;\n}\n.double-win .border-style--box.text-align--center .rte-setting {\n    min-height: 6rem;\n    margin: 10% 0 5%;\n    align-content: center; \n}"
+      }
+    },
+    "collection_list_UtdA9X": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_kCcnFk": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "citronella-candles-oil"
+          }
+        },
+        "collection_4Ltr6w": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "insect-foggers"
+          }
+        },
+        "collection_dpGfek": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "fly-traps-baits"
+          }
+        },
+        "collection_jnxneg": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "personal-insect-repellents"
+          }
+        },
+        "collection_9jxhaC": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "mosquito-traps-baits"
+          }
+        },
+        "collection_ttmtw8": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "insect-traps-baits"
+          }
+        },
+        "collection_LFXBLH": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "livestock-insecticides"
+          }
+        },
+        "collection_4gt3B8": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "insect-repeller-machines"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kCcnFk",
+        "collection_4Ltr6w",
+        "collection_dpGfek",
+        "collection_jnxneg",
+        "collection_9jxhaC",
+        "collection_ttmtw8",
+        "collection_LFXBLH",
+        "collection_4gt3B8"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Insect Repellents & Traps<\/strong><\/h3><p><a href=\"\/collections\/insect-repellents-traps\" title=\"Insect Repellents & Traps\">Shop Repellents<\/a><\/p>",
+        "align_text": "center",
+        "align_height": true,
+        "collection_height": 400,
+        "frontpage_collections_per_row": 4,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop {\n    margin-top: 2%;\n}\n.top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.top-shop .image-element__wrap {\n    padding: 15%;\n    border: 1px solid #CCC;\n    border-radius: 50%;\n}\n.product-wrap span:hover {\n    color: #E10F0F;\n}"
+      }
+    },
+    "custom_html_TE4HmA": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<div class=\"banner-logo\">\n<p>Ready<br><sup>In<\/sup><b>60<\/b>\n<\/p>\n\n<\/div>\n<div class=\"banner-text\">\n                <p><a>Order Online,<\/a><br>Pickup in 60 minutes.*<\/p>\n              <\/div>",
+        "css_class": "adv-ban",
+        "custom_css": ".adv-ban  {\n    height: 140px;\n    width: 100%;\n    margin-top: 4%;\n    margin-bottom: 4%;\n}\n.adv-ban  .one-whole.column.custom-html-container {\n     margin: 0;\n    width: 100%;     \n     background-color: #CDC;\n}\n.banner-logo {\n     padding: 0 3%;\n}\n.banner-text p {\n    margin: 40px 0;\n    font-size: 20px;\n    font-weight: bold;\n}\n.banner-text a {\n    color: #d54d4d;\n}\n.rte {\n    display: flex;\n}\n.banner-logo p {\n    border: 3px dotted #d54d4d;\n    border-radius: 40px;\n    background-color: #000;\n    color: #FFF;\n    font-size: 12px;\n    width: 62px;\n     padding: 5px;\n     margin: 40px 5%;\n}\n.banner-logo sup {\n    top: -14px;\n}\n.banner-logo b {\n    color: #d54d4d;\n    font-size: 32px;\n    font-weight: 800;\n     font-family: Arial, Helvetica, \n      sans-serif;\n}"
+      }
+    },
+    "custom_html_AYnJag": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<div class=\"banner-logo\">\n      <p><sub>Ready<\/sub><br><sup>In<\/sup><b>60<\/b>\n<\/p>\n     <\/div>          \n     <div class=\"caption-content align-left\">\n        <div class=\"subtitle\">\n<p>\n<a href=\"\/pages\/contact-us\" title=\"Contact Us\">\n<strong>Order Online<\/strong>\n<\/a>\n<\/p>\n<p><strong>Pickup in 60 minutes.*<\/strong>\n<\/p>\n<\/div>\n<\/div>",
+        "css_class": "pickup",
+        "custom_css": ".pickup  {\n    width: 100%;\n    margin-bottom: 1%;\n}\n\n.pickup .caption {\n    max-width: 1100px;\n}\n.pickup .container {\n    background-color: #CDC;\n    border-radius: 6px;\n    max-height: 150px;\n    width: 98%;\n    flex-wrap: nowrap;\n}\n.pickup .banner {\n    background-color: #FFF;\n    width: 100%;\n    margin: 0;\n}\n.pickup p {\n    text-transform: none;\n    font-size: 26px;\n    line-height: 1.2;\n     margin: 5% 0;\n}\n.pickup .a {\n   color: #d54d4d;\n    border-color: #E10F0F;\n    text-transform: capitalize;\n    font-size: 20px;\n    font-weight: 600;\n    padding: 0 30px;\n    line-height: 1.6;\n}\n.pickup .banner-logo {\n    padding-left: 4%;\n    padding-right: 1%;\n}\n.banner-text p {\n    margin: 40px 0;\n    font-size: 20px;\n    font-weight: bold;\n}\n.banner-text a {\n    color: #E10F0F;\n}\n.pickup .rte {\n    display: flex;\n    gap: 20px;\n}\n.banner-logo p {\n    border: 5px dotted #E10F0F;\n    border-radius: 50px;\n    background-color: #000;\n    color: #FFF;\n    font-weight: 800;\n    line-height: 0.6;\n    width: 88px;\n     margin: 30px 5%;\n}\n.banner-logo sub {\n    font-family: Tahoma, Verdana, \n    sans-serif;\n    font-size: 15px;\n    left: 6px;\n    top: 8px;\n    }\n.banner-logo sup {\n    font-size: 15px;\n    top: -24px;\n    left: 6px;\n    }\n.banner-logo b {\n    color: #E10F0F;\n    font-size: 44px;\n    line-height: 1.4;\n    font-weight: 1000;\n    font-family: Tahoma, Verdana, \n     sans-serif;\n}\n.pickup .caption-content.align-left {\n    padding: 16px 0;\n}\n.pickup .one-whole.column.custom-html-container {\n    margin-left: 2%;\n}"
+      }
+    },
+    "collection_list_F7hkGh": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_wJpWmK": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "charcoal-grills"
+          }
+        },
+        "collection_NyAXNp": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "gas-grills"
+          }
+        },
+        "collection_KA8Gth": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "pellet-grills"
+          }
+        }
+      },
+      "block_order": [
+        "collection_wJpWmK",
+        "collection_NyAXNp",
+        "collection_KA8Gth"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Grill Inspiration<\/strong><\/h3><p><a href=\"\/collections\/grills\" title=\"Grills\">Shop All Grills<\/a><\/p>",
+        "align_text": "center",
+        "align_height": true,
+        "collection_height": 400,
+        "frontpage_collections_per_row": 3,
+        "css_class": "top-shop",
+        "custom_css": ".top-shop .hidden {\n    display: block;\n}\n.top-shop  .rte-setting a {\n    border-bottom: 1px solid;\n}\n.top-shop h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.top-shop a.thumbnail-overlay__button.global-button.global-button--product-grid-text-hover {\n    color: red;\n    border-color: red;\n}\n.top-shop .product-wrap {\n    padding: 20px 10px;\n}\n.top-shop .product-wrap:hover  {\n    border: 1px solid #E10F0F;\n}"
+      }
+    },
+    "image_text_MJD7d7": {
+      "type": "image-text",
+      "blocks": {
+        "image_KMRxrG": {
+          "type": "image",
+          "settings": {
+            "title": "Grill Inspiration",
+            "text": "<p><a href=\"https:\/\/shopkoopman.com\/collections\/charcoal-grills\" target=\"_blank\"><span style=\"text-decoration:underline\">Charcoal Grills<\/span><\/a> <br\/><a href=\"https:\/\/shopkoopman.com\/collections\/gas-grills\" target=\"_blank\"><span style=\"text-decoration:underline\">Gas Grills<\/span><\/a><br\/><a href=\"https:\/\/shopkoopman.com\/collections\/pellet-grills\" target=\"_blank\"><span style=\"text-decoration:underline\">Pellet Grills<\/span><\/a><\/p>",
+            "button_label": "Shop All Grills",
+            "link": "https:\/\/shopkoopman.com\/collections\/grills",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KMRxrG"
+      ],
+      "disabled": true,
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "collection_list_pm8gU9": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_UwkJfj": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "grilling-tools-apparel"
+          }
+        },
+        "collection_3Ufaex": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "patio-furniture"
+          }
+        },
+        "collection_wpLjwx": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "fire-pits-patio-heaters"
+          }
+        },
+        "collection_4CayBN": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "coolers"
+          }
+        },
+        "collection_kk4C69": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        },
+        "collection_9kba8n": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "pools-spas-saunas"
+          }
+        },
+        "collection_YcKBAA": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "bird"
+          }
+        },
+        "collection_adajiQ": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_UwkJfj",
+        "collection_3Ufaex",
+        "collection_wpLjwx",
+        "collection_4CayBN",
+        "collection_kk4C69",
+        "collection_9kba8n",
+        "collection_YcKBAA",
+        "collection_adajiQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Exterior",
+        "text": "",
+        "align_text": "left",
+        "align_height": false,
+        "collection_height": 200,
+        "frontpage_collections_per_row": 4,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "text_columns_with_images_ikczUK": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_wXMg9h": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/7819576.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Grilling Tools<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/grilling-tools-apparel",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_8UhBTF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/9697475_bb6f8f26-e7fe-4ac1-a372-299993a3391f.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Patio Furniture<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/patio-furniture",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_8pQ3ky": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/2069342.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Fire Pits & Patio Heaters<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/fire-pits-patio-heaters",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_KhCBeN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/103406935.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Coolers & Drinkware<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/coolers",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_wXMg9h",
+        "text_block_8UhBTF",
+        "text_block_8pQ3ky",
+        "text_block_KhCBeN"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h3><strong>Exterior<\/strong><\/h3><p><a href=\"\/collections\/outdoor-living\" title=\"Outdoor Living\">Shop Outdoor Living<\/a><\/p>",
+        "align_text": "center",
+        "css_class": "category",
+        "custom_css": ".category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category a {\n    border-bottom: 1px solid;\n}\n.category p {\n     margin: 0;\n}\n.category h3 {\n    text-transform: capitalize;\n    padding-bottom: 0;\n    margin-bottom: 0;\n}\n.category .one-whole.column {\n    margin-bottom: 3%;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}"
+      }
+    },
+    "text_columns_with_images_TYyCnK": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "text_block_87dLUD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/101896370.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Outdoor Décor<\/p>",
+            "button_label": "",
+            "button_link": "https:\/\/shopkoopman.com\/collections\/planters-pots-hangers",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_FwW3TR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/3161098.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Swimming Pools<\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/pools-spas-saunas",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_rPe8dG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/9466780_9162c00c-e1b8-4425-b384-41f0e13eee5f.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Spa Supplies<\/p>",
+            "button_label": "",
+            "button_link": "https:\/\/shopkoopman.com\/collections\/pools-spas-saunas",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        },
+        "text_block_K7p7Ye": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_link": true,
+            "image": "shopify:\/\/shop_images\/100047257.jpg",
+            "custom_html": "",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "<p>Bird & Wildlife Supplies<\/p>",
+            "button_label": "",
+            "button_link": "https:\/\/shopkoopman.com\/collections\/bird",
+            "align_text": "center",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_87dLUD",
+        "text_block_FwW3TR",
+        "text_block_rPe8dG",
+        "text_block_K7p7Ye"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "css_class": "category",
+        "custom_css": ".category .border-style--none{\n   background-color: #E10F0F;\n   border: 1px solid #AAA;   \n   border-bottom-left-radius: 5px;\n   border-bottom-right-radius: 5px;\n    font-size: 13px;\n    color: #FFF; \n    text-transform: uppercase;\n}\n.category .border-style--none:hover {\n    color: #E10F0F;\n    border-color: #E10F0F;\n    background-color: #FFF;\n}\n.category p {\n     margin: 0;\n}\n.category .rte-setting {\n    margin-bottom: 10px;\n}\n.category .feature-divider {\n    display: none;\n}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_zGfGA7",
+    "collection_list_RzyyKJ",
+    "image_text_KMLQhw",
+    "text_columns_with_images_b9MCYY",
+    "collection_list_UtdA9X",
+    "custom_html_TE4HmA",
+    "custom_html_AYnJag",
+    "collection_list_F7hkGh",
+    "image_text_MJD7d7",
+    "collection_list_pm8gU9",
+    "text_columns_with_images_ikczUK",
+    "text_columns_with_images_TYyCnK"
+  ]
+}
